@@ -49,7 +49,8 @@ with pdfplumber.open("guj-dict.pdf") as pdf:
             elif char['non_stroking_color'] == [0, 0.502, 0]:
                 last = 3
                 part_of_speech += char['text']
-            elif char['non_stroking_color'] == [0, 0, 0] and (char['fontname'] == "LPDDKK+TimesNewRoman" or char['fontname'] == "LPDIJO+TimesNewRoman,Italic"):
+            elif char['non_stroking_color'] == [0, 0, 0] and (
+                    char['fontname'] == "LPDDKK+TimesNewRoman" or char['fontname'] == "LPDIJO+TimesNewRoman,Italic"):
                 last = 4
                 gloss += char['text']
 print(len(extracted))

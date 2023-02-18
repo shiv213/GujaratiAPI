@@ -1,0 +1,97 @@
+﻿c KeymanWizard 1.1
+c KeymanWizard Font: Arial
+c TIKE will use the line above to identify this file as a Keyman Wizard file
+c Delete the first line to stop the file opening in the Wizard editor
+c (Created by Keyman Developer 6.0.164.0)
+
+
+NAME "Gujarati"
+BITMAP "Gujarati.bmp"
+COPYRIGHT "Babu Suthar"
+MESSAGE "Gujarati keyman keyboard"
+VERSION 5.0
+
+begin Unicode > use(main)
+
+group(main) using keys
+
++ [K_0] > u+0AE6
++ [K_1] > u+0ae7
++ [K_2] > u+0ae8
++ [K_3] > u+0ae9
++ [K_4] > u+0aea
++ [K_5] > u+0aeb
++ [K_6] > u+0aec
++ [K_7] > u+0aed
++ [K_8] > u+0aee
++ [K_9] > u+0aef
++ [K_K] > u+0a95
++ [SHIFT K_K] > u+0a96
++ [SHIFT K_G] > u+0a98
++ [K_G] > u+0a97
++ [K_C] > u+0a9a
++ [SHIFT K_C] > u+0a9b
++ [SHIFT ALT K_T] > u+0aa5
++ [K_N] > u+0aa8
++ [K_J] > u+0a9c
++ [SHIFT K_J] > u+0a9d
++ [K_T] > u+0aa4
++ [K_D] > u+0aa6
++ [SHIFT K_T] > u+0aa5
++ [SHIFT K_D] > u+0aa7
++ [SHIFT K_N] > u+0aa3
++ [K_P] > u+0aaa
++ [K_B] > u+0aac
++ [SHIFT K_B] > u+0aad
++ [SHIFT K_P] > u+0aab
++ [K_S] > u+0ab8
++ [SHIFT K_S] > u+0ab6
++ [SHIFT K_H] > u+0ab7
++ [K_H] > u+0ab9
++ [K_Y] > u+0aaf
++ [K_R] > u+0ab0
++ [K_L] > u+0ab2
++ [SHIFT K_L] > u+0ab3
++ [K_V] > u+0ab5
++ [ALT K_K] > u+0a99
++ [ALT K_C] > u+0a9e
++ [K_Z] > u+0a87
++ [SHIFT K_Z] > u+0a88
++ [SHIFT K_Q] > u+0a8a
++ [K_Q] > u+0a89
++ [K_W] > u+0a8b
++ [SHIFT K_W] > u+0ac3
++ [K_I] > u+0abf
++ [SHIFT K_I] > u+0ac0
++ [SHIFT K_U] > u+0ac2
++ [K_U] > u+0ac1
++ [K_E] > u+0ac7
++ [SHIFT K_E] > u+0ac8
++ [SHIFT K_O] > u+0acc
++ [K_O] > u+0acb
++ [K_F] > u+0acd
++ [SHIFT K_F] > u+0ac9
++ [K_X] > u+0a82
++ [SHIFT K_X] > u+0a81
++ [SHIFT K_V] > u+0a83
++ [K_M] > u+0aae
++ [SHIFT K_M] > u+0abc
++ [K_LBRKT] > u+0a9f
++ [SHIFT K_LBRKT] > u+0aa0
++ [K_RBRKT] > u+0aa1
++ [SHIFT K_RBRKT] > u+0aa2
++ [ALT K_O] > u+0A93
++ [ALT K_E] > u+0A8F
++ [ALT K_Y] > u+0A94
++ [SHIFT K_Y] > u+0A93
++ [ALT K_Q] > u+0AD0
++ [ALT K_L] > u+0ABE
++ [SHIFT K_BKSLASH] > u+0ABE
++ [ALT K_A] > u+0ABE
++ [ALT K_U] > u+0AC2
++ [ALT K_I] > u+0AC0
++ [SHIFT K_A] > u+0A85
++ [K_A] > u+0ABE
++ [K_BKSLASH] > u+0A86
+
+c EOF
