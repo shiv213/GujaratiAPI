@@ -1,3 +1,8 @@
+# python
+# Byte-compiled / optimized / DLL files
+__pycache__/
+
+
 # JetBrains
 .idea
 
