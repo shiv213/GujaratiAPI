@@ -100,6 +100,9 @@ class DictionaryService:
         pos = word_entry[3] if len(word_entry) > 3 else ""
         definition = word_entry[4] if len(word_entry) > 4 else ""
         
+        # Get example if available
+        example = word_entry[5] if len(word_entry) > 5 else None
+        
         # Create WordDefinition object
         word_def = WordDefinition(pos=pos, definition=definition)
         
@@ -107,5 +110,6 @@ class DictionaryService:
             word=word,
             ipa=ipa,
             ipa_alt=ipa_alt,
-            definitions=[word_def]
+            definitions=[word_def],
+            example=example
         )

@@ -14,3 +14,4 @@ class Word(BaseModel):
     ipa: Optional[str] = None
     ipa_alt: Optional[str] = None
     definitions: List[WordDefinition]
+    example: Optional[str] = None  # Example sentence in Gujarati

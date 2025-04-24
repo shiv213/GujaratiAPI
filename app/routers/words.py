@@ -8,7 +8,7 @@ router = APIRouter(prefix="/api/v1", tags=["words"])
 # Dependency to get the dictionary service
 def get_dictionary_service():
     """Get an instance of the dictionary service."""
-    return DictionaryService("data/gujarati_words.json")
+    return DictionaryService("data/gujarati_words_enhanced.json")
 
 @router.get("/words", response_model=List[Word])
 async def get_words(
