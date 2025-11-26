@@ -1,9 +1,10 @@
-fastapi==0.104.1
-uvicorn==0.23.2
-pydantic==2.4.2
+fastapi>=0.104.1
+uvicorn>=0.23.2
+pydantic>=2.10.0
 anthropic
 tavily-python
 tqdm
 requests
 gtts
 googletrans==3.1.0a0
+google-genai
