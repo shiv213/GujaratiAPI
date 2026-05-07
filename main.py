@@ -7,7 +7,7 @@ from app.routers import words
 app = FastAPI(
     title="Gujarati API",
     description="API for Gujarati language words",
-    version="0.1.0"
+    version="0.2.0"
 )
 
 # Configure CORS
@@ -28,7 +28,7 @@ async def root():
     return {
         "message": "Welcome to the Gujarati API",
         "documentation": "/docs",
-        "version": "0.1.0"
+        "version": "0.2.0"
     }
 
 if __name__ == "__main__":

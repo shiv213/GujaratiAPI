@@ -7,6 +7,10 @@ A simple RESTful API for accessing Gujarati language words and their definitions
 - Get all words with pagination
 - Search for words by keyword
 - Get specific word details by ID
+- Get exact Gujarati word matches
+- Get typeahead suggestions
+- Get random words for practice
+- Stream word and example audio
 
 ## Getting Started
 
@@ -48,13 +52,43 @@ A simple RESTful API for accessing Gujarati language words and their definitions
 - `GET /api/v1/words` - Get all words with pagination
   - Query parameters:
     - `skip` (optional): Number of items to skip (default: 0)
-    - `limit` (optional): Maximum number of items to return (default: 25)
+    - `limit` (optional): Maximum number of items to return (default: 25, max: 500)
 
 - `GET /api/v1/words/search` - Search for words containing a keyword
   - Query parameters:
     - `keyword` (required): Keyword to search for
+    - `skip` (optional): Number of matching items to skip (default: 0)
+    - `limit` (optional): Maximum number of matching items to return (default: 25, max: 500)
+
+- `GET /api/v1/words/suggest` - Get typeahead suggestions
+  - Query parameters:
+    - `keyword` (required): Gujarati or romanized text to suggest from
+    - `limit` (optional): Maximum number of suggestions to return (default: 10, max: 100)
+
+- `GET /api/v1/words/random` - Get random words for practice or discovery
+  - Query parameters:
+    - `limit` (optional): Maximum number of random words to return (default: 10, max: 100)
+
+- `GET /api/v1/words/count` - Get the total number of word entries
+
+- `GET /api/v1/words/by-word/{word}` - Get all entries matching a Gujarati word exactly
 
 - `GET /api/v1/words/{word_id}` - Get a word by its ID
+
+- `GET /api/v1/audio/word/{word_id}` - Get the audio file for a word
+
+- `GET /api/v1/audio/example/{word_id}` - Get the audio file for an example sentence
+
+## Sikho Integration
+
+Sikho should treat this API as its dictionary and audio layer:
+
+- Use `id` as the stable key for saved words, audio playback, dictation, and examples.
+- Use `word`, `ipa`, `romanization`, `definitions`, `example`, `example_romanization`, and `example_translation` for word cards.
+- Use `word_audio_url` and `example_audio_url` instead of parsing `word_audio` or `example_audio` paths.
+- Use `/words/suggest` for search/typeahead when adding words to My Words.
+- Use `/words/by-word/{word}` when the Akshara Explorer needs dictionary entries for exact Gujarati text.
+- Keep akshara segmentation, matra labels, virama/conjunct detection, ra-form detection, and schwa-deletion teaching in Sikho's literacy layer.
 
 ## Data Structure
 
@@ -62,16 +96,25 @@ The API uses the following data model for words:
 
 ```json
 {
+  "id": "0",
   "word": "અકબંધ",
   "ipa": "/\\k.b\\n.d˙\\/",
-  "ipa_alt": "\\.k\\.b\\~.dh\\",
+  "romanization": "akbndh",
   "definitions": [
     {
       "pos": "adj.",
       "definition": "1. intact. 2. neither opened nor broken."
     }
   ],
-  "example": "તેણે અકબંધ પેકેજ ખોલ્યું."
+  "example": "તેની ડાયરી અકબંધ હતી, કોઈએ તેને ખોલી ન હતી.",
+  "example_romanization": "teni dayri akbndh hti, koie tene kholi n hti.",
+  "example_translation": "His diary was intact, no one opened it.",
+  "example_audio": "audio/examples/0.mp3",
+  "word_audio": "audio/words/0.mp3",
+  "example_audio_url": "/api/v1/audio/example/0",
+  "word_audio_url": "/api/v1/audio/word/0",
+  "has_example_audio": true,
+  "has_word_audio": true
 }
 ```
 
