@@ -1,0 +1,4942 @@
+{
+  "audit_date": "2026-09-15",
+  "sources": [
+    {
+      "name": "Google Translate",
+      "use": "Headless Gujarati spelling suggestions and English-definition back-translations"
+    },
+    {
+      "name": "Gujarati aspell wordlist",
+      "url": "https://github.com/kartikm/gu-wordlist",
+      "use": "Canonical Gujarati spelling candidates"
+    },
+    {
+      "name": "Gujarati Lexicon",
+      "url": "https://www.gujaratilexicon.com/",
+      "use": "Gujarati dictionary reference"
+    },
+    {
+      "name": "Dataset examples",
+      "use": "Headword meaning and in-sentence spelling checks"
+    }
+  ],
+  "corrections": {
+    "24": {
+      "original": "અગિણત",
+      "word": "અગણિત",
+      "romanization": "agaṇit",
+      "ipa": "/əgəɳɪt̪/",
+      "evidence": "example+google:80"
+    },
+    "32": {
+      "original": "અગરબત્ત્ાી",
+      "word": "અગરબત્તી",
+      "romanization": "agarabattī",
+      "ipa": "/əgəɾəbət̪t̪iː/",
+      "evidence": "wordlist-nearest:94"
+    },
+    "38": {
+      "original": "અિગયાર",
+      "word": "અગિયાર",
+      "romanization": "agiyār",
+      "ipa": "/əgɪjɑːɾ/",
+      "evidence": "example+google:83"
+    },
+    "39": {
+      "original": "અિગયારમું",
+      "word": "અગિયારમું",
+      "romanization": "agiyāramuṃ",
+      "ipa": "/əgɪjɑːɾəmũ/",
+      "evidence": "normalized+wordlist"
+    },
+    "40": {
+      "original": "અિગયારસ",
+      "word": "અગિયારસ",
+      "romanization": "agiyāras",
+      "ipa": "/əgɪjɑːɾəs̪/",
+      "evidence": "normalized+wordlist"
+    },
+    "41": {
+      "original": "અિગયારી",
+      "word": "અગિયારી",
+      "romanization": "agiyārī",
+      "ipa": "/əgɪjɑːɾiː/",
+      "evidence": "normalized+wordlist",
+      "example": "પારસીઓ તેમની પવિત્ર અગ્નિ અગિયારીમાં સાચવે છે.",
+      "example_romanization": "pārasīo temanī pavitr agni agiyārīmāṃ sācave che."
+    },
+    "43": {
+      "original": "અિગ્ન",
+      "word": "અગ્નિ",
+      "romanization": "agni",
+      "ipa": "/əgn̪ɪ/",
+      "evidence": "normalized+wordlist"
+    },
+    "44": {
+      "original": "અિગ્નદાહ",
+      "word": "અગ્નિદાહ",
+      "romanization": "agnidāh",
+      "ipa": "/əgn̪ɪd̪ɑːɦ/",
+      "evidence": "normalized+wordlist"
+    },
+    "45": {
+      "original": "અિગ્નસંસ્કાર",
+      "word": "અગ્નિસંસ્કાર",
+      "romanization": "agnisaṃskār",
+      "ipa": "/əgn̪ɪs̪ə̃s̪kɑːɾ/",
+      "evidence": "example+google:92"
+    },
+    "69": {
+      "original": "અજ્ઞ્ાાન",
+      "word": "અજ્ઞાન",
+      "romanization": "ajñān",
+      "ipa": "/əd͡ʒɲɑːn̪/",
+      "evidence": "wordlist-nearest:92"
+    },
+    "70": {
+      "original": "અજ્ઞ્ાાની",
+      "word": "અજ્ઞાની",
+      "romanization": "ajñānī",
+      "ipa": "/əd͡ʒɲɑːn̪iː/",
+      "evidence": "wordlist-nearest:93"
+    },
+    "73": {
+      "original": ".  અટકળ",
+      "word": "અટકળ",
+      "romanization": "aṭakal̤",
+      "ipa": "/əʈəkəɭ/",
+      "evidence": "manual-context-review"
+    },
+    "76": {
+      "original": "અઠવાિડક",
+      "word": "અઠવાડિક",
+      "romanization": "aṭhavāḍik",
+      "ipa": "/əʈʰəʋɑːɖɪk/",
+      "evidence": "normalized+wordlist"
+    },
+    "77": {
+      "original": "અઠવાિડયું",
+      "word": "અઠવાડિયું",
+      "romanization": "aṭhavāḍiyuṃ",
+      "ipa": "/əʈʰəʋɑːɖɪjũ/",
+      "evidence": "normalized+wordlist"
+    },
+    "103": {
+      "original": "અિણ",
+      "word": "અણી",
+      "romanization": "aṇī",
+      "ipa": "/əɳiː/",
+      "evidence": "manual-context-review"
+    },
+    "104": {
+      "original": "અિતિથ",
+      "word": "અતિથિ",
+      "romanization": "atithi",
+      "ipa": "/ət̪ɪt̪ʰɪ/",
+      "evidence": "normalized+wordlist"
+    },
+    "105": {
+      "original": "અિતરેક",
+      "word": "અતિરેક",
+      "romanization": "atirek",
+      "ipa": "/ət̪ɪɾeːk/",
+      "evidence": "normalized+wordlist"
+    },
+    "108": {
+      "original": "અત્ત્ાર",
+      "word": "અત્તર",
+      "romanization": "attar",
+      "ipa": "/ət̪t̪əɾ/",
+      "evidence": "example+google:83"
+    },
+    "112": {
+      "original": "અત્ર્ા",
+      "word": "અત્ર",
+      "romanization": "atr",
+      "ipa": "/ət̪ɾ/",
+      "evidence": "manual-context-review",
+      "example": "અત્ર આવો અને આ સુંદર દ્રશ્ય જુઓ.",
+      "example_romanization": "atr āvo ane ā suṃdar draśy juo."
+    },
+    "127": {
+      "original": "અિધકાર",
+      "word": "અધિકાર",
+      "romanization": "adhikār",
+      "ipa": "/əd̪ʰɪkɑːɾ/",
+      "evidence": "example+google:83"
+    },
+    "135": {
+      "original": "અનાથાશ્ર્ામ",
+      "word": "અનાથાશ્રમ",
+      "romanization": "anāthāśram",
+      "ipa": "/ən̪ɑːt̪ʰɑːʃɾəm/",
+      "evidence": "wordlist-nearest:95"
+    },
+    "139": {
+      "original": "અિનયિમત",
+      "word": "અનિયમિત",
+      "romanization": "aniyamit",
+      "ipa": "/ən̪ɪjəmɪt̪/",
+      "evidence": "normalized+wordlist"
+    },
+    "140": {
+      "original": "અિનિશ્ચત",
+      "word": "અનિશ્ચિત",
+      "romanization": "aniścit",
+      "ipa": "/ən̪ɪʃt͡ʃɪt̪/",
+      "evidence": "example+google:88"
+    },
+    "141": {
+      "original": "અનીિત",
+      "word": "અનીતિ",
+      "romanization": "anīti",
+      "ipa": "/ən̪iːt̪ɪ/",
+      "evidence": "normalized+wordlist"
+    },
+    "159": {
+      "original": "અપિવત્ર્ા",
+      "word": "અપવિત્ર",
+      "romanization": "apavitr",
+      "ipa": "/əpəʋɪt̪ɾ/",
+      "evidence": "manual-context-review"
+    },
+    "167": {
+      "original": "અિપ્રય",
+      "word": "અપ્રિય",
+      "romanization": "apriy",
+      "ipa": "/əpɾɪj/",
+      "evidence": "example+google:83"
+    },
+    "171": {
+      "original": "અબજોપિત",
+      "word": "અબજોપતિ",
+      "romanization": "abajopati",
+      "ipa": "/əbəd͡ʒoːpət̪ɪ/",
+      "evidence": "normalized+wordlist",
+      "example": "તે અબજોપતિ ઉદ્યોગપતિ પોતાના કર્મચારીઓ પ્રત્યે ઘણો ઉદાર હતો.",
+      "example_romanization": "te abajopati udyogapati potānā karmacārīo pratye ghaṇo udār hato."
+    },
+    "174": {
+      "original": "અિભનંદન",
+      "word": "અભિનંદન",
+      "romanization": "abhinaṃdan",
+      "ipa": "/əbʰɪn̪ə̃d̪ən̪/",
+      "evidence": "example+google:86"
+    },
+    "175": {
+      "original": "અિભનેતા",
+      "word": "અભિનેતા",
+      "romanization": "abhinetā",
+      "ipa": "/əbʰɪn̪eːt̪ɑː/",
+      "evidence": "example+google:86"
+    },
+    "176": {
+      "original": "અિભપ્રા.ય",
+      "word": "અભિપ્રાય",
+      "romanization": "abhiprāy",
+      "ipa": "/əbʰɪpɾɑːj/",
+      "evidence": "example+google:82"
+    },
+    "177": {
+      "original": "અિભમાન",
+      "word": "અભિમાન",
+      "romanization": "abhimān",
+      "ipa": "/əbʰɪmɑːn̪/",
+      "evidence": "example+google:83"
+    },
+    "178": {
+      "original": "અિભમાની",
+      "word": "અભિમાની",
+      "romanization": "abhimānī",
+      "ipa": "/əbʰɪmɑːn̪iː/",
+      "evidence": "normalized+wordlist"
+    },
+    "207": {
+      "original": "અિવનય",
+      "word": "અવિનય",
+      "romanization": "avinay",
+      "ipa": "/əʋɪn̪əj/",
+      "evidence": "normalized+wordlist"
+    },
+    "210": {
+      "original": "અશુધ્ધ",
+      "word": "અશુદ્ધ",
+      "romanization": "aśuddh",
+      "ipa": "/əʃud̪d̪ʰ/",
+      "evidence": "normalized+wordlist",
+      "example": "આ દૂધ અશુદ્ધ છે અને પીવા માટે યોગ્ય નથી.",
+      "example_romanization": "ā dūdh aśuddh che ane pīvā māṭe yogy nathī."
+    },
+    "226": {
+      "original": "અિસ્થર",
+      "word": "અસ્થિર",
+      "romanization": "asthir",
+      "ipa": "/əs̪t̪ʰɪɾ/",
+      "evidence": "example+google:83"
+    },
+    "230": {
+      "original": "અસ્વાભાિવક",
+      "word": "અસ્વાભાવિક",
+      "romanization": "asvābhāvik",
+      "ipa": "/əs̪ʋɑːbʰɑːʋɪk/",
+      "evidence": "normalized+wordlist"
+    },
+    "232": {
+      "original": "અિહંસક",
+      "word": "અહિંસક",
+      "romanization": "ahiṃsak",
+      "ipa": "/əɦɪ̃s̪ək/",
+      "evidence": "example+google:83"
+    },
+    "236": {
+      "original": "અહીં.  અહોહો",
+      "word": "અહોહો",
+      "romanization": "ahoho",
+      "ipa": "/əɦoːɦoː/",
+      "evidence": "manual-context-review"
+    },
+    "249": {
+      "original": "અંિતમ",
+      "word": "અંતિમ",
+      "romanization": "aṃtim",
+      "ipa": "/ə̃t̪ɪm/",
+      "evidence": "example+google:80"
+    },
+    "263": {
+      "original": "આકૃિત",
+      "word": "આકૃતિ",
+      "romanization": "ākṛti",
+      "ipa": "/ɑːkɾɨt̪ɪ/",
+      "evidence": "normalized+wordlist"
+    },
+    "275": {
+      "original": "આિગયો",
+      "word": "આગિયો",
+      "romanization": "āgiyo",
+      "ipa": "/ɑːgɪjoː/",
+      "evidence": "normalized+wordlist",
+      "example": "ઝાડ પર આગિયો ચમકતો હતો અને રાતના અંધકારમાં સુંદર લાગતો હતો.",
+      "example_romanization": "jhāḍ par āgiyo camakato hato ane rātanā aṃdhakāramāṃ suṃdar lāgato hato."
+    },
+    "291": {
+      "original": "આડત્ર્ાીસ",
+      "word": "આડત્રીસ",
+      "romanization": "āḍatrīs",
+      "ipa": "/ɑːɖət̪ɾiːs̪/",
+      "evidence": "example+google:88"
+    },
+    "300": {
+      "original": "આદશર્",
+      "word": "આદર્શ",
+      "romanization": "ādarś",
+      "ipa": "/ɑːd̪əɾʃ/",
+      "evidence": "example+google:80"
+    },
+    "301": {
+      "original": "આિદ",
+      "word": "આદિ",
+      "romanization": "ādi",
+      "ipa": "/ɑːd̪ɪ/",
+      "evidence": "normalized+wordlist",
+      "example": "આદિ માનવ ગુફાઓમાં રહેતો હતો.",
+      "example_romanization": "ādi mānav guphāomāṃ raheto hato."
+    },
+    "302": {
+      "original": "આિદ",
+      "word": "આદિ",
+      "romanization": "ādi",
+      "ipa": "/ɑːd̪ɪ/",
+      "evidence": "normalized+wordlist",
+      "example": "તેણે સફરજન, કેળાં, સેવ, દ્રાક્ષ આદિ ફળો ખરીદ્યાં.",
+      "example_romanization": "teṇe sapharajan, kel̤āṃ, sev, drākṣ ādi phal̤o kharīdyāṃ."
+    },
+    "303": {
+      "original": "આિદવાસી",
+      "word": "આદિવાસી",
+      "romanization": "ādivāsī",
+      "ipa": "/ɑːd̪ɪʋɑːs̪iː/",
+      "evidence": "normalized+wordlist",
+      "example": "ભારતમાં ઘણા આદિવાસી સમુદાયો વસવાટ કરે છે.",
+      "example_romanization": "bhāratamāṃ ghaṇā ādivāsī samudāyo vasavāṭ kare che."
+    },
+    "307": {
+      "original": "આધુિનક",
+      "word": "આધુનિક",
+      "romanization": "ādhunik",
+      "ipa": "/ɑːd̪ʰun̪ɪk/",
+      "evidence": "example+google:83"
+    },
+    "309": {
+      "original": "આધ્યાિત્મક",
+      "word": "આધ્યાત્મિક",
+      "romanization": "ādhyātmik",
+      "ipa": "/ɑːd̪ʰjɑːt̪mɪk/",
+      "evidence": "example+google:90"
+    },
+    "313": {
+      "original": "આપિત્ત્ા",
+      "word": "આપત્તિ",
+      "romanization": "āpatti",
+      "ipa": "/ɑːpət̪t̪ɪ/",
+      "evidence": "wordlist-nearest:92",
+      "example": "મોટી આપત્તિ આવી પડી છે અને હવે આપણે તેનો સામનો કરવો પડશે.",
+      "example_romanization": "moṭī āpatti āvī paḍī che ane have āpaṇe teno sāmano karavo paḍaśe."
+    },
+    "338": {
+      "original": "આમંત્ર્ાણ",
+      "word": "આમંત્રણ",
+      "romanization": "āmaṃtraṇ",
+      "ipa": "/ɑːmə̃t̪ɾəɳ/",
+      "evidence": "example+google:88"
+    },
+    "339": {
+      "original": "આમંત્ર્ાણ પિત્ર્ાકા",
+      "word": "આમંત્રણપત્રિકા",
+      "romanization": "āmaṃtraṇapatrikā",
+      "ipa": "/ɑːmə̃t̪ɾəɳəpət̪ɾɪkɑː/",
+      "evidence": "manual-context-review"
+    },
+    "341": {
+      "original": "આયા.",
+      "word": "આયા",
+      "romanization": "āyā",
+      "ipa": "/ɑːjɑː/",
+      "evidence": "manual-context-review"
+    },
+    "365": {
+      "original": "આિશષ",
+      "word": "આશિષ",
+      "romanization": "āśiṣ",
+      "ipa": "/ɑːʃɪʂ/",
+      "evidence": "normalized+wordlist"
+    },
+    "367": {
+      "original": "આશ્ચયર્",
+      "word": "આશ્ચર્ય",
+      "romanization": "āścary",
+      "ipa": "/ɑːʃt͡ʃəɾj/",
+      "evidence": "example+google:86"
+    },
+    "368": {
+      "original": "આશ્ર્ામ",
+      "word": "આશ્રમ",
+      "romanization": "āśram",
+      "ipa": "/ɑːʃɾəm/",
+      "evidence": "wordlist-nearest:91"
+    },
+    "371": {
+      "original": "આસ પાસ",
+      "word": "આસપાસ",
+      "romanization": "āsapās",
+      "ipa": "/ɑːs̪əpɑːs̪/",
+      "evidence": "example+google:91"
+    },
+    "373": {
+      "original": "આિસ્તક",
+      "word": "આસ્તિક",
+      "romanization": "āstik",
+      "ipa": "/ɑːs̪t̪ɪk/",
+      "evidence": "normalized+wordlist",
+      "example": "તે એક આસ્તિક વ્યક્તિ છે જે ઈશ્વરમાં દૃઢ શ્રદ્ધા ધરાવે છે.",
+      "example_romanization": "te ek āstik vyakti che je īśvaramāṃ dṛḍh śraddhā dharāve che."
+    },
+    "380": {
+      "original": "આહુિત",
+      "word": "આહુતિ",
+      "romanization": "āhuti",
+      "ipa": "/ɑːɦut̪ɪ/",
+      "evidence": "normalized+wordlist"
+    },
+    "384": {
+      "original": "આંકડાશાસ્ત્ર્ા",
+      "word": "આંકડાશાસ્ત્ર",
+      "romanization": "āṃkaḍāśāstra",
+      "ipa": "/ɑ̃ːkəɖɑːʃɑːs̪t̪ɾə/",
+      "evidence": "example+google:92"
+    },
+    "395": {
+      "original": "આંતરરાિષ્ટ્રય",
+      "word": "આંતરરાષ્ટ્રીય",
+      "romanization": "āṃtararāṣṭrīy",
+      "ipa": "/ɑ̃ːt̪əɾəɾɑːʂʈɾiːj/",
+      "evidence": "manual-context-review"
+    },
+    "410": {
+      "original": "ઇિતહાસ",
+      "word": "ઇતિહાસ",
+      "romanization": "itihās",
+      "ipa": "/ɪt̪ɪɦɑːs̪/",
+      "evidence": "example+google:83"
+    },
+    "418": {
+      "original": "ઇિસ્પતાલ",
+      "word": "ઇસ્પિતાલ",
+      "romanization": "ispitāl",
+      "ipa": "/ɪs̪pɪt̪ɑːl/",
+      "evidence": "normalized+wordlist"
+    },
+    "466": {
+      "original": "ઉત્ત્ામ",
+      "word": "ઉત્તમ",
+      "romanization": "uttam",
+      "ipa": "/ut̪t̪əm/",
+      "evidence": "example+google:83"
+    },
+    "467": {
+      "original": "ઉત્ત્ાર",
+      "word": "ઉત્તર",
+      "romanization": "uttar",
+      "ipa": "/ut̪t̪əɾ/",
+      "evidence": "wordlist-nearest:91"
+    },
+    "468": {
+      "original": "ઉત્ત્ાર",
+      "word": "ઉત્તર",
+      "romanization": "uttar",
+      "ipa": "/ut̪t̪əɾ/",
+      "evidence": "example+google:83"
+    },
+    "469": {
+      "original": "ઉત્પિત્ત્ા",
+      "word": "ઉત્પત્તિ",
+      "romanization": "utpatti",
+      "ipa": "/ut̪pət̪t̪ɪ/",
+      "evidence": "manual-context-review",
+      "example": "ભારતમાં ચા ની ઉત્પત્તિ ૧૯મી સદીમાં થઈ હતી.",
+      "example_romanization": "bhāratamāṃ cā nī utpatti 19mī sadīmāṃ thaī hatī."
+    },
+    "480": {
+      "original": "ઉધ્ધાર",
+      "word": "ઉદ્ધાર",
+      "romanization": "uddhār",
+      "ipa": "/ud̪d̪ʰɑːɾ/",
+      "evidence": "normalized+wordlist",
+      "example": "તેણે પોતાના પાપોમાંથી ઉદ્ધાર મેળવવા માટે ભગવાનની પ્રાર્થના કરી.",
+      "example_romanization": "teṇe potānā pāpomāṃthī uddhār mel̤avavā māṭe bhagavānanī prārthanā karī."
+    },
+    "550": {
+      "original": "ઋજુ",
+      "word": "ઋજુ",
+      "romanization": "ṛju",
+      "ipa": "/ɾɨd͡ʒu/",
+      "evidence": "pronunciation-validation"
+    },
+    "551": {
+      "original": "ઋણ",
+      "word": "ઋણ",
+      "romanization": "ṛṇ",
+      "ipa": "/ɾɨɳ/",
+      "evidence": "pronunciation-validation"
+    },
+    "552": {
+      "original": "ઋતુ",
+      "word": "ઋતુ",
+      "romanization": "ṛtu",
+      "ipa": "/ɾɨt̪u/",
+      "evidence": "pronunciation-validation"
+    },
+    "553": {
+      "original": "ઋિષ",
+      "word": "ઋષિ",
+      "romanization": "ṛṣi",
+      "ipa": "/ɾɨʂɪ/",
+      "evidence": "normalized+wordlist",
+      "example": "પ્રાચીન ભારતમાં ઋષિઓ જ્ઞાન અને તત્વજ્ઞાનના આધારસ્તંભ હતા.",
+      "example_romanization": "prācīn bhāratamāṃ ṛṣio jñān ane tatvajñānanā ādhārastaṃbh hatā."
+    },
+    "560": {
+      "original": "એકત્ર્ાીસ",
+      "word": "એકત્રીસ",
+      "romanization": "ekatrīs",
+      "ipa": "/eːkət̪ɾiːs̪/",
+      "evidence": "example+google:88"
+    },
+    "566": {
+      "original": "એકમાત્ર્ા",
+      "word": "એકમાત્ર",
+      "romanization": "ekamātr",
+      "ipa": "/eːkəmɑːt̪ɾ/",
+      "evidence": "example+google:88"
+    },
+    "601": {
+      "original": "ઓગણત્ર્ાીસ",
+      "word": "ઓગણત્રીસ",
+      "romanization": "ogaṇatrīs",
+      "ipa": "/oːgəɳət̪ɾiːs̪/",
+      "evidence": "example+google:89"
+    },
+    "604": {
+      "original": "ઓગણ્યાએંશી.",
+      "word": "ઓગણ્યાએંશી",
+      "romanization": "ogaṇyāeṃśī",
+      "ipa": "/oːgəɳjɑːẽːʃiː/",
+      "evidence": "normalized+wordlist"
+    },
+    "625": {
+      "original": "અૌિચત્ય",
+      "word": "ઔચિત્ય",
+      "romanization": "aucity",
+      "ipa": "/əut͡ʃɪt̪j/",
+      "evidence": "normalized+wordlist"
+    },
+    "626": {
+      "original": "અૌદીચ્ય",
+      "word": "ઔદીચ્ય",
+      "romanization": "audīcy",
+      "ipa": "/əud̪iːt͡ʃj/",
+      "evidence": "normalized+wordlist",
+      "example": "ઔદીચ્ય બ્રાહ્મણો ગુજરાતમાં ઘણા પ્રતિષ્ઠિત ગણાય છે.",
+      "example_romanization": "audīcy brāhmaṇo gujarātamāṃ ghaṇā pratiṣṭhit gaṇāy che."
+    },
+    "627": {
+      "original": "અૌપચારર્ીક",
+      "word": "ઔપચારિક",
+      "romanization": "aupacārik",
+      "ipa": "/əupət͡ʃɑːɾɪk/",
+      "evidence": "manual-context-review"
+    },
+    "628": {
+      "original": "અૌષધ",
+      "word": "ઔષધ",
+      "romanization": "auṣadh",
+      "ipa": "/əuʂəd̪ʰ/",
+      "evidence": "normalized+wordlist",
+      "example": "દર્દીને સારવાર માટે યોગ્ય ઔષધ આપવામાં આવી.",
+      "example_romanization": "dardīne sāravār māṭe yogy auṣadh āpavāmāṃ āvī."
+    },
+    "629": {
+      "original": "ઓદ્યોિગક",
+      "word": "ઔદ્યોગિક",
+      "romanization": "audyogik",
+      "ipa": "/əud̪joːgɪk/",
+      "evidence": "manual-context-review"
+    },
+    "639": {
+      "original": "કિજયાખોર",
+      "word": "કજિયાખોર",
+      "romanization": "kajiyākhor",
+      "ipa": "/kəd͡ʒɪjɑːkʰoːɾ/",
+      "evidence": "normalized+wordlist",
+      "example": "એ વ્યક્તિ ખૂબ જ કજિયાખોર છે અને હંમેશા બીજાઓ સાથે ઝઘડો કરવાનું પસંદ કરે છે.",
+      "example_romanization": "e vyakti khūb ja kajiyākhor che ane haṃmeśā bījāo sāthe jhaghaḍo karavānuṃ pasaṃd kare che."
+    },
+    "646": {
+      "original": "કિઠયારો",
+      "word": "કઠિયારો",
+      "romanization": "kaṭhiyāro",
+      "ipa": "/kəʈʰɪjɑːɾoː/",
+      "evidence": "normalized+wordlist",
+      "example": "કઠિયારો ઝાડ કાપવા માટે કુહાડીનો ઉપયોગ કરે છે.",
+      "example_romanization": "kaṭhiyāro jhāḍ kāpavā māṭe kuhāḍīno upayog kare che."
+    },
+    "669": {
+      "original": "કપડાંલત્ત્ાાં",
+      "word": "કપડાંલત્તાં",
+      "romanization": "kapaḍāṃlattāṃ",
+      "ipa": "/kəpəɖɑ̃ːlət̪t̪ɑ̃ː/",
+      "evidence": "wordlist-nearest:96"
+    },
+    "697": {
+      "original": "કિરયાણું",
+      "word": "કરિયાણું",
+      "romanization": "kariyāṇuṃ",
+      "ipa": "/kəɾɪjɑːɳũ/",
+      "evidence": "normalized+wordlist"
+    },
+    "698": {
+      "original": "કિરયાવર",
+      "word": "કરિયાવર",
+      "romanization": "kariyāvar",
+      "ipa": "/kəɾɪjɑːʋəɾ/",
+      "evidence": "normalized+wordlist",
+      "example": "લગ્ન પ્રસંગે વરરાજાને આપવામાં આવતી ભેટ એટલે કરિયાવર.",
+      "example_romanization": "lagn prasaṃge vararājāne āpavāmāṃ āvatī bheṭ eṭale kariyāvar."
+    },
+    "705": {
+      "original": "કરોિળયો",
+      "word": "કરોળિયો",
+      "romanization": "karol̤iyo",
+      "ipa": "/kəɾoːɭɪjoː/",
+      "evidence": "normalized+wordlist",
+      "example": "મકાનના ખૂણામાં એક કરોળિયો જાળું વણી રહ્યો હતો.",
+      "example_romanization": "makānanā khūṇāmāṃ ek karol̤iyo jāl̤uṃ vaṇī rahyo hato."
+    },
+    "713": {
+      "original": "કવિયત્ર્ાી",
+      "word": "કવયિત્રી",
+      "romanization": "kavayitrī",
+      "ipa": "/kəʋəjɪt̪ɾiː/",
+      "evidence": "manual-context-review",
+      "example": "એ પ્રખ્યાત કવયિત્રી પોતાની કવિતાઓ દ્વારા લોકોના દિલ જીતી લે છે.",
+      "example_romanization": "e prakhyāt kavayitrī potānī kavitāo dvārā lokonā dil jītī le che."
+    },
+    "714": {
+      "original": "કિવ",
+      "word": "કવિ",
+      "romanization": "kavi",
+      "ipa": "/kəʋɪ/",
+      "evidence": "normalized+wordlist",
+      "example": "મહાન કવિ કાલિદાસે સંસ્કૃત સાહિત્યમાં અનેક અમર કૃતિઓ આપી છે.",
+      "example_romanization": "mahān kavi kālidāse saṃskṛt sāhityamāṃ anek amar kṛtio āpī che."
+    },
+    "750": {
+      "original": "કાિચંડો",
+      "word": "કાચિંડો",
+      "romanization": "kāciṃḍo",
+      "ipa": "/kɑːt͡ʃɪ̃ɖoː/",
+      "evidence": "normalized+wordlist"
+    },
+    "805": {
+      "original": "કીડી.",
+      "word": "કીડી",
+      "romanization": "kīḍī",
+      "ipa": "/kiːɖiː/",
+      "evidence": "normalized+wordlist"
+    },
+    "808": {
+      "original": "કીિતર્",
+      "word": "કીર્તિ",
+      "romanization": "kīrti",
+      "ipa": "/kiːɾt̪ɪ/",
+      "evidence": "manual-context-review"
+    },
+    "865": {
+      "original": "કોિશશ",
+      "word": "કોશિશ",
+      "romanization": "kośiś",
+      "ipa": "/koːʃɪʃ/",
+      "evidence": "normalized+wordlist"
+    },
+    "869": {
+      "original": "કૌટુિમ્બક",
+      "word": "કૌટુંબિક",
+      "romanization": "kauṭuṃbik",
+      "ipa": "/kəuʈũbɪk/",
+      "evidence": "wordlist-nearest:82"
+    },
+    "883": {
+      "original": "ખજૂ.રી",
+      "word": "ખજૂરી",
+      "romanization": "khajūrī",
+      "ipa": "/kʰəd͡ʒuːɾiː/",
+      "evidence": "manual-context-review"
+    },
+    "928": {
+      "original": "ખંિડયેર",
+      "word": "ખંડિયેર",
+      "romanization": "khaṃḍiyer",
+      "ipa": "/kʰə̃ɖɪjeːɾ/",
+      "evidence": "normalized+wordlist"
+    },
+    "940": {
+      "original": "ખાિણયો",
+      "word": "ખાણિયો",
+      "romanization": "khāṇiyo",
+      "ipa": "/kʰɑːɳɪjoː/",
+      "evidence": "normalized+wordlist",
+      "example": "ખાણમાં કામ કરતા ખાણિયાઓ સખત મહેનત કરે છે.",
+      "example_romanization": "khāṇamāṃ kām karatā khāṇiyāo sakhat mahenat kare che."
+    },
+    "951": {
+      "original": "ખાબોિચયું",
+      "word": "ખાબોચિયું",
+      "romanization": "khābociyuṃ",
+      "ipa": "/kʰɑːboːt͡ʃɪjũ/",
+      "evidence": "manual-context-review"
+    },
+    "959": {
+      "original": "આ મારો ખાસ માણસ છે.   ખાસ",
+      "word": "ખાસ",
+      "romanization": "khās",
+      "ipa": "/kʰɑːs̪/",
+      "evidence": "manual-context-review"
+    },
+    "960": {
+      "original": "ખાિસયત",
+      "word": "ખાસિયત",
+      "romanization": "khāsiyat",
+      "ipa": "/kʰɑːs̪ɪjət̪/",
+      "evidence": "normalized+wordlist"
+    },
+    "1042": {
+      "original": "ગણપિત",
+      "word": "ગણપતિ",
+      "romanization": "gaṇapati",
+      "ipa": "/gəɳəpət̪ɪ/",
+      "evidence": "example+google:80"
+    },
+    "1045": {
+      "original": "ગિણત",
+      "word": "ગણિત",
+      "romanization": "gaṇit",
+      "ipa": "/gəɳɪt̪/",
+      "evidence": "normalized+wordlist",
+      "example": "ગણિતમાં તેની ખૂબ પ્રવીણતા છે.",
+      "example_romanization": "gaṇitamāṃ tenī khūb pravīṇatā che."
+    },
+    "1049": {
+      "original": "ગિત",
+      "word": "ગતિ",
+      "romanization": "gati",
+      "ipa": "/gət̪ɪ/",
+      "evidence": "normalized+wordlist",
+      "example": "તેની ગતિ ખૂબ જ ઝડપી હતી અને તે ટૂંક સમયમાં જ લક્ષ્યાંક સુધી પહોંચી ગયો.",
+      "example_romanization": "tenī gati khūb ja jhaḍapī hatī ane te ṭūṃk samayamāṃ ja lakṣyāṃk sudhī pahoṃcī gayo."
+    },
+    "1123": {
+      "original": "ગાિયકા",
+      "word": "ગાયિકા",
+      "romanization": "gāyikā",
+      "ipa": "/gɑːjɪkɑː/",
+      "evidence": "normalized+wordlist",
+      "example": "તે એક પ્રસિદ્ધ ગાયિકા છે અને તેની સુંદર આવાજથી લોકોને મંત્રમુગ્ધ કરે છે.",
+      "example_romanization": "te ek prasiddh gāyikā che ane tenī suṃdar āvājathī lokone maṃtramugdh kare che."
+    },
+    "1144": {
+      "original": "ગુણોત્ત્ાર",
+      "word": "ગુણોત્તર",
+      "romanization": "guṇottar",
+      "ipa": "/guɳoːt̪t̪əɾ/",
+      "evidence": "wordlist-nearest:94"
+    },
+    "1185": {
+      "original": "ગોિઠયણ",
+      "word": "ગોઠિયણ",
+      "romanization": "goṭhiyaṇ",
+      "ipa": "/goːʈʰɪjəɳ/",
+      "evidence": "normalized+wordlist"
+    },
+    "1229": {
+      "original": "ઘિડયાળ",
+      "word": "ઘડિયાળ",
+      "romanization": "ghaḍiyāl̤",
+      "ipa": "/gʰəɖɪjɑːɭ/",
+      "evidence": "example+google:83"
+    },
+    "1230": {
+      "original": "ઘિડયાળી",
+      "word": "ઘડિયાળી",
+      "romanization": "ghaḍiyāl̤ī",
+      "ipa": "/gʰəɖɪjɑːɭiː/",
+      "evidence": "normalized+wordlist",
+      "example": "ઘણા લોકો પોતાના લગ્ન માટે ઘડિયાળીની મદદ લે છે.",
+      "example_romanization": "ghaṇā loko potānā lagn māṭe ghaḍiyāl̤īnī madad le che."
+    },
+    "1306": {
+      "original": "ચકળિવકળ",
+      "word": "ચકળવિકળ",
+      "romanization": "cakal̤avikal̤",
+      "ipa": "/t͡ʃəkəɭəʋɪkəɭ/",
+      "evidence": "normalized+wordlist",
+      "example": "તે ચકળવિકળ થઈ ગયો હતો અને તેને સમજાયું નહોતું કે શું કરવું.",
+      "example_romanization": "te cakal̤avikal̤ thaī gayo hato ane tene samajāyuṃ nahotuṃ ke śuṃ karavuṃ."
+    },
+    "1312": {
+      "original": "ચક્રવૃિધ્ધ",
+      "word": "ચક્રવૃદ્ધિ",
+      "romanization": "cakravṛddhi",
+      "ipa": "/t͡ʃəkɾəʋɾɨd̪d̪ʰɪ/",
+      "evidence": "normalized+wordlist",
+      "example": "બેંકમાં જમા કરેલી રકમ પર ચક્રવૃદ્ધિ વ્યાજ મળે છે.",
+      "example_romanization": "beṃkamāṃ jamā karelī rakam par cakravṛddhi vyāj mal̤e che."
+    },
+    "1334": {
+      "original": "ચિણયો",
+      "word": "ચણિયો",
+      "romanization": "caṇiyo",
+      "ipa": "/t͡ʃəɳɪjoː/",
+      "evidence": "normalized+wordlist",
+      "example": "તેણીએ ઘરમાં પહેરવા માટે નવો ચણિયો ખરીદ્યો.",
+      "example_romanization": "teṇīe gharamāṃ paheravā māṭe navo caṇiyo kharīdyo."
+    },
+    "1356": {
+      "original": "ચિરત્ર્ા",
+      "word": "ચરિત્ર",
+      "romanization": "caritr",
+      "ipa": "/t͡ʃəɾɪt̪ɾ/",
+      "evidence": "manual-context-review",
+      "example": "તેના ચરિત્રમાં પ્રામાણિકતા અને કરુણા જોવા મળે છે.",
+      "example_romanization": "tenā caritramāṃ prāmāṇikatā ane karuṇā jovā mal̤e che."
+    },
+    "1389": {
+      "original": "ચાિરત્ર્ા",
+      "word": "ચારિત્ર",
+      "romanization": "cāritr",
+      "ipa": "/t͡ʃɑːɾɪt̪ɾ/",
+      "evidence": "wordlist-nearest:93"
+    },
+    "1424": {
+      "original": "ચિત્તો",
+      "word": "ચિત્તો",
+      "romanization": "citto",
+      "ipa": "/t͡ʃɪt̪t̪oː/",
+      "evidence": "example-encoding-review",
+      "example": "જંગલમાં એક ચિત્તો ઘૂમતો હતો અને શિકાર શોધતો હતો.",
+      "example_romanization": "jaṃgalamāṃ ek citto ghūmato hato ane śikār śodhato hato."
+    },
+    "1443": {
+      "original": "ચીિપયો",
+      "word": "ચીપિયો",
+      "romanization": "cīpiyo",
+      "ipa": "/t͡ʃiːpɪjoː/",
+      "evidence": "normalized+wordlist",
+      "example": "મારા દાદાજીએ ચીપિયો વાપરીને તારને વાળ્યો.",
+      "example_romanization": "mārā dādājīe cīpiyo vāparīne tārane vāl̤yo."
+    },
+    "1491": {
+      "original": "ચૈત્ર્ા",
+      "word": "ચૈત્ર",
+      "romanization": "caitr",
+      "ipa": "/t͡ʃəɪt̪ɾ/",
+      "evidence": "wordlist-nearest:91"
+    },
+    "1498": {
+      "original": "ચોખ્ખા.ઇ",
+      "word": "ચોખ્ખાઈ",
+      "romanization": "cokhkhāī",
+      "ipa": "/t͡ʃoːkʰkʰɑːiː/",
+      "evidence": "manual-context-review"
+    },
+    "1506": {
+      "original": "ચોત્ર્ાીસ",
+      "word": "ચોત્રીસ",
+      "romanization": "cotrīs",
+      "ipa": "/t͡ʃoːt̪ɾiːs̪/",
+      "evidence": "example+google:88"
+    },
+    "1544": {
+      "original": "છત્ર્ાી",
+      "word": "છત્રી",
+      "romanization": "chatrī",
+      "ipa": "/t͡ʃʰət̪ɾiː/",
+      "evidence": "example+google:83"
+    },
+    "1545": {
+      "original": "છત્ર્ાીસ",
+      "word": "છત્રીસ",
+      "romanization": "chatrīs",
+      "ipa": "/t͡ʃʰət̪ɾiːs̪/",
+      "evidence": "example+google:86"
+    },
+    "1677": {
+      "original": "જાિત",
+      "word": "જાતિ",
+      "romanization": "jāti",
+      "ipa": "/d͡ʒɑːt̪ɪ/",
+      "evidence": "normalized+wordlist"
+    },
+    "1680": {
+      "original": "જાત્ર્ાા",
+      "word": "જાત્રા",
+      "romanization": "jātrā",
+      "ipa": "/d͡ʒɑːt̪ɾɑː/",
+      "evidence": "wordlist-nearest:92"
+    },
+    "1699": {
+      "original": "જાિળયું",
+      "word": "જાળિયું",
+      "romanization": "jāl̤iyuṃ",
+      "ipa": "/d͡ʒɑːɭɪjũ/",
+      "evidence": "normalized+wordlist"
+    },
+    "1723": {
+      "original": "જીવનચિરત્ર્ા",
+      "word": "જીવનચરિત્ર",
+      "romanization": "jīvanacaritr",
+      "ipa": "/d͡ʒiːʋən̪ət͡ʃəɾɪt̪ɾ/",
+      "evidence": "example+google:82"
+    },
+    "1785": {
+      "original": "જયોિતષી",
+      "word": "જ્યોતિષી",
+      "romanization": "jyotiṣī",
+      "ipa": "/d͡ʒjoːt̪ɪʂiː/",
+      "evidence": "manual-context-review"
+    },
+    "1911": {
+      "original": "ટાંિટયો",
+      "word": "ટાંટિયો",
+      "romanization": "ṭāṃṭiyo",
+      "ipa": "/ʈɑ̃ːʈɪjoː/",
+      "evidence": "normalized+wordlist"
+    },
+    "1961": {
+      "original": "ઠિળયો",
+      "word": "ઠળિયો",
+      "romanization": "ṭhal̤iyo",
+      "ipa": "/ʈʰəɭɪjoː/",
+      "evidence": "normalized+wordlist"
+    },
+    "2023": {
+      "original": "ડાિઘયું",
+      "word": "ડાઘિયું",
+      "romanization": "ḍāghiyuṃ",
+      "ipa": "/ɖɑːgʰɪjũ/",
+      "evidence": "normalized+wordlist",
+      "example": "એ ડાઘિયું કૂતરું ખૂબ ભસી રહ્યું છે.",
+      "example_romanization": "e ḍāghiyuṃ kūtaruṃ khūb bhasī rahyuṃ che."
+    },
+    "2037": {
+      "original": "ડાંિડયો",
+      "word": "ડાંડિયો",
+      "romanization": "ḍāṃḍiyo",
+      "ipa": "/ɖɑ̃ːɖɪjoː/",
+      "evidence": "normalized+wordlist"
+    },
+    "2052": {
+      "original": "ડોિકયું",
+      "word": "ડોકિયું",
+      "romanization": "ḍokiyuṃ",
+      "ipa": "/ɖoːkɪjũ/",
+      "evidence": "normalized+wordlist"
+    },
+    "2107": {
+      "original": "તજજ્ઞ્ા",
+      "word": "તજજ્ઞ",
+      "romanization": "tajajñ",
+      "ipa": "/t̪əd͡ʒəd͡ʒɲ/",
+      "evidence": "manual-context-review",
+      "example": "એ વિષયના તજજ્ઞ પ્રોફેસરે વિદ્યાર્થીઓને ઘણું શીખવ્યું.",
+      "example_romanization": "e viṣayanā tajajñ prophesare vidyārthīone ghaṇuṃ śīkhavyuṃ."
+    },
+    "2114": {
+      "original": "તડકી.છાંયડી",
+      "word": "તડકીછાંયડી",
+      "romanization": "taḍakīchāṃyaḍī",
+      "ipa": "/t̪əɖəkiːt͡ʃʰɑ̃ːjəɖiː/",
+      "evidence": "manual-context-review",
+      "example": "જીવનમાં તડકીછાંયડીનો ક્રમ ચાલુ જ રહે છે.",
+      "example_romanization": "jīvanamāṃ taḍakīchāṃyaḍīno kram cālu ja rahe che."
+    },
+    "2124": {
+      "original": "તત્ત્વજ્ઞ્ાાન",
+      "word": "તત્ત્વજ્ઞાન",
+      "romanization": "tattvajñān",
+      "ipa": "/t̪ət̪t̪ʋəd͡ʒɲɑːn̪/",
+      "evidence": "wordlist-nearest:96"
+    },
+    "2125": {
+      "original": "તત્ત્વજ્ઞ્ાાની",
+      "word": "તત્ત્વજ્ઞાની",
+      "romanization": "tattvajñānī",
+      "ipa": "/t̪ət̪t̪ʋəd͡ʒɲɑːn̪iː/",
+      "evidence": "wordlist-nearest:96"
+    },
+    "2127": {
+      "original": "તથાિપ",
+      "word": "તથાપિ",
+      "romanization": "tathāpi",
+      "ipa": "/t̪ət̪ʰɑːpɪ/",
+      "evidence": "normalized+wordlist",
+      "example": "તે ખૂબ મહેનત કરે છે, તથાપિ તેને સફળતા મળતી નથી.",
+      "example_romanization": "te khūb mahenat kare che, tathāpi tene saphal̤atā mal̤atī nathī."
+    },
+    "2139": {
+      "original": "તિબયત",
+      "word": "તબિયત",
+      "romanization": "tabiyat",
+      "ipa": "/t̪əbɪjət̪/",
+      "evidence": "normalized+wordlist",
+      "example": "તેની તબિયત સારી નથી, તેને ડૉક્ટરની સલાહ લેવી જોઈએ.",
+      "example_romanization": "tenī tabiyat sārī nathī, tene ḍôkṭaranī salāh levī joīe."
+    },
+    "2162": {
+      "original": "તકર્શાસ્ત્ર્ા",
+      "word": "તર્કશાસ્ત્ર",
+      "romanization": "tarkaśāstra",
+      "ipa": "/t̪əɾkəʃɑːs̪t̪ɾə/",
+      "evidence": "manual-context-review"
+    },
+    "2174": {
+      "original": "તંત્ર્ા",
+      "word": "તંત્ર",
+      "romanization": "taṃtr",
+      "ipa": "/t̪ə̃t̪ɾ/",
+      "evidence": "wordlist-nearest:91"
+    },
+    "2175": {
+      "original": "તંત્ર્ાી",
+      "word": "તંત્રી",
+      "romanization": "taṃtrī",
+      "ipa": "/t̪ə̃t̪ɾiː/",
+      "evidence": "wordlist-nearest:92"
+    },
+    "2182": {
+      "original": "તાગડિધન્ન્ાા",
+      "word": "તાગડધિન્ના",
+      "romanization": "tāgaḍadhinnā",
+      "ipa": "/t̪ɑːgəɖəd̪ʰɪn̪n̪ɑː/",
+      "evidence": "wordlist-nearest:95"
+    },
+    "2191": {
+      "original": "તાત્કાિલક",
+      "word": "તાત્કાલિક",
+      "romanization": "tātkālik",
+      "ipa": "/t̪ɑːt̪kɑːlɪk/",
+      "evidence": "normalized+wordlist",
+      "example": "આ કામ તાત્કાલિક પૂર્ણ કરવાની જરૂર છે.",
+      "example_romanization": "ā kām tātkālik pūrṇ karavānī jarūr che."
+    },
+    "2192": {
+      "original": "તાિત્ત્વક",
+      "word": "તાત્ત્વિક",
+      "romanization": "tāttvik",
+      "ipa": "/t̪ɑːt̪t̪ʋɪk/",
+      "evidence": "normalized+wordlist"
+    },
+    "2204": {
+      "original": "તાિકર્ક",
+      "word": "તાર્કિક",
+      "romanization": "tārkik",
+      "ipa": "/t̪ɑːɾkɪk/",
+      "evidence": "manual-context-review"
+    },
+    "2214": {
+      "original": "તાંિત્ર્ાક",
+      "word": "તાંત્રિક",
+      "romanization": "tāṃtrik",
+      "ipa": "/t̪ɑ̃ːt̪ɾɪk/",
+      "evidence": "wordlist-nearest:94"
+    },
+    "2215": {
+      "original": "તાંિત્ર્ાક",
+      "word": "તાંત્રિક",
+      "romanization": "tāṃtrik",
+      "ipa": "/t̪ɑ̃ːt̪ɾɪk/",
+      "evidence": "wordlist-nearest:94"
+    },
+    "2226": {
+      "original": "તીથર્યાત્ર્ાા",
+      "word": "તીર્થયાત્રા",
+      "romanization": "tīrthayātrā",
+      "ipa": "/t̪iːɾt̪ʰəjɑːt̪ɾɑː/",
+      "evidence": "manual-context-review"
+    },
+    "2251": {
+      "original": "તેત્ર્ાીસ",
+      "word": "તેત્રીસ",
+      "romanization": "tetrīs",
+      "ipa": "/t̪eːt̪ɾiːs̪/",
+      "evidence": "example+google:88"
+    },
+    "2270": {
+      "original": "તોિતંગ",
+      "word": "તોતિંગ",
+      "romanization": "totiṃg",
+      "ipa": "/t̪oːt̪ɪ̃g/",
+      "evidence": "normalized+wordlist",
+      "example": "એ ઇમારત એટલી તોતિંગ છે કે તેની ટોચ જોવી મુશ્કેલ છે.",
+      "example_romanization": "e imārat eṭalī totiṃg che ke tenī ṭoc jovī muśkel che."
+    },
+    "2288": {
+      "original": "ત્ર્ાણ",
+      "word": "ત્રાણ",
+      "romanization": "trāṇ",
+      "ipa": "/t̪ɾɑːɳ/",
+      "evidence": "normalized+wordlist"
+    },
+    "2289": {
+      "original": "ત્ર્ાાટકવું",
+      "word": "ત્રાટકવું",
+      "romanization": "trāṭakavuṃ",
+      "ipa": "/t̪ɾɑːʈəkəʋũ/",
+      "evidence": "wordlist-nearest:95"
+    },
+    "2290": {
+      "original": "ત્ર્ાાડ",
+      "word": "ત્રાડ",
+      "romanization": "trāḍ",
+      "ipa": "/t̪ɾɑːɖ/",
+      "evidence": "wordlist-nearest:91"
+    },
+    "2291": {
+      "original": "ત્ર્ાાણું",
+      "word": "ત્રાણું",
+      "romanization": "trāṇuṃ",
+      "ipa": "/t̪ɾɑːɳũ/",
+      "evidence": "wordlist-nearest:93",
+      "example": "તેની ઉંમર ત્રાણું વર્ષ છે.",
+      "example_romanization": "tenī uṃmar trāṇuṃ varṣ che."
+    },
+    "2292": {
+      "original": "ત્ર્ાાસ",
+      "word": "ત્રાસ",
+      "romanization": "trās",
+      "ipa": "/t̪ɾɑːs̪/",
+      "evidence": "wordlist-nearest:91"
+    },
+    "2293": {
+      "original": "ત્ર્ાાસવાદ",
+      "word": "ત્રાસવાદ",
+      "romanization": "trāsavād",
+      "ipa": "/t̪ɾɑːs̪əʋɑːd̪/",
+      "evidence": "wordlist-nearest:94"
+    },
+    "2294": {
+      "original": "ત્ર્ાાિહત",
+      "word": "ત્રાહિત",
+      "romanization": "trāhit",
+      "ipa": "/t̪ɾɑːɦɪt̪/",
+      "evidence": "wordlist-nearest:93"
+    },
+    "2298": {
+      "original": "ત્ર્ાીજ",
+      "word": "ત્રીજ",
+      "romanization": "trīj",
+      "ipa": "/t̪ɾiːd͡ʒ/",
+      "evidence": "wordlist-nearest:91"
+    },
+    "2299": {
+      "original": "ત્ર્ાીજુ",
+      "word": "ત્રીજું",
+      "romanization": "trījuṃ",
+      "ipa": "/t̪ɾiːd͡ʒũ/",
+      "evidence": "manual-context-review"
+    },
+    "2300": {
+      "original": "ત્ર્ાીસ",
+      "word": "ત્રીસ",
+      "romanization": "trīs",
+      "ipa": "/t̪ɾiːs̪/",
+      "evidence": "manual-context-review"
+    },
+    "2301": {
+      "original": "ત્ર્ાેપન",
+      "word": "ત્રેપન",
+      "romanization": "trepan",
+      "ipa": "/t̪ɾeːpən̪/",
+      "evidence": "example+google:86"
+    },
+    "2302": {
+      "original": "ત્ર્ાેવીસ",
+      "word": "ત્રેવીસ",
+      "romanization": "trevīs",
+      "ipa": "/t̪ɾeːʋiːs̪/",
+      "evidence": "example+google:88"
+    },
+    "2303": {
+      "original": "ત્ર્ાેસઠ",
+      "word": "ત્રેસઠ",
+      "romanization": "tresaṭh",
+      "ipa": "/t̪ɾeːs̪əʈʰ/",
+      "evidence": "wordlist-nearest:92"
+    },
+    "2304": {
+      "original": "ત્ર્ાૈમાિસક",
+      "word": "ત્રૈમાસિક",
+      "romanization": "traimāsik",
+      "ipa": "/t̪ɾəɪmɑːs̪ɪk/",
+      "evidence": "wordlist-nearest:95"
+    },
+    "2305": {
+      "original": "ત્ર્ાોફવું",
+      "word": "ત્રોફવું",
+      "romanization": "trophavuṃ",
+      "ipa": "/t̪ɾoːpʰəʋũ/",
+      "evidence": "wordlist-nearest:94"
+    },
+    "2306": {
+      "original": "ત્ત્વચા",
+      "word": "ત્વચા",
+      "romanization": "tvacā",
+      "ipa": "/t̪ʋət͡ʃɑː/",
+      "evidence": "example+google:83"
+    },
+    "2342": {
+      "original": "દિક્ષણ",
+      "word": "દક્ષિણ",
+      "romanization": "dakṣiṇ",
+      "ipa": "/d̪əkʂɪɳ/",
+      "evidence": "normalized+wordlist",
+      "example": "ગુજરાતના દક્ષિણ ભાગમાં સુરત શહેર આવેલું છે.",
+      "example_romanization": "gujarātanā dakṣiṇ bhāgamāṃ surat śaher āveluṃ che."
+    },
+    "2343": {
+      "original": "દિક્ષણા",
+      "word": "દક્ષિણા",
+      "romanization": "dakṣiṇā",
+      "ipa": "/d̪əkʂɪɳɑː/",
+      "evidence": "normalized+wordlist",
+      "example": "ભક્તોએ ગુરુજીને દક્ષિણા આપી અને તેમના આશીર્વાદ લીધા.",
+      "example_romanization": "bhaktoe gurujīne dakṣiṇā āpī ane temanā āśīrvād līdhā."
+    },
+    "2378": {
+      "original": "દરિમયાન",
+      "word": "દરમિયાન",
+      "romanization": "daramiyān",
+      "ipa": "/d̪əɾəmɪjɑːn̪/",
+      "evidence": "normalized+wordlist",
+      "example": "તેઓ વાતચીત કરી રહ્યા હતા, દરમિયાન મેં ચા બનાવી.",
+      "example_romanization": "teo vātacīt karī rahyā hatā, daramiyān meṃ cā banāvī."
+    },
+    "2388": {
+      "original": "દિરયો",
+      "word": "દરિયો",
+      "romanization": "dariyo",
+      "ipa": "/d̪əɾɪjoː/",
+      "evidence": "normalized+wordlist"
+    },
+    "2393": {
+      "original": "દિલત",
+      "word": "દલિત",
+      "romanization": "dalit",
+      "ipa": "/d̪əlɪt̪/",
+      "evidence": "normalized+wordlist"
+    },
+    "2455": {
+      "original": "દારૂિડયો",
+      "word": "દારૂડિયો",
+      "romanization": "dārūḍiyo",
+      "ipa": "/d̪ɑːɾuːɖɪjoː/",
+      "evidence": "normalized+wordlist"
+    },
+    "2456": {
+      "original": "દાશર્િનક",
+      "word": "દાર્શનિક",
+      "romanization": "dārśanik",
+      "ipa": "/d̪ɑːɾʃən̪ɪk/",
+      "evidence": "manual-context-review"
+    },
+    "2463": {
+      "original": "દાંિતયો",
+      "word": "દાંતિયો",
+      "romanization": "dāṃtiyo",
+      "ipa": "/d̪ɑ̃ːt̪ɪjoː/",
+      "evidence": "normalized+wordlist"
+    },
+    "2501": {
+      "original": "દુિખયારું",
+      "word": "દુખિયારું",
+      "romanization": "dukhiyāruṃ",
+      "ipa": "/d̪ukʰɪjɑːɾũ/",
+      "evidence": "normalized+wordlist",
+      "example": "તેનું દુઃખી અને દુખિયારું વર્તન સૌને ખટકતું હતું.",
+      "example_romanization": "tenuṃ duḥkhī ane dukhiyāruṃ vartan saune khaṭakatuṃ hatuṃ."
+    },
+    "2503": {
+      "original": "દુિનયા",
+      "word": "દુનિયા",
+      "romanization": "duniyā",
+      "ipa": "/d̪un̪ɪjɑː/",
+      "evidence": "normalized+wordlist"
+    },
+    "2508": {
+      "original": "દુભાિષયો",
+      "word": "દુભાષિયો",
+      "romanization": "dubhāṣiyo",
+      "ipa": "/d̪ubʰɑːʂɪjoː/",
+      "evidence": "normalized+wordlist"
+    },
+    "2514": {
+      "original": "દુગર્િત",
+      "word": "દુર્ગતિ",
+      "romanization": "durgati",
+      "ipa": "/d̪uɾgət̪ɪ/",
+      "evidence": "manual-context-review"
+    },
+    "2515": {
+      "original": "દુગર્ંધ",
+      "word": "દુર્ગંધ",
+      "romanization": "durgaṃdh",
+      "ipa": "/d̪uɾgə̃d̪ʰ/",
+      "evidence": "example+google:86"
+    },
+    "2522": {
+      "original": "દૂિધયા",
+      "word": "દૂધિયા",
+      "romanization": "dūdhiyā",
+      "ipa": "/d̪uːd̪ʰɪjɑː/",
+      "evidence": "normalized+wordlist"
+    },
+    "2556": {
+      "original": "દેશાિભમાન",
+      "word": "દેશાભિમાન",
+      "romanization": "deśābhimān",
+      "ipa": "/d̪eːʃɑːbʰɪmɑːn̪/",
+      "evidence": "normalized+wordlist"
+    },
+    "2561": {
+      "original": "દૈિનક",
+      "word": "દૈનિક",
+      "romanization": "dainik",
+      "ipa": "/d̪əɪn̪ɪk/",
+      "evidence": "example+google:80"
+    },
+    "2582": {
+      "original": "દોિહત્ર્ા",
+      "word": "દોહિત્ર",
+      "romanization": "dohitr",
+      "ipa": "/d̪oːɦɪt̪ɾ/",
+      "evidence": "wordlist-nearest:93"
+    },
+    "2583": {
+      "original": "દોિહત્ર્ાી",
+      "word": "દોહિત્રી",
+      "romanization": "dohitrī",
+      "ipa": "/d̪oːɦɪt̪ɾiː/",
+      "evidence": "manual-context-review"
+    },
+    "2587": {
+      "original": "દ્વૈમાિસક",
+      "word": "દ્વૈમાસિક",
+      "romanization": "dvaimāsik",
+      "ipa": "/d̪ʋəɪmɑːs̪ɪk/",
+      "evidence": "normalized+wordlist"
+    },
+    "2607": {
+      "original": "ધિતંગ",
+      "word": "ધતિંગ",
+      "romanization": "dhatiṃg",
+      "ipa": "/d̪ʰət̪ɪ̃g/",
+      "evidence": "normalized+wordlist",
+      "example": "એ વ્યક્તિનો પ્રેમ માત્ર એક ધતિંગ હતો અને સાચો નહોતો.",
+      "example_romanization": "e vyaktino prem mātr ek dhatiṃg hato ane sāco nahoto."
+    },
+    "2617": {
+      "original": "ધમિન",
+      "word": "ધમની",
+      "romanization": "dhamanī",
+      "ipa": "/d̪ʰəmən̪iː/",
+      "evidence": "manual-context-review",
+      "example": "હૃદયમાંથી શરીરના વિવિધ ભાગો સુધી ઑક્સિજનયુક્ત લોહી પહોંચાડવા માટે ધમની મહત્વપૂર્ણ ભૂમિકા ભજવે છે.",
+      "example_romanization": "hṛdayamāṃthī śarīranā vividh bhāgo sudhī ôksijanayukt lohī pahoṃcāḍavā māṭe dhamanī mahatvapūrṇ bhūmikā bhajave che."
+    },
+    "2656": {
+      "original": "ધારાશાસ્ત્ર્ાી",
+      "word": "ધારાશાસ્ત્રી",
+      "romanization": "dhārāśāstrī",
+      "ipa": "/d̪ʰɑːɾɑːʃɑːs̪t̪ɾiː/",
+      "evidence": "wordlist-nearest:96"
+    },
+    "2659": {
+      "original": "ધાિમર્ક",
+      "word": "ધાર્મિક",
+      "romanization": "dhārmik",
+      "ipa": "/d̪ʰɑːɾmɪk/",
+      "evidence": "manual-context-review"
+    },
+    "2673": {
+      "original": "ધુમાિડયું",
+      "word": "ધુમાડિયું",
+      "romanization": "dhumāḍiyuṃ",
+      "ipa": "/d̪ʰumɑːɖɪjũ/",
+      "evidence": "normalized+wordlist"
+    },
+    "2688": {
+      "original": "ધોિતયું",
+      "word": "ધોતિયું",
+      "romanization": "dhotiyuṃ",
+      "ipa": "/d̪ʰoːt̪ɪjũ/",
+      "evidence": "normalized+wordlist"
+    },
+    "2703": {
+      "original": "ધ્વિન",
+      "word": "ધ્વનિ",
+      "romanization": "dhvani",
+      "ipa": "/d̪ʰʋən̪ɪ/",
+      "evidence": "normalized+wordlist"
+    },
+    "2713": {
+      "original": "નકકી",
+      "word": "નક્કી",
+      "romanization": "nakkī",
+      "ipa": "/n̪əkkiː/",
+      "evidence": "example+google:89"
+    },
+    "2714": {
+      "original": "નક્ષત્ર્ા",
+      "word": "નક્ષત્ર",
+      "romanization": "nakṣatr",
+      "ipa": "/n̪əkʂət̪ɾ/",
+      "evidence": "wordlist-nearest:93"
+    },
+    "2721": {
+      "original": "નખિશખ",
+      "word": "નખશિખ",
+      "romanization": "nakhaśikh",
+      "ipa": "/n̪əkʰəʃɪkʰ/",
+      "evidence": "normalized+wordlist",
+      "example": "તેણે નખશિખ નવા કપડાં પહેર્યાં હતાં.",
+      "example_romanization": "teṇe nakhaśikh navā kapaḍāṃ paheryāṃ hatāṃ."
+    },
+    "2729": {
+      "original": "નિચંત",
+      "word": "નચિંત",
+      "romanization": "naciṃt",
+      "ipa": "/n̪ət͡ʃɪ̃t̪/",
+      "evidence": "normalized+wordlist",
+      "example": "તે હંમેશા નચિંત રહે છે અને જીવનને પૂરેપૂરું માણે છે.",
+      "example_romanization": "te haṃmeśā naciṃt rahe che ane jīvanane pūrepūruṃ māṇe che."
+    },
+    "2751": {
+      "original": "નધિણયાતું",
+      "word": "નધણિયાતું",
+      "romanization": "nadhaṇiyātuṃ",
+      "ipa": "/n̪əd̪ʰəɳɪjɑːt̪ũ/",
+      "evidence": "normalized+wordlist",
+      "example": "ભૂલથી ખુલ્લું રહી ગયેલું નધણિયાતું ઘર ચોરોનું આકર્ષણ બની શકે છે.",
+      "example_romanization": "bhūlathī khulluṃ rahī gayeluṃ nadhaṇiyātuṃ ghar coronuṃ ākarṣaṇ banī śake che."
+    },
+    "2772": {
+      "original": "નમૂિછયું",
+      "word": "નમૂછિયું",
+      "romanization": "namūchiyuṃ",
+      "ipa": "/n̪əmuːt͡ʃʰɪjũ/",
+      "evidence": "normalized+wordlist",
+      "example": "એ યુવાન છોકરાનું નમૂછિયું મોં જોઈને મને આશ્ચર્ય થયું.",
+      "example_romanization": "e yuvān chokarānuṃ namūchiyuṃ moṃ joīne mane āścary thayuṃ."
+    },
+    "2779": {
+      "original": "નરજાિત",
+      "word": "નરજાતિ",
+      "romanization": "narajāti",
+      "ipa": "/n̪əɾəd͡ʒɑːt̪ɪ/",
+      "evidence": "normalized+wordlist"
+    },
+    "2792": {
+      "original": "નવિલકા",
+      "word": "નવલિકા",
+      "romanization": "navalikā",
+      "ipa": "/n̪əʋəlɪkɑː/",
+      "evidence": "normalized+wordlist"
+    },
+    "2795": {
+      "original": "નવસ્ત્ર્ાું",
+      "word": "નવસ્ત્રું",
+      "romanization": "navastruṃ",
+      "ipa": "/n̪əʋəs̪t̪ɾũ/",
+      "evidence": "manual-context-review"
+    },
+    "2807": {
+      "original": "નિહ",
+      "word": "નહિ",
+      "romanization": "nahi",
+      "ipa": "/n̪əɦɪ/",
+      "evidence": "normalized+wordlist",
+      "example": "તમે આજે સ્કૂલ જવાના નથી, નહિ?",
+      "example_romanization": "tame āje skūl javānā nathī, nahi?"
+    },
+    "2808": {
+      "original": "નિહવત્",
+      "word": "નહિવત્",
+      "romanization": "nahivat",
+      "ipa": "/n̪əɦɪʋət̪/",
+      "evidence": "normalized+wordlist",
+      "example": "તેની સ્થિતિમાં નહિવત્ સુધારો થયો છે.",
+      "example_romanization": "tenī sthitimāṃ nahivat sudhāro thayo che."
+    },
+    "2811": {
+      "original": "નિળયું",
+      "word": "નળિયું",
+      "romanization": "nal̤iyuṃ",
+      "ipa": "/n̪əɭɪjũ/",
+      "evidence": "normalized+wordlist"
+    },
+    "2823": {
+      "original": "નાગિરક",
+      "word": "નાગરિક",
+      "romanization": "nāgarik",
+      "ipa": "/n̪ɑːgəɾɪk/",
+      "evidence": "normalized+wordlist"
+    },
+    "2833": {
+      "original": "નાિટકા",
+      "word": "નાટિકા",
+      "romanization": "nāṭikā",
+      "ipa": "/n̪ɑːʈɪkɑː/",
+      "evidence": "normalized+wordlist"
+    },
+    "2855": {
+      "original": "નાિભ",
+      "word": "નાભિ",
+      "romanization": "nābhi",
+      "ipa": "/n̪ɑːbʰɪ/",
+      "evidence": "normalized+wordlist"
+    },
+    "2863": {
+      "original": "નાિયકા",
+      "word": "નાયિકા",
+      "romanization": "nāyikā",
+      "ipa": "/n̪ɑːjɪkɑː/",
+      "evidence": "normalized+wordlist",
+      "example": "રમા આ નવલકથાની નાયિકા છે અને તેની વીરતાની કહાની પ્રેરણાદાયક છે.",
+      "example_romanization": "ramā ā navalakathānī nāyikā che ane tenī vīratānī kahānī preraṇādāyak che."
+    },
+    "2866": {
+      "original": "નાિરયેળ",
+      "word": "નારિયેળ",
+      "romanization": "nāriyel̤",
+      "ipa": "/n̪ɑːɾɪjeːɭ/",
+      "evidence": "normalized+wordlist",
+      "example": "તેણે બજારમાંથી તાજું નારિયેળ ખરીદ્યું.",
+      "example_romanization": "teṇe bajāramāṃthī tājuṃ nāriyel̤ kharīdyuṃ."
+    },
+    "2870": {
+      "original": "નાિવક",
+      "word": "નાવિક",
+      "romanization": "nāvik",
+      "ipa": "/n̪ɑːʋɪk/",
+      "evidence": "example+google:80"
+    },
+    "2940": {
+      "original": "નિર્વાસિત",
+      "word": "નિર્વાસિત",
+      "romanization": "nirvāsit",
+      "ipa": "/n̪ɪɾʋɑːs̪ɪt̪/",
+      "evidence": "example-encoding-review",
+      "example": "યુદ્ધને કારણે ઘણા લોકો નિર્વાસિત થયા હતા અને શરણાર્થી બન્યા હતા.",
+      "example_romanization": "yuddhane kāraṇe ghaṇā loko nirvāsit thayā hatā ane śaraṇārthī banyā hatā."
+    },
+    "2953": {
+      "original": "નિશાળિયો",
+      "word": "નિશાળિયો",
+      "romanization": "niśāl̤iyo",
+      "ipa": "/n̪ɪʃɑːɭɪjoː/",
+      "evidence": "example-encoding-review",
+      "example": "શાળાના નિશાળિયો પ્રવાસ પર ગયો.",
+      "example_romanization": "śāl̤ānā niśāl̤iyo pravās par gayo."
+    },
+    "2990": {
+      "original": "નીિત",
+      "word": "નીતિ",
+      "romanization": "nīti",
+      "ipa": "/n̪iːt̪ɪ/",
+      "evidence": "normalized+wordlist",
+      "example": "સારી નીતિ એ સફળતાની ચાવી છે.",
+      "example_romanization": "sārī nīti e saphal̤atānī cāvī che."
+    },
+    "2991": {
+      "original": "નીિતશાસ્ત્ર્ા",
+      "word": "નીતિશાસ્ત્ર",
+      "romanization": "nītiśāstra",
+      "ipa": "/n̪iːt̪ɪʃɑːs̪t̪ɾə/",
+      "evidence": "example+google:83"
+    },
+    "3014": {
+      "original": "નૈિતક",
+      "word": "નૈતિક",
+      "romanization": "naitik",
+      "ipa": "/n̪əɪt̪ɪk/",
+      "evidence": "example+google:80"
+    },
+    "3015": {
+      "original": "નૈઋત્ય",
+      "word": "નૈઋત્ય",
+      "romanization": "naiṛty",
+      "ipa": "/n̪əɪɾɨt̪j/",
+      "evidence": "pronunciation-validation"
+    },
+    "3020": {
+      "original": "નોકિરયાત",
+      "word": "નોકરિયાત",
+      "romanization": "nokariyāt",
+      "ipa": "/n̪oːkəɾɪjɑːt̪/",
+      "evidence": "normalized+wordlist",
+      "example": "તે એક નોકરિયાત વ્યક્તિ છે જે નિયમિત પગાર મેળવે છે.",
+      "example_romanization": "te ek nokariyāt vyakti che je niyamit pagār mel̤ave che."
+    },
+    "3026": {
+      "original": "નોિળયો",
+      "word": "નોળિયો",
+      "romanization": "nol̤iyo",
+      "ipa": "/n̪oːɭɪjoː/",
+      "evidence": "normalized+wordlist"
+    },
+    "3045": {
+      "original": "પખવાિડયું",
+      "word": "પખવાડિયું",
+      "romanization": "pakhavāḍiyuṃ",
+      "ipa": "/pəkʰəʋɑːɖɪjũ/",
+      "evidence": "example+google:89"
+    },
+    "3046": {
+      "original": "પખવાિડક",
+      "word": "પખવાડિક",
+      "romanization": "pakhavāḍik",
+      "ipa": "/pəkʰəʋɑːɖɪk/",
+      "evidence": "normalized+wordlist"
+    },
+    "3049": {
+      "original": "પગિથયું",
+      "word": "પગથિયું",
+      "romanization": "pagathiyuṃ",
+      "ipa": "/pəgət̪ʰɪjũ/",
+      "evidence": "normalized+wordlist"
+    },
+    "3097": {
+      "original": "પિડયો",
+      "word": "પડિયો",
+      "romanization": "paḍiyo",
+      "ipa": "/pəɖɪjoː/",
+      "evidence": "normalized+wordlist"
+    },
+    "3109": {
+      "original": "પતંિગયું",
+      "word": "પતંગિયું",
+      "romanization": "pataṃgiyuṃ",
+      "ipa": "/pət̪ə̃gɪjũ/",
+      "evidence": "normalized+wordlist"
+    },
+    "3114": {
+      "original": "પિત",
+      "word": "પતિ",
+      "romanization": "pati",
+      "ipa": "/pət̪ɪ/",
+      "evidence": "normalized+wordlist",
+      "example": "મારો પતિ એક ડૉક્ટર છે.",
+      "example_romanization": "māro pati ek ḍôkṭar che."
+    },
+    "3115": {
+      "original": "પિતયું",
+      "word": "પતિયું",
+      "romanization": "patiyuṃ",
+      "ipa": "/pət̪ɪjũ/",
+      "evidence": "normalized+wordlist",
+      "example": "તેના ગામમાં એક પતિયું વ્યક્તિ રહેતો હતો જેને બધા ટાળતા હતા.",
+      "example_romanization": "tenā gāmamāṃ ek patiyuṃ vyakti raheto hato jene badhā ṭāl̤atā hatā."
+    },
+    "3116": {
+      "original": "પત્ત્ાુ",
+      "word": "પત્તું",
+      "romanization": "pattuṃ",
+      "ipa": "/pət̪t̪ũ/",
+      "evidence": "manual-context-review"
+    },
+    "3117": {
+      "original": "પત્ત્ાો",
+      "word": "પત્તો",
+      "romanization": "patto",
+      "ipa": "/pət̪t̪oː/",
+      "evidence": "wordlist-nearest:91"
+    },
+    "3119": {
+      "original": "પત્ર્ાકાર",
+      "word": "પત્રકાર",
+      "romanization": "patrakār",
+      "ipa": "/pət̪ɾəkɑːɾ/",
+      "evidence": "manual-context-review"
+    },
+    "3120": {
+      "original": "પત્ર્ાકારત્ત્વ",
+      "word": "પત્રકારત્વ",
+      "romanization": "patrakāratv",
+      "ipa": "/pət̪ɾəkɑːɾət̪ʋ/",
+      "evidence": "manual-context-review"
+    },
+    "3121": {
+      "original": "પત્ર્ાવ્યવહાર",
+      "word": "પત્રવ્યવહાર",
+      "romanization": "patravyavahār",
+      "ipa": "/pət̪ɾəʋjəʋəɦɑːɾ/",
+      "evidence": "example+google:92"
+    },
+    "3122": {
+      "original": "પિત્ર્ાકા",
+      "word": "પત્રિકા",
+      "romanization": "patrikā",
+      "ipa": "/pət̪ɾɪkɑː/",
+      "evidence": "wordlist-nearest:93"
+    },
+    "3133": {
+      "original": "પદાવિલ",
+      "word": "પદાવલિ",
+      "romanization": "padāvali",
+      "ipa": "/pəd̪ɑːʋəlɪ/",
+      "evidence": "normalized+wordlist"
+    },
+    "3155": {
+      "original": "પરતંત્ર્ા",
+      "word": "પરતંત્રતા",
+      "romanization": "parataṃtratā",
+      "ipa": "/pəɾət̪ə̃t̪ɾət̪ɑː/",
+      "evidence": "manual-context-review",
+      "example": "ભારતે ૧૯૪૭માં બ્રિટિશ પરતંત્રતામાંથી મુક્તિ મેળવી.",
+      "example_romanization": "bhārate 1947māṃ briṭiś parataṃtratāmāṃthī mukti mel̤avī."
+    },
+    "3183": {
+      "original": "પરસ્ત્ર્ાી",
+      "word": "પરસ્ત્રી",
+      "romanization": "parastrī",
+      "ipa": "/pəɾəs̪t̪ɾiː/",
+      "evidence": "wordlist-nearest:94"
+    },
+    "3185": {
+      "original": "પરંત ુ",
+      "word": "પરંતુ",
+      "romanization": "paraṃtu",
+      "ipa": "/pəɾə̃t̪u/",
+      "evidence": "example+google:91"
+    },
+    "3194": {
+      "original": "પરામશર્",
+      "word": "પરામર્શ",
+      "romanization": "parāmarś",
+      "ipa": "/pəɾɑːməɾʃ/",
+      "evidence": "example+google:86"
+    },
+    "3196": {
+      "original": "પિરઘ",
+      "word": "પરિઘ",
+      "romanization": "parigh",
+      "ipa": "/pəɾɪgʰ/",
+      "evidence": "normalized+wordlist",
+      "example": "આ વર્તુળનો પરિઘ 10 સેન્ટીમીટર છે.",
+      "example_romanization": "ā vartul̤ano parigh 10 senṭīmīṭar che."
+    },
+    "3197": {
+      "original": "પિરચય",
+      "word": "પરિચય",
+      "romanization": "paricay",
+      "ipa": "/pəɾɪt͡ʃəj/",
+      "evidence": "normalized+wordlist"
+    },
+    "3198": {
+      "original": "પિરચાિરકા",
+      "word": "પરિચારિકા",
+      "romanization": "paricārikā",
+      "ipa": "/pəɾɪt͡ʃɑːɾɪkɑː/",
+      "evidence": "normalized+wordlist",
+      "example": "ઘરની પરિચારિકાએ બધું કામ પૂર્ણ કર્યું.",
+      "example_romanization": "gharanī paricārikāe badhuṃ kām pūrṇ karyuṃ."
+    },
+    "3199": {
+      "original": "પિરિચત",
+      "word": "પરિચિત",
+      "romanization": "paricit",
+      "ipa": "/pəɾɪt͡ʃɪt̪/",
+      "evidence": "example+google:83"
+    },
+    "3200": {
+      "original": "પિરચ્છેદ",
+      "word": "પરિચ્છેદ",
+      "romanization": "paricched",
+      "ipa": "/pəɾɪt͡ʃt͡ʃʰeːd̪/",
+      "evidence": "normalized+wordlist",
+      "example": "આ લેખમાં ઘણા રસપ્રદ પરિચ્છેદો છે જે વિષયને વિસ્તારથી આવરી લે છે.",
+      "example_romanization": "ā lekhamāṃ ghaṇā rasaprad paricchedo che je viṣayane vistārathī āvarī le che."
+    },
+    "3201": {
+      "original": "પિરણામ",
+      "word": "પરિણામ",
+      "romanization": "pariṇām",
+      "ipa": "/pəɾɪɳɑːm/",
+      "evidence": "example+google:83"
+    },
+    "3202": {
+      "original": "પિરણીત",
+      "word": "પરિણીત",
+      "romanization": "pariṇīt",
+      "ipa": "/pəɾɪɳiːt̪/",
+      "evidence": "normalized+wordlist",
+      "example": "તેઓ ગયા વર્ષે પરિણીત થયા હતા.",
+      "example_romanization": "teo gayā varṣe pariṇīt thayā hatā."
+    },
+    "3203": {
+      "original": "પિરધાન",
+      "word": "પરિધાન",
+      "romanization": "paridhān",
+      "ipa": "/pəɾɪd̪ʰɑːn̪/",
+      "evidence": "normalized+wordlist",
+      "example": "તેણે ભારતીય પરિધાન પહેર્યું હતું જે ખૂબ જ સુંદર લાગતું હતું.",
+      "example_romanization": "teṇe bhāratīy paridhān paheryuṃ hatuṃ je khūb ja suṃdar lāgatuṃ hatuṃ."
+    },
+    "3205": {
+      "original": "પિરબળ",
+      "word": "પરિબળ",
+      "romanization": "paribal̤",
+      "ipa": "/pəɾɪbəɭ/",
+      "evidence": "normalized+wordlist"
+    },
+    "3206": {
+      "original": "પિરભાષા",
+      "word": "પરિભાષા",
+      "romanization": "paribhāṣā",
+      "ipa": "/pəɾɪbʰɑːʂɑː/",
+      "evidence": "example+google:86"
+    },
+    "3207": {
+      "original": "પિરમલ",
+      "word": "પરિમલ",
+      "romanization": "parimal",
+      "ipa": "/pəɾɪməl/",
+      "evidence": "normalized+wordlist",
+      "example": "બગીચામાંથી મધુર પરિમલ આવી રહ્યો હતો.",
+      "example_romanization": "bagīcāmāṃthī madhur parimal āvī rahyo hato."
+    },
+    "3209": {
+      "original": "પિરવાર",
+      "word": "પરિવાર",
+      "romanization": "parivār",
+      "ipa": "/pəɾɪʋɑːɾ/",
+      "evidence": "normalized+wordlist"
+    },
+    "3210": {
+      "original": "પિરિશષ્ટ",
+      "word": "પરિશિષ્ટ",
+      "romanization": "pariśiṣṭ",
+      "ipa": "/pəɾɪʃɪʂʈ/",
+      "evidence": "example+google:88"
+    },
+    "3211": {
+      "original": "પિરશીલન",
+      "word": "પરિશીલન",
+      "romanization": "pariśīlan",
+      "ipa": "/pəɾɪʃiːlən̪/",
+      "evidence": "normalized+wordlist",
+      "example": "તેણે વિષય પર ઊંડાણપૂર્વક પરિશીલન કર્યું હતું.",
+      "example_romanization": "teṇe viṣay par ūṃḍāṇapūrvak pariśīlan karyuṃ hatuṃ."
+    },
+    "3212": {
+      "original": "પિરશ્ર્ામ",
+      "word": "પરિશ્રમ",
+      "romanization": "pariśram",
+      "ipa": "/pəɾɪʃɾəm/",
+      "evidence": "wordlist-nearest:93"
+    },
+    "3213": {
+      "original": "પિરષદ",
+      "word": "પરિષદ",
+      "romanization": "pariṣad",
+      "ipa": "/pəɾɪʂəd̪/",
+      "evidence": "normalized+wordlist"
+    },
+    "3214": {
+      "original": "પિરિસ્થિત",
+      "word": "પરિસ્થિતિ",
+      "romanization": "paristhiti",
+      "ipa": "/pəɾɪs̪t̪ʰɪt̪ɪ/",
+      "evidence": "normalized+wordlist"
+    },
+    "3242": {
+      "original": "પિવત્ર્ા",
+      "word": "પવિત્ર",
+      "romanization": "pavitr",
+      "ipa": "/pəʋɪt̪ɾ/",
+      "evidence": "manual-context-review"
+    },
+    "3245": {
+      "original": "પિશ્ચમ",
+      "word": "પશ્ચિમ",
+      "romanization": "paścim",
+      "ipa": "/pəʃt͡ʃɪm/",
+      "evidence": "normalized+wordlist"
+    },
+    "3246": {
+      "original": "પિશ્ચમ",
+      "word": "પશ્ચિમ",
+      "romanization": "paścim",
+      "ipa": "/pəʃt͡ʃɪm/",
+      "evidence": "normalized+wordlist",
+      "example": "સૂર્ય પશ્ચિમ દિશામાં આથમે છે.",
+      "example_romanization": "sūry paścim diśāmāṃ āthame che."
+    },
+    "3282": {
+      "original": "પંિડત",
+      "word": "પંડિત",
+      "romanization": "paṃḍit",
+      "ipa": "/pə̃ɖɪt̪/",
+      "evidence": "normalized+wordlist"
+    },
+    "3292": {
+      "original": "પાકશાસ્ત્ર્ા",
+      "word": "પાકશાસ્ત્ર",
+      "romanization": "pākaśāstra",
+      "ipa": "/pɑːkəʃɑːs̪t̪ɾə/",
+      "evidence": "wordlist-nearest:95"
+    },
+    "3296": {
+      "original": "પાિક્ષક",
+      "word": "પાક્ષિક",
+      "romanization": "pākṣik",
+      "ipa": "/pɑːkʂɪk/",
+      "evidence": "example+google:86"
+    },
+    "3312": {
+      "original": "પાિટયું",
+      "word": "પાટિયું",
+      "romanization": "pāṭiyuṃ",
+      "ipa": "/pɑːʈɪjũ/",
+      "evidence": "normalized+wordlist"
+    },
+    "3327": {
+      "original": "પાિણયારું",
+      "word": "પાણિયારું",
+      "romanization": "pāṇiyāruṃ",
+      "ipa": "/pɑːɳɪjɑːɾũ/",
+      "evidence": "normalized+wordlist"
+    },
+    "3352": {
+      "original": "પારદશર્ક",
+      "word": "પારદર્શક",
+      "romanization": "pāradarśak",
+      "ipa": "/pɑːɾəd̪əɾʃək/",
+      "evidence": "example+google:88"
+    },
+    "3354": {
+      "original": "પારસમિણ",
+      "word": "પારસમણિ",
+      "romanization": "pārasamaṇi",
+      "ipa": "/pɑːɾəs̪əməɳɪ/",
+      "evidence": "normalized+wordlist",
+      "example": "પુરાણોમાં એવું કહેવાય છે કે પારસમણિ લોખંડને સોનામાં ફેરવી શકે છે.",
+      "example_romanization": "purāṇomāṃ evuṃ kahevāy che ke pārasamaṇi lokhaṃḍane sonāmāṃ pheravī śake che."
+    },
+    "3358": {
+      "original": "પાિરજાત",
+      "word": "પારિજાત",
+      "romanization": "pārijāt",
+      "ipa": "/pɑːɾɪd͡ʒɑːt̪/",
+      "evidence": "normalized+wordlist"
+    },
+    "3359": {
+      "original": "પાિરતોિષક",
+      "word": "પારિતોષિક",
+      "romanization": "pāritoṣik",
+      "ipa": "/pɑːɾɪt̪oːʂɪk/",
+      "evidence": "normalized+wordlist"
+    },
+    "3372": {
+      "original": "પાિળયો",
+      "word": "પાળિયો",
+      "romanization": "pāl̤iyo",
+      "ipa": "/pɑːɭɪjoː/",
+      "evidence": "normalized+wordlist"
+    },
+    "3381": {
+      "original": "પાંત્ર્ાીસ",
+      "word": "પાંત્રીસ",
+      "romanization": "pāṃtrīs",
+      "ipa": "/pɑ̃ːt̪ɾiːs̪/",
+      "evidence": "example+google:89"
+    },
+    "3424": {
+      "original": "પુત્ર્ા",
+      "word": "પુત્ર",
+      "romanization": "putr",
+      "ipa": "/put̪ɾ/",
+      "evidence": "manual-context-review"
+    },
+    "3425": {
+      "original": "પુત્ર્ાવધૂ",
+      "word": "પુત્રવધૂ",
+      "romanization": "putravadhū",
+      "ipa": "/put̪ɾəʋəd̪ʰuː/",
+      "evidence": "example+google:89"
+    },
+    "3426": {
+      "original": "પૂત્ર્ાી",
+      "word": "પુત્રી",
+      "romanization": "putrī",
+      "ipa": "/put̪ɾiː/",
+      "evidence": "manual-context-review"
+    },
+    "3430": {
+      "original": "પુનરાવૃિત્ત્ા",
+      "word": "પુનરાવૃત્તિ",
+      "romanization": "punarāvṛtti",
+      "ipa": "/pun̪əɾɑːʋɾɨt̪t̪ɪ/",
+      "evidence": "wordlist-nearest:96"
+    },
+    "3431": {
+      "original": "પુનરુિકત",
+      "word": "પુનરુક્તિ",
+      "romanization": "punarukti",
+      "ipa": "/pun̪əɾukt̪ɪ/",
+      "evidence": "manual-context-review",
+      "example": "એ વકતા ભાષણમાં ઘણી પુનરુક્તિ કરતા હતા, જેનાથી શ્રોતાઓ કંટાળી ગયા.",
+      "example_romanization": "e vakatā bhāṣaṇamāṃ ghaṇī punarukti karatā hatā, jenāthī śrotāo kaṃṭāl̤ī gayā."
+    },
+    "3432": {
+      "original": "પુનજર્ન્મ",
+      "word": "પુનર્જન્મ",
+      "romanization": "punarjanm",
+      "ipa": "/pun̪əɾd͡ʒən̪m/",
+      "evidence": "example+google:89"
+    },
+    "3433": {
+      "original": "પુનલર્ગ્ન",
+      "word": "પુનર્લગ્ન",
+      "romanization": "punarlagn",
+      "ipa": "/pun̪əɾləgn̪/",
+      "evidence": "example+google:89"
+    },
+    "3434": {
+      "original": "પુિનત",
+      "word": "પુનિત",
+      "romanization": "punit",
+      "ipa": "/pun̪ɪt̪/",
+      "evidence": "normalized+wordlist"
+    },
+    "3446": {
+      "original": "પુરોિહત",
+      "word": "પુરોહિત",
+      "romanization": "purohit",
+      "ipa": "/puɾoːɦɪt̪/",
+      "evidence": "normalized+wordlist"
+    },
+    "3451": {
+      "original": "પુિસ્તકા",
+      "word": "પુસ્તિકા",
+      "romanization": "pustikā",
+      "ipa": "/pus̪t̪ɪkɑː/",
+      "evidence": "example+google:88"
+    },
+    "3452": {
+      "original": "પુિલ્લંગ",
+      "word": "પુલ્લિંગ",
+      "romanization": "pulliṃg",
+      "ipa": "/pullɪ̃g/",
+      "evidence": "manual-context-review"
+    },
+    "3470": {
+      "original": "પૂણર્",
+      "word": "પૂર્ણ",
+      "romanization": "pūrṇ",
+      "ipa": "/puːɾɳ/",
+      "evidence": "example+google:80"
+    },
+    "3471": {
+      "original": "પૂણર્િવરામ",
+      "word": "પૂર્ણવિરામ",
+      "romanization": "pūrṇavirām",
+      "ipa": "/puːɾɳəʋɪɾɑːm/",
+      "evidence": "manual-context-review"
+    },
+    "3473": {
+      "original": "પૂિણર્મા",
+      "word": "પૂર્ણિમા",
+      "romanization": "pūrṇimā",
+      "ipa": "/puːɾɳɪmɑː/",
+      "evidence": "manual-context-review"
+    },
+    "3528": {
+      "original": "પૌત્ર્ા",
+      "word": "પૌત્ર",
+      "romanization": "pautr",
+      "ipa": "/pəut̪ɾ/",
+      "evidence": "wordlist-nearest:91"
+    },
+    "3529": {
+      "original": "પૌત્ર્ાી",
+      "word": "પૌત્રી",
+      "romanization": "pautrī",
+      "ipa": "/pəut̪ɾiː/",
+      "evidence": "example+google:86"
+    },
+    "3530": {
+      "original": "પૌરાિણક",
+      "word": "પૌરાણિક",
+      "romanization": "paurāṇik",
+      "ipa": "/pəuɾɑːɳɪk/",
+      "evidence": "normalized+wordlist"
+    },
+    "3531": {
+      "original": "પૌિષ્ટક",
+      "word": "પૌષ્ટિક",
+      "romanization": "pauṣṭik",
+      "ipa": "/pəuʂʈɪk/",
+      "evidence": "example+google:86"
+    },
+    "3538": {
+      "original": "પ્રકૃિત",
+      "word": "પ્રકૃતિ",
+      "romanization": "prakṛti",
+      "ipa": "/pɾəkɾɨt̪ɪ/",
+      "evidence": "normalized+wordlist"
+    },
+    "3540": {
+      "original": "પ્રક્રીયા",
+      "word": "પ્રક્રિયા",
+      "romanization": "prakriyā",
+      "ipa": "/pɾəkɾɪjɑː/",
+      "evidence": "example+google:89"
+    },
+    "3543": {
+      "original": "પ્રગિત",
+      "word": "પ્રગતિ",
+      "romanization": "pragati",
+      "ipa": "/pɾəgət̪ɪ/",
+      "evidence": "example+google:83"
+    },
+    "3544": {
+      "original": "પ્રચિલત",
+      "word": "પ્રચલિત",
+      "romanization": "pracalit",
+      "ipa": "/pɾət͡ʃəlɪt̪/",
+      "evidence": "normalized+wordlist",
+      "example": "ગુજરાતમાં ગરબા એ પ્રચલિત લોકનૃત્ય છે.",
+      "example_romanization": "gujarātamāṃ garabā e pracalit lokanṛty che."
+    },
+    "3552": {
+      "original": "પ્રજાસત્ત્ાાક",
+      "word": "પ્રજાસત્તાક",
+      "romanization": "prajāsattāk",
+      "ipa": "/pɾəd͡ʒɑːs̪ət̪t̪ɑːk/",
+      "evidence": "example+google:92"
+    },
+    "3558": {
+      "original": "પ્રિત",
+      "word": "પ્રતિ",
+      "romanization": "prati",
+      "ipa": "/pɾət̪ɪ/",
+      "evidence": "normalized+wordlist",
+      "example": "તે પ્રતિ જવાનો રસ્તો ખૂબ જ સુંદર છે.",
+      "example_romanization": "te prati javāno rasto khūb ja suṃdar che."
+    },
+    "3559": {
+      "original": "પ્રિતકાર",
+      "word": "પ્રતિકાર",
+      "romanization": "pratikār",
+      "ipa": "/pɾət̪ɪkɑːɾ/",
+      "evidence": "example+google:88"
+    },
+    "3560": {
+      "original": "પ્રિતકાવ્ય",
+      "word": "પ્રતિકાવ્ય",
+      "romanization": "pratikāvy",
+      "ipa": "/pɾət̪ɪkɑːʋj/",
+      "evidence": "normalized+wordlist"
+    },
+    "3561": {
+      "original": "પ્રિતકૂળ",
+      "word": "પ્રતિકૂળ",
+      "romanization": "pratikūl̤",
+      "ipa": "/pɾət̪ɪkuːɭ/",
+      "evidence": "normalized+wordlist",
+      "example": "આ પ્રતિકૂળ સ્થિતિમાં આપણે ધીરજ રાખવી પડશે.",
+      "example_romanization": "ā pratikūl̤ sthitimāṃ āpaṇe dhīraj rākhavī paḍaśe."
+    },
+    "3562": {
+      "original": "પ્રિતિક્રયા",
+      "word": "પ્રતિક્રિયા",
+      "romanization": "pratikriyā",
+      "ipa": "/pɾət̪ɪkɾɪjɑː/",
+      "evidence": "example+google:91"
+    },
+    "3563": {
+      "original": "પ્રિતઘોષ",
+      "word": "પ્રતિઘોષ",
+      "romanization": "pratighoṣ",
+      "ipa": "/pɾət̪ɪgʰoːʂ/",
+      "evidence": "normalized+wordlist"
+    },
+    "3564": {
+      "original": "પ્રિતજ્ઞ્ાા",
+      "word": "પ્રતિજ્ઞા",
+      "romanization": "pratijñā",
+      "ipa": "/pɾət̪ɪd͡ʒɲɑː/",
+      "evidence": "wordlist-nearest:95"
+    },
+    "3565": {
+      "original": "પ્રિતધ્વિન",
+      "word": "પ્રતિધ્વનિ",
+      "romanization": "pratidhvani",
+      "ipa": "/pɾət̪ɪd̪ʰʋən̪ɪ/",
+      "evidence": "normalized+wordlist"
+    },
+    "3566": {
+      "original": "પ્રિતિનિધ",
+      "word": "પ્રતિનિધિ",
+      "romanization": "pratinidhi",
+      "ipa": "/pɾət̪ɪn̪ɪd̪ʰɪ/",
+      "evidence": "example+google:89"
+    },
+    "3567": {
+      "original": "પ્રિતપક્ષ",
+      "word": "પ્રતિપક્ષ",
+      "romanization": "pratipakṣ",
+      "ipa": "/pɾət̪ɪpəkʂ/",
+      "evidence": "normalized+wordlist"
+    },
+    "3568": {
+      "original": "પ્રિતબંધ",
+      "word": "પ્રતિબંધ",
+      "romanization": "pratibaṃdh",
+      "ipa": "/pɾət̪ɪbə̃d̪ʰ/",
+      "evidence": "normalized+wordlist"
+    },
+    "3569": {
+      "original": "પ્રિતિબંબ",
+      "word": "પ્રતિબિંબ",
+      "romanization": "pratibiṃb",
+      "ipa": "/pɾət̪ɪbɪ̃b/",
+      "evidence": "example+google:89"
+    },
+    "3570": {
+      "original": "પ્રિતભા",
+      "word": "પ્રતિભા",
+      "romanization": "pratibhā",
+      "ipa": "/pɾət̪ɪbʰɑː/",
+      "evidence": "example+google:86"
+    },
+    "3571": {
+      "original": "પ્રિતરોધ",
+      "word": "પ્રતિરોધ",
+      "romanization": "pratirodh",
+      "ipa": "/pɾət̪ɪɾoːd̪ʰ/",
+      "evidence": "normalized+wordlist"
+    },
+    "3572": {
+      "original": "પ્રિતવાદ",
+      "word": "પ્રતિવાદ",
+      "romanization": "prativād",
+      "ipa": "/pɾət̪ɪʋɑːd̪/",
+      "evidence": "normalized+wordlist"
+    },
+    "3573": {
+      "original": "પ્રિતષ્ઠા",
+      "word": "પ્રતિષ્ઠા",
+      "romanization": "pratiṣṭhā",
+      "ipa": "/pɾət̪ɪʂʈʰɑː/",
+      "evidence": "example+google:89"
+    },
+    "3575": {
+      "original": "પ્રિતહાર",
+      "word": "પ્રતિહાર",
+      "romanization": "pratihār",
+      "ipa": "/pɾət̪ɪɦɑːɾ/",
+      "evidence": "normalized+wordlist",
+      "example": "મહેલના પ્રવેશદ્વાર પર પ્રતિહાર ચોકીદાર તરીકે ઉભો હતો.",
+      "example_romanization": "mahelanā praveśadvār par pratihār cokīdār tarīke ubho hato."
+    },
+    "3578": {
+      "original": "પ્રતીિત",
+      "word": "પ્રતીતિ",
+      "romanization": "pratīti",
+      "ipa": "/pɾət̪iːt̪ɪ/",
+      "evidence": "example+google:86"
+    },
+    "3588": {
+      "original": "પ્રદિક્ષણા",
+      "word": "પ્રદક્ષિણા",
+      "romanization": "pradakṣiṇā",
+      "ipa": "/pɾəd̪əkʂɪɳɑː/",
+      "evidence": "normalized+wordlist",
+      "example": "ભક્તો મંદિરમાં મૂર્તિની પ્રદક્ષિણા કરી રહ્યા હતા.",
+      "example_romanization": "bhakto maṃdiramāṃ mūrtinī pradakṣiṇā karī rahyā hatā."
+    },
+    "3590": {
+      "original": "પ્રદશર્ન",
+      "word": "પ્રદર્શન",
+      "romanization": "pradarśan",
+      "ipa": "/pɾəd̪əɾʃən̪/",
+      "evidence": "example+google:88"
+    },
+    "3598": {
+      "original": "પ્રભાિતયું",
+      "word": "પ્રભાતિયું",
+      "romanization": "prabhātiyuṃ",
+      "ipa": "/pɾəbʰɑːt̪ɪjũ/",
+      "evidence": "normalized+wordlist"
+    },
+    "3602": {
+      "original": "પ્રમત્ત્ા",
+      "word": "પ્રમત્ત",
+      "romanization": "pramatt",
+      "ipa": "/pɾəmət̪t̪/",
+      "evidence": "manual-context-review"
+    },
+    "3605": {
+      "original": "પ્રમાિણક",
+      "word": "પ્રમાણિક",
+      "romanization": "pramāṇik",
+      "ipa": "/pɾəmɑːɳɪk/",
+      "evidence": "example+google:88"
+    },
+    "3622": {
+      "original": "પ્રવૃિત્ત્ા",
+      "word": "પ્રવૃત્તિ",
+      "romanization": "pravṛtti",
+      "ipa": "/pɾəʋɾɨt̪t̪ɪ/",
+      "evidence": "wordlist-nearest:95"
+    },
+    "3625": {
+      "original": "પ્રવેિશકા",
+      "word": "પ્રવેશિકા",
+      "romanization": "praveśikā",
+      "ipa": "/pɾəʋeːʃɪkɑː/",
+      "evidence": "normalized+wordlist"
+    },
+    "3626": {
+      "original": "પ્રશિસ્ત",
+      "word": "પ્રશસ્તિ",
+      "romanization": "praśasti",
+      "ipa": "/pɾəʃəs̪t̪ɪ/",
+      "evidence": "normalized+wordlist",
+      "example": "તેમના નિધન પછી, તેમના મિત્રએ ભાવપૂર્ણ પ્રશસ્તિ આપી અને તેમના જીવનની ઉપલબ્ધિઓને યાદ કરી.",
+      "example_romanization": "temanā nidhan pachī, temanā mitrae bhāvapūrṇ praśasti āpī ane temanā jīvananī upalabdhione yād karī."
+    },
+    "3630": {
+      "original": "પ્રશ્નપત્ર્ા",
+      "word": "પ્રશ્નપત્ર",
+      "romanization": "praśnapatr",
+      "ipa": "/pɾəʃn̪əpət̪ɾ/",
+      "evidence": "example+google:91"
+    },
+    "3638": {
+      "original": "પ્રિસધ્ધ",
+      "word": "પ્રસિદ્ધ",
+      "romanization": "prasiddh",
+      "ipa": "/pɾəs̪ɪd̪d̪ʰ/",
+      "evidence": "normalized+wordlist"
+    },
+    "3646": {
+      "original": "પ્રાથિમક",
+      "word": "પ્રાથમિક",
+      "romanization": "prāthamik",
+      "ipa": "/pɾɑːt̪ʰəmɪk/",
+      "evidence": "example+google:88"
+    },
+    "3647": {
+      "original": "પ્રાદેિશક",
+      "word": "પ્રાદેશિક",
+      "romanization": "prādeśik",
+      "ipa": "/pɾɑːd̪eːʃɪk/",
+      "evidence": "example+google:89"
+    },
+    "3650": {
+      "original": "પ્રાયિશ્ચત",
+      "word": "પ્રાયશ્ચિત",
+      "romanization": "prāyaścit",
+      "ipa": "/pɾɑːjəʃt͡ʃɪt̪/",
+      "evidence": "example+google:90"
+    },
+    "3651": {
+      "original": "પ્રાયોિગક",
+      "word": "પ્રાયોગિક",
+      "romanization": "prāyogik",
+      "ipa": "/pɾɑːjoːgɪk/",
+      "evidence": "example+google:89"
+    },
+    "3654": {
+      "original": "પ્રાસંિગક",
+      "word": "પ્રાસંગિક",
+      "romanization": "prāsaṃgik",
+      "ipa": "/pɾɑːs̪ə̃gɪk/",
+      "evidence": "example+google:89"
+    },
+    "3691": {
+      "original": "ફરિજયાત",
+      "word": "ફરજિયાત",
+      "romanization": "pharajiyāt",
+      "ipa": "/pʰəɾəd͡ʒɪjɑːt̪/",
+      "evidence": "normalized+wordlist",
+      "example": "સરકારે હવે હેલ્મેટ પહેરવું ફરજિયાત કર્યું છે.",
+      "example_romanization": "sarakāre have helmeṭ paheravuṃ pharajiyāt karyuṃ che."
+    },
+    "3694": {
+      "original": "ફરફિરયું",
+      "word": "ફરફરિયું",
+      "romanization": "pharaphariyuṃ",
+      "ipa": "/pʰəɾəpʰəɾɪjũ/",
+      "evidence": "normalized+wordlist",
+      "example": "મેં બજારમાં એક ફરફરિયું જોયું જેમાં નવી દુકાનના ઉદ્ઘાટન વિશે જાહેરાત હતી.",
+      "example_romanization": "meṃ bajāramāṃ ek pharaphariyuṃ joyuṃ jemāṃ navī dukānanā udghāṭan viśe jāherāt hatī."
+    },
+    "3700": {
+      "original": "ફિરયાદ",
+      "word": "ફરિયાદ",
+      "romanization": "phariyād",
+      "ipa": "/pʰəɾɪjɑːd̪/",
+      "evidence": "normalized+wordlist",
+      "example": "તેણે પોલીસ સ્ટેશનમાં ફરિયાદ નોંધાવી.",
+      "example_romanization": "teṇe polīs sṭeśanamāṃ phariyād noṃdhāvī."
+    },
+    "3701": {
+      "original": "ફિરયાદી",
+      "word": "ફરિયાદી",
+      "romanization": "phariyādī",
+      "ipa": "/pʰəɾɪjɑːd̪iː/",
+      "evidence": "normalized+wordlist",
+      "example": "ફરિયાદીએ પોલીસ સ્ટેશનમાં ફરિયાદ નોંધાવી.",
+      "example_romanization": "phariyādīe polīs sṭeśanamāṃ phariyād noṃdhāvī."
+    },
+    "3711": {
+      "original": "ફિળયું",
+      "word": "ફળિયું",
+      "romanization": "phal̤iyuṃ",
+      "ipa": "/pʰəɭɪjũ/",
+      "evidence": "normalized+wordlist"
+    },
+    "3739": {
+      "original": "ફાિળયું",
+      "word": "ફાળિયું",
+      "romanization": "phāl̤iyuṃ",
+      "ipa": "/pʰɑːɭɪjũ/",
+      "evidence": "normalized+wordlist"
+    },
+    "3801": {
+      "original": "બિક્ષસ",
+      "word": "બક્ષિસ",
+      "romanization": "bakṣis",
+      "ipa": "/bəkʂɪs̪/",
+      "evidence": "normalized+wordlist",
+      "example": "તેણે પોતાના મિત્રને જન્મદિવસ પર સુંદર બક્ષિસ આપી.",
+      "example_romanization": "teṇe potānā mitrane janmadivas par suṃdar bakṣis āpī."
+    },
+    "3803": {
+      "original": "બિખયો",
+      "word": "બખિયો",
+      "romanization": "bakhiyo",
+      "ipa": "/bəkʰɪjoː/",
+      "evidence": "normalized+wordlist",
+      "example": "સિલાઈ કરતી વખતે દરજીએ કાપડ પર એક બખિયો લગાવ્યો.",
+      "example_romanization": "silāī karatī vakhate darajīe kāpaḍ par ek bakhiyo lagāvyo."
+    },
+    "3828": {
+      "original": "બત્ત્ાી",
+      "word": "બત્તી",
+      "romanization": "battī",
+      "ipa": "/bət̪t̪iː/",
+      "evidence": "wordlist-nearest:91"
+    },
+    "3829": {
+      "original": "બત્ર્ાીસ",
+      "word": "બત્રીસ",
+      "romanization": "batrīs",
+      "ipa": "/bət̪ɾiːs̪/",
+      "evidence": "example+google:86"
+    },
+    "3868": {
+      "original": "બિહષ્કાર",
+      "word": "બહિષ્કાર",
+      "romanization": "bahiṣkār",
+      "ipa": "/bəɦɪʂkɑːɾ/",
+      "evidence": "normalized+wordlist",
+      "example": "તેઓએ ચૂંટણીનો બહિષ્કાર કર્યો હતો અને મતદાન કર્યું ન હતું.",
+      "example_romanization": "teoe cūṃṭaṇīno bahiṣkār karyo hato ane matadān karyuṃ na hatuṃ."
+    },
+    "3886": {
+      "original": "બિળયા",
+      "word": "બળિયા",
+      "romanization": "bal̤iyā",
+      "ipa": "/bəɭɪjɑː/",
+      "evidence": "normalized+wordlist",
+      "example": "રસીકરણને કારણે ભારતમાં બળિયાનો રોગ નાબૂદ થયો છે.",
+      "example_romanization": "rasīkaraṇane kāraṇe bhāratamāṃ bal̤iyāno rog nābūd thayo che."
+    },
+    "3887": {
+      "original": "બિળયું",
+      "word": "બળિયું",
+      "romanization": "bal̤iyuṃ",
+      "ipa": "/bəɭɪjũ/",
+      "evidence": "normalized+wordlist",
+      "example": "એ બળિયું શિંગડું ઝાડને ઉખેડી નાખે છે.",
+      "example_romanization": "e bal̤iyuṃ śiṃgaḍuṃ jhāḍane ukheḍī nākhe che."
+    },
+    "3902": {
+      "original": "બંિધયાર",
+      "word": "બંધિયાર",
+      "romanization": "baṃdhiyār",
+      "ipa": "/bə̃d̪ʰɪjɑːɾ/",
+      "evidence": "normalized+wordlist"
+    },
+    "3939": {
+      "original": "બાળમંિદર",
+      "word": "બાળમંદિર",
+      "romanization": "bāl̤amaṃdir",
+      "ipa": "/bɑːɭəmə̃d̪ɪɾ/",
+      "evidence": "normalized+wordlist"
+    },
+    "3981": {
+      "original": "બુિધ્ધ",
+      "word": "બુદ્ધિ",
+      "romanization": "buddhi",
+      "ipa": "/bud̪d̪ʰɪ/",
+      "evidence": "manual-context-review"
+    },
+    "4028": {
+      "original": "બેશુધ્ધ",
+      "word": "બેશુદ્ધ",
+      "romanization": "beśuddh",
+      "ipa": "/beːʃud̪d̪ʰ/",
+      "evidence": "normalized+wordlist",
+      "example": "તેની ઇજાથી તે બેશુદ્ધ થઈ ગયો.",
+      "example_romanization": "tenī ijāthī te beśuddh thaī gayo."
+    },
+    "4063": {
+      "original": "ભિગની",
+      "word": "ભગિની",
+      "romanization": "bhaginī",
+      "ipa": "/bʰəgɪn̪iː/",
+      "evidence": "normalized+wordlist",
+      "example": "મારી ભગિની ખૂબ હોશિયાર છે અને હંમેશા મને મદદ કરે છે.",
+      "example_romanization": "mārī bhaginī khūb hośiyār che ane haṃmeśā mane madad kare che."
+    },
+    "4070": {
+      "original": "ભિજયું",
+      "word": "ભજિયું",
+      "romanization": "bhajiyuṃ",
+      "ipa": "/bʰəd͡ʒɪjũ/",
+      "evidence": "normalized+wordlist",
+      "example": "મારી માસીએ ભજિયું બનાવ્યું અને ચા સાથે પીરસ્યું.",
+      "example_romanization": "mārī māsīe bhajiyuṃ banāvyuṃ ane cā sāthe pīrasyuṃ."
+    },
+    "4073": {
+      "original": "ભટૂિરયું",
+      "word": "ભટૂરિયું",
+      "romanization": "bhaṭūriyuṃ",
+      "ipa": "/bʰəʈuːɾɪjũ/",
+      "evidence": "normalized+wordlist"
+    },
+    "4075": {
+      "original": "ભિઠયારખાનું",
+      "word": "ભઠિયારખાનું",
+      "romanization": "bhaṭhiyārakhānuṃ",
+      "ipa": "/bʰəʈʰɪjɑːɾəkʰɑːn̪ũ/",
+      "evidence": "normalized+wordlist",
+      "example": "રવિવારે હું મારા પરિવાર સાથે ભઠિયારખાનું ગયો અને કેક ખરીદ્યો.",
+      "example_romanization": "ravivāre huṃ mārā parivār sāthe bhaṭhiyārakhānuṃ gayo ane kek kharīdyo."
+    },
+    "4085": {
+      "original": "ભત્ર્ાીજી",
+      "word": "ભત્રીજી",
+      "romanization": "bhatrījī",
+      "ipa": "/bʰət̪ɾiːd͡ʒiː/",
+      "evidence": "example+google:88"
+    },
+    "4112": {
+      "original": "ભરોસાપાત્ર્ા",
+      "word": "ભરોસાપાત્ર",
+      "romanization": "bharosāpātr",
+      "ipa": "/bʰəɾoːs̪ɑːpɑːt̪ɾ/",
+      "evidence": "example+google:91"
+    },
+    "4125": {
+      "original": "ભિવષ્ય",
+      "word": "ભવિષ્ય",
+      "romanization": "bhaviṣy",
+      "ipa": "/bʰəʋɪʂj/",
+      "evidence": "normalized+wordlist"
+    },
+    "4157": {
+      "original": "ભાિટયો",
+      "word": "ભાટિયો",
+      "romanization": "bhāṭiyo",
+      "ipa": "/bʰɑːʈɪjoː/",
+      "evidence": "normalized+wordlist"
+    },
+    "4161": {
+      "original": "ભાિણયો",
+      "word": "ભાણિયો",
+      "romanization": "bhāṇiyo",
+      "ipa": "/bʰɑːɳɪjoː/",
+      "evidence": "normalized+wordlist"
+    },
+    "4183": {
+      "original": "ભાિવ",
+      "word": "ભાવિ",
+      "romanization": "bhāvi",
+      "ipa": "/bʰɑːʋɪ/",
+      "evidence": "normalized+wordlist",
+      "example": "તેનું ભાવિ ઉજ્જવળ છે.",
+      "example_romanization": "tenuṃ bhāvi ujjaval̤ che."
+    },
+    "4184": {
+      "original": "ભાિવક",
+      "word": "ભાવિક",
+      "romanization": "bhāvik",
+      "ipa": "/bʰɑːʋɪk/",
+      "evidence": "normalized+wordlist"
+    },
+    "4228": {
+      "original": "ભૂિમ",
+      "word": "ભૂમિ",
+      "romanization": "bhūmi",
+      "ipa": "/bʰuːmɪ/",
+      "evidence": "normalized+wordlist"
+    },
+    "4229": {
+      "original": "ભૂિમકા",
+      "word": "ભૂમિકા",
+      "romanization": "bhūmikā",
+      "ipa": "/bʰuːmɪkɑː/",
+      "evidence": "normalized+wordlist"
+    },
+    "4230": {
+      "original": "ભૂિમિત",
+      "word": "ભૂમિતિ",
+      "romanization": "bhūmiti",
+      "ipa": "/bʰuːmɪt̪ɪ/",
+      "evidence": "example+google:83"
+    },
+    "4231": {
+      "original": "ભૂિમદાહ",
+      "word": "ભૂમિદાહ",
+      "romanization": "bhūmidāh",
+      "ipa": "/bʰuːmɪd̪ɑːɦ/",
+      "evidence": "normalized+wordlist"
+    },
+    "4233": {
+      "original": "ભૂિરયું",
+      "word": "ભૂરિયું",
+      "romanization": "bhūriyuṃ",
+      "ipa": "/bʰuːɾɪjũ/",
+      "evidence": "normalized+wordlist"
+    },
+    "4240": {
+      "original": "ભૂસ્તરિવદ્યા",
+      "word": "ભૂસ્તરવિદ્યા",
+      "romanization": "bhūstaravidyā",
+      "ipa": "/bʰuːs̪t̪əɾəʋɪd̪jɑː/",
+      "evidence": "normalized+wordlist",
+      "example": "ભૂસ્તરવિદ્યાના અભ્યાસથી પૃથ્વીના ઇતિહાસ અને રચના વિશે જાણી શકાય છે.",
+      "example_romanization": "bhūstaravidyānā abhyāsathī pṛthvīnā itihās ane racanā viśe jāṇī śakāy che."
+    },
+    "4274": {
+      "original": "ભોગિવલાસ",
+      "word": "ભોગવિલાસ",
+      "romanization": "bhogavilās",
+      "ipa": "/bʰoːgəʋɪlɑːs̪/",
+      "evidence": "normalized+wordlist",
+      "example": "તેનો ભોગવિલાસી જીવનશૈલી તેના સ્વાસ્થ્ય માટે હાનિકારક હતો.",
+      "example_romanization": "teno bhogavilāsī jīvanaśailī tenā svāsthya māṭe hānikārak hato."
+    },
+    "4281": {
+      "original": "ભોિરંગ",
+      "word": "ભોરિંગ",
+      "romanization": "bhoriṃg",
+      "ipa": "/bʰoːɾɪ̃g/",
+      "evidence": "normalized+wordlist"
+    },
+    "4291": {
+      "original": "ભૌગોિલક",
+      "word": "ભૌગોલિક",
+      "romanization": "bhaugolik",
+      "ipa": "/bʰəugoːlɪk/",
+      "evidence": "example+google:86"
+    },
+    "4292": {
+      "original": "ભૌિતક",
+      "word": "ભૌતિક",
+      "romanization": "bhautik",
+      "ipa": "/bʰəut̪ɪk/",
+      "evidence": "example+google:80"
+    },
+    "4297": {
+      "original": "ભ્રાંિત",
+      "word": "ભ્રાંતિ",
+      "romanization": "bhrāṃti",
+      "ipa": "/bʰɾɑ̃ːt̪ɪ/",
+      "evidence": "normalized+wordlist"
+    },
+    "4335": {
+      "original": "મિણ",
+      "word": "મણિ",
+      "romanization": "maṇi",
+      "ipa": "/məɳɪ/",
+      "evidence": "normalized+wordlist",
+      "example": "તેના હાથમાં એક સુંદર મણિ જડેલી વીંટી હતી.",
+      "example_romanization": "tenā hāthamāṃ ek suṃdar maṇi jaḍelī vīṃṭī hatī."
+    },
+    "4336": {
+      "original": "મિણયાર",
+      "word": "મણિયાર",
+      "romanization": "maṇiyār",
+      "ipa": "/məɳɪjɑːɾ/",
+      "evidence": "normalized+wordlist",
+      "example": "મણિયારે મારા માટે ખૂબ સુંદર કડાં બનાવ્યાં.",
+      "example_romanization": "maṇiyāre mārā māṭe khūb suṃdar kaḍāṃ banāvyāṃ."
+    },
+    "4339": {
+      "original": "મતપત્ર્ા",
+      "word": "મતપત્ર",
+      "romanization": "matapatr",
+      "ipa": "/mət̪əpət̪ɾ/",
+      "evidence": "wordlist-nearest:92"
+    },
+    "4342": {
+      "original": "મતલિબયું",
+      "word": "મતલબિયું",
+      "romanization": "matalabiyuṃ",
+      "ipa": "/mət̪ələbɪjũ/",
+      "evidence": "normalized+wordlist",
+      "example": "એ વ્યક્તિ ખૂબ જ મતલબિયું છે અને હંમેશા પોતાના ફાયદા વિશે જ વિચારે છે.",
+      "example_romanization": "e vyakti khūb ja matalabiyuṃ che ane haṃmeśā potānā phāyadā viśe ja vicāre che."
+    },
+    "4343": {
+      "original": "મતાિધકાર",
+      "word": "મતાધિકાર",
+      "romanization": "matādhikār",
+      "ipa": "/mət̪ɑːd̪ʰɪkɑːɾ/",
+      "evidence": "normalized+wordlist"
+    },
+    "4350": {
+      "original": "મદિનયું",
+      "word": "મદનિયું",
+      "romanization": "madaniyuṃ",
+      "ipa": "/məd̪ən̪ɪjũ/",
+      "evidence": "normalized+wordlist"
+    },
+    "4352": {
+      "original": "મિદરા",
+      "word": "મદિરા",
+      "romanization": "madirā",
+      "ipa": "/məd̪ɪɾɑː/",
+      "evidence": "normalized+wordlist",
+      "example": "તેણે એક ગ્લાસ મદિરા પીધી અને નાચવાનું શરૂ કર્યું.",
+      "example_romanization": "teṇe ek glās madirā pīdhī ane nācavānuṃ śarū karyuṃ."
+    },
+    "4371": {
+      "original": "મનોિવજ્ઞ્ાાન",
+      "word": "મનોવિજ્ઞાન",
+      "romanization": "manovijñān",
+      "ipa": "/mən̪oːʋɪd͡ʒɲɑːn̪/",
+      "evidence": "example+google:82"
+    },
+    "4382": {
+      "original": "મરિજયાત",
+      "word": "મરજિયાત",
+      "romanization": "marajiyāt",
+      "ipa": "/məɾəd͡ʒɪjɑːt̪/",
+      "evidence": "normalized+wordlist",
+      "example": "એ કામ મરજિયાત હતું, કોઈએ મને મજબૂર નહોતું કર્યું.",
+      "example_romanization": "e kām marajiyāt hatuṃ, koīe mane majabūr nahotuṃ karyuṃ."
+    },
+    "4388": {
+      "original": "મરિણયું",
+      "word": "મરણિયું",
+      "romanization": "maraṇiyuṃ",
+      "ipa": "/məɾəɳɪjũ/",
+      "evidence": "normalized+wordlist",
+      "example": "તેની પરિસ્થિતિ એટલી મરણિયું હતી કે તેને કોઈ રસ્તો દેખાતો ન હતો.",
+      "example_romanization": "tenī paristhiti eṭalī maraṇiyuṃ hatī ke tene koī rasto dekhāto na hato."
+    },
+    "4392": {
+      "original": "મરિસયો",
+      "word": "મરસિયો",
+      "romanization": "marasiyo",
+      "ipa": "/məɾəs̪ɪjoː/",
+      "evidence": "normalized+wordlist",
+      "example": "તેના પિતાના અવસાન પછી, તેણે એક હૃદયસ્પર્શી મરસિયો ગાયો.",
+      "example_romanization": "tenā pitānā avasān pachī, teṇe ek hṛdayasparśī marasiyo gāyo."
+    },
+    "4400": {
+      "original": "મયાર્િદત",
+      "word": "મર્યાદિત",
+      "romanization": "maryādit",
+      "ipa": "/məɾjɑːd̪ɪt̪/",
+      "evidence": "manual-context-review"
+    },
+    "4412": {
+      "original": "મસાિણયા",
+      "word": "મસાણિયા",
+      "romanization": "masāṇiyā",
+      "ipa": "/məs̪ɑːɳɪjɑː/",
+      "evidence": "manual-context-review"
+    },
+    "4428": {
+      "original": "મિહનો",
+      "word": "મહિનો",
+      "romanization": "mahino",
+      "ipa": "/məɦɪn̪oː/",
+      "evidence": "normalized+wordlist",
+      "example": "એક મહિનો 30 કે 31 દિવસનો બનેલો હોય છે.",
+      "example_romanization": "ek mahino 30 ke 31 divasano banelo hoy che."
+    },
+    "4429": {
+      "original": "મિહલા",
+      "word": "મહિલા",
+      "romanization": "mahilā",
+      "ipa": "/məɦɪlɑː/",
+      "evidence": "normalized+wordlist",
+      "example": "એક સુંદર મહિલા બગીચામાં ફૂલો વીણી રહી હતી.",
+      "example_romanization": "ek suṃdar mahilā bagīcāmāṃ phūlo vīṇī rahī hatī."
+    },
+    "4447": {
+      "original": "મંગળસૂત્ર્ા",
+      "word": "મંગળસૂત્ર",
+      "romanization": "maṃgal̤asūtr",
+      "ipa": "/mə̃gəɭəs̪uːt̪ɾ/",
+      "evidence": "wordlist-nearest:95"
+    },
+    "4456": {
+      "original": "મંત્ર્ા",
+      "word": "મંત્ર",
+      "romanization": "maṃtr",
+      "ipa": "/mə̃t̪ɾ/",
+      "evidence": "manual-context-review"
+    },
+    "4457": {
+      "original": "મંત્ર્ાી",
+      "word": "મંત્રી",
+      "romanization": "maṃtrī",
+      "ipa": "/mə̃t̪ɾiː/",
+      "evidence": "wordlist-nearest:92"
+    },
+    "4461": {
+      "original": "મંિદર",
+      "word": "મંદિર",
+      "romanization": "maṃdir",
+      "ipa": "/mə̃d̪ɪɾ/",
+      "evidence": "normalized+wordlist"
+    },
+    "4486": {
+      "original": "માત્ર્ા",
+      "word": "માત્ર",
+      "romanization": "mātr",
+      "ipa": "/mɑːt̪ɾ/",
+      "evidence": "manual-context-review",
+      "example": "એ માત્ર એક જ વાર આવ્યો હતો.",
+      "example_romanization": "e mātr ek ja vār āvyo hato."
+    },
+    "4487": {
+      "original": "માત્ર્ાા",
+      "word": "માત્રા",
+      "romanization": "mātrā",
+      "ipa": "/mɑːt̪ɾɑː/",
+      "evidence": "wordlist-nearest:92"
+    },
+    "4492": {
+      "original": "માદિળયું",
+      "word": "માદળિયું",
+      "romanization": "mādal̤iyuṃ",
+      "ipa": "/mɑːd̪əɭɪjũ/",
+      "evidence": "normalized+wordlist",
+      "example": "તેણીએ પોતાના બાળકને રક્ષણ આપવા માટે એક માદળિયું પહેર્યું.",
+      "example_romanization": "teṇīe potānā bāl̤akane rakṣaṇ āpavā māṭe ek mādal̤iyuṃ paheryuṃ."
+    },
+    "4501": {
+      "original": "માનિસક",
+      "word": "માનસિક",
+      "romanization": "mānasik",
+      "ipa": "/mɑːn̪əs̪ɪk/",
+      "evidence": "example+google:83"
+    },
+    "4519": {
+      "original": "માિમર્ક",
+      "word": "માર્મિક",
+      "romanization": "mārmik",
+      "ipa": "/mɑːɾmɪk/",
+      "evidence": "manual-context-review"
+    },
+    "4523": {
+      "original": "માલિમલકત",
+      "word": "માલમિલકત",
+      "romanization": "mālamilakat",
+      "ipa": "/mɑːləmɪləkət̪/",
+      "evidence": "normalized+wordlist",
+      "example": "તેણે પોતાની માલમિલકત વેચવાનો નિર્ણય કર્યો.",
+      "example_romanization": "teṇe potānī mālamilakat vecavāno nirṇay karyo."
+    },
+    "4524": {
+      "original": "માિલક",
+      "word": "માલિક",
+      "romanization": "mālik",
+      "ipa": "/mɑːlɪk/",
+      "evidence": "example+google:80"
+    },
+    "4525": {
+      "original": "માિલકી",
+      "word": "માલિકી",
+      "romanization": "mālikī",
+      "ipa": "/mɑːlɪkiː/",
+      "evidence": "example+google:83"
+    },
+    "4526": {
+      "original": "માિલશ",
+      "word": "માલિશ",
+      "romanization": "māliś",
+      "ipa": "/mɑːlɪʃ/",
+      "evidence": "example+google:80"
+    },
+    "4529": {
+      "original": "માવિડયું",
+      "word": "માવડિયું",
+      "romanization": "māvaḍiyuṃ",
+      "ipa": "/mɑːʋəɖɪjũ/",
+      "evidence": "normalized+wordlist",
+      "example": "એ છોકરો એટલો માવડિયું છે કે એની મા જે કહે એ બધું જ કરે છે.",
+      "example_romanization": "e chokaro eṭalo māvaḍiyuṃ che ke enī mā je kahe e badhuṃ ja kare che."
+    },
+    "4534": {
+      "original": "માિસક",
+      "word": "માસિક",
+      "romanization": "māsik",
+      "ipa": "/mɑːs̪ɪk/",
+      "evidence": "example+google:80"
+    },
+    "4535": {
+      "original": "માિસક",
+      "word": "માસિક",
+      "romanization": "māsik",
+      "ipa": "/mɑːs̪ɪk/",
+      "evidence": "example+google:80"
+    },
+    "4537": {
+      "original": "માિહતી",
+      "word": "માહિતી",
+      "romanization": "māhitī",
+      "ipa": "/mɑːɦɪt̪iː/",
+      "evidence": "example+google:83"
+    },
+    "4541": {
+      "original": "માિળયું",
+      "word": "માળિયું",
+      "romanization": "māl̤iyuṃ",
+      "ipa": "/mɑːɭɪjũ/",
+      "evidence": "normalized+wordlist"
+    },
+    "4570": {
+      "original": "મીણબત્ત્ાી",
+      "word": "મીણબત્તી",
+      "romanization": "mīṇabattī",
+      "ipa": "/miːɳəbət̪t̪iː/",
+      "evidence": "example+google:89"
+    },
+    "4577": {
+      "original": "મુિકત",
+      "word": "મુક્તિ",
+      "romanization": "mukti",
+      "ipa": "/mukt̪ɪ/",
+      "evidence": "manual-context-review"
+    },
+    "4590": {
+      "original": "મુફિલસ",
+      "word": "મુફલિસ",
+      "romanization": "muphalis",
+      "ipa": "/mupʰəlɪs̪/",
+      "evidence": "normalized+wordlist",
+      "example": "તેની પાસે એક પૈસો પણ નથી, તે સાવ મુફલિસ છે.",
+      "example_romanization": "tenī pāse ek paiso paṇ nathī, te sāv muphalis che."
+    },
+    "4592": {
+      "original": "મુરિતયો",
+      "word": "મુરતિયો",
+      "romanization": "muratiyo",
+      "ipa": "/muɾət̪ɪjoː/",
+      "evidence": "normalized+wordlist",
+      "example": "સીતાના લગ્ન માટે ઘણા મુરતિયો આવ્યા હતા.",
+      "example_romanization": "sītānā lagn māṭe ghaṇā muratiyo āvyā hatā."
+    },
+    "4608": {
+      "original": "મુિસ્લમ",
+      "word": "મુસ્લિમ",
+      "romanization": "muslim",
+      "ipa": "/mus̪lɪm/",
+      "evidence": "normalized+wordlist"
+    },
+    "4616": {
+      "original": "મૂત્ર્ાાશય",
+      "word": "મૂત્રાશય",
+      "romanization": "mūtrāśay",
+      "ipa": "/muːt̪ɾɑːʃəj/",
+      "evidence": "example+google:89"
+    },
+    "4618": {
+      "original": "મૂતર્",
+      "word": "મૂર્ત",
+      "romanization": "mūrt",
+      "ipa": "/muːɾt̪/",
+      "evidence": "example+google:80"
+    },
+    "4619": {
+      "original": "મૂિતર્",
+      "word": "મૂર્તિ",
+      "romanization": "mūrti",
+      "ipa": "/muːɾt̪ɪ/",
+      "evidence": "manual-context-review"
+    },
+    "4629": {
+      "original": "મૃત્યું",
+      "word": "મૃત્યુ",
+      "romanization": "mṛtyu",
+      "ipa": "/mɾɨt̪ju/",
+      "evidence": "example+google:92"
+    },
+    "4634": {
+      "original": "મેથી.  મેથીયું",
+      "word": "મેથીયું",
+      "romanization": "methīyuṃ",
+      "ipa": "/meːt̪ʰiːjũ/",
+      "evidence": "manual-context-review"
+    },
+    "4635": {
+      "original": "મેથી.  મેદ",
+      "word": "મેદ",
+      "romanization": "med",
+      "ipa": "/meːd̪/",
+      "evidence": "manual-context-review"
+    },
+    "4672": {
+      "original": "મોિતયો",
+      "word": "મોતિયો",
+      "romanization": "motiyo",
+      "ipa": "/moːt̪ɪjoː/",
+      "evidence": "normalized+wordlist"
+    },
+    "4681": {
+      "original": "મોિરયો",
+      "word": "મોરિયો",
+      "romanization": "moriyo",
+      "ipa": "/moːɾɪjoː/",
+      "evidence": "normalized+wordlist",
+      "example": "ખેતરમાં ઘણો મોરિયો ઉગ્યો છે.",
+      "example_romanization": "khetaramāṃ ghaṇo moriyo ugyo che."
+    },
+    "4704": {
+      "original": "યજ્ઞ્ા",
+      "word": "યજ્ઞ",
+      "romanization": "yajñ",
+      "ipa": "/jəd͡ʒɲ/",
+      "evidence": "manual-context-review"
+    },
+    "4707": {
+      "original": "યંત્ર્ા",
+      "word": "યંત્ર",
+      "romanization": "yaṃtr",
+      "ipa": "/jə̃t̪ɾ/",
+      "evidence": "manual-context-review"
+    },
+    "4709": {
+      "original": "યાત્ર્ાા",
+      "word": "યાત્રા",
+      "romanization": "yātrā",
+      "ipa": "/jɑːt̪ɾɑː/",
+      "evidence": "example+google:86"
+    },
+    "4714": {
+      "original": "યાંિત્ર્ાક",
+      "word": "યાંત્રિક",
+      "romanization": "yāṃtrik",
+      "ipa": "/jɑ̃ːt̪ɾɪk/",
+      "evidence": "wordlist-nearest:94"
+    },
+    "4715": {
+      "original": "યુિકત",
+      "word": "યુક્તિ",
+      "romanization": "yukti",
+      "ipa": "/jukt̪ɪ/",
+      "evidence": "manual-context-review"
+    },
+    "4717": {
+      "original": "યુધ્ધ",
+      "word": "યુદ્ધ",
+      "romanization": "yuddh",
+      "ipa": "/jud̪d̪ʰ/",
+      "evidence": "normalized+wordlist"
+    },
+    "4721": {
+      "original": "યુવરાજ્ઞ્ાી",
+      "word": "યુવરાજ્ઞી",
+      "romanization": "yuvarājñī",
+      "ipa": "/juʋəɾɑːd͡ʒɲiː/",
+      "evidence": "manual-context-review"
+    },
+    "4724": {
+      "original": "યોિગની",
+      "word": "યોગિની",
+      "romanization": "yoginī",
+      "ipa": "/joːgɪn̪iː/",
+      "evidence": "normalized+wordlist"
+    },
+    "4730": {
+      "original": "યોિન",
+      "word": "યોનિ",
+      "romanization": "yoni",
+      "ipa": "/joːn̪ɪ/",
+      "evidence": "normalized+wordlist",
+      "example": "સ્ત્રીની યોનિ પ્રજનન માટે મહત્વપૂર્ણ અંગ છે.",
+      "example_romanization": "strīnī yoni prajanan māṭe mahatvapūrṇ aṃga che."
+    },
+    "4744": {
+      "original": "રગિશયું",
+      "word": "રગશિયું",
+      "romanization": "ragaśiyuṃ",
+      "ipa": "/ɾəgəʃɪjũ/",
+      "evidence": "normalized+wordlist",
+      "example": "આ કામ ખૂબ જ રગશિયું છે અને તેને પૂર્ણ કરવામાં ઘણો સમય લાગશે.",
+      "example_romanization": "ā kām khūb ja ragaśiyuṃ che ane tene pūrṇ karavāmāṃ ghaṇo samay lāgaśe."
+    },
+    "4747": {
+      "original": "રચિયતા",
+      "word": "રચયિતા",
+      "romanization": "racayitā",
+      "ipa": "/ɾət͡ʃəjɪt̪ɑː/",
+      "evidence": "normalized+wordlist",
+      "example": "મહાન રચયિતા રવીન્દ્રનાથ ટાગોરે ઘણી સુંદર કવિતાઓ લખી છે.",
+      "example_romanization": "mahān racayitā ravīndranāth ṭāgore ghaṇī suṃdar kavitāo lakhī che."
+    },
+    "4757": {
+      "original": "રજાિચઠ્ઠી",
+      "word": "રજાચિઠ્ઠી",
+      "romanization": "rajāciṭhṭhī",
+      "ipa": "/ɾəd͡ʒɑːt͡ʃɪʈʰʈʰiː/",
+      "evidence": "normalized+wordlist"
+    },
+    "4761": {
+      "original": "રિઢયાળું",
+      "word": "રઢિયાળું",
+      "romanization": "raḍhiyāl̤uṃ",
+      "ipa": "/ɾəɖʰɪjɑːɭũ/",
+      "evidence": "normalized+wordlist",
+      "example": "એ નૃત્યનાટિકા ખરેખર રઢિયાળું હતું અને પ્રેક્ષકોને મંત્રમુગ્ધ કરી દીધા હતા.",
+      "example_romanization": "e nṛtyanāṭikā kharekhar raḍhiyāl̤uṃ hatuṃ ane prekṣakone maṃtramugdh karī dīdhā hatā."
+    },
+    "4782": {
+      "original": "રમિતયાળ",
+      "word": "રમતિયાળ",
+      "romanization": "ramatiyāl̤",
+      "ipa": "/ɾəmət̪ɪjɑːɭ/",
+      "evidence": "normalized+wordlist",
+      "example": "નાના બાળકો હંમેશા રમતિયાળ અને આનંદિત હોય છે.",
+      "example_romanization": "nānā bāl̤ako haṃmeśā ramatiyāl̤ ane ānaṃdit hoy che."
+    },
+    "4787": {
+      "original": "રિવવાર",
+      "word": "રવિવાર",
+      "romanization": "ravivār",
+      "ipa": "/ɾəʋɪʋɑːɾ/",
+      "evidence": "normalized+wordlist"
+    },
+    "4794": {
+      "original": "રિસક",
+      "word": "રસિક",
+      "romanization": "rasik",
+      "ipa": "/ɾəs̪ɪk/",
+      "evidence": "normalized+wordlist",
+      "example": "તેની રસિક કવિતાઓ સૌને ભાવે છે.",
+      "example_romanization": "tenī rasik kavitāo saune bhāve che."
+    },
+    "4810": {
+      "original": "રિળયામણું",
+      "word": "રળિયામણું",
+      "romanization": "ral̤iyāmaṇuṃ",
+      "ipa": "/ɾəɭɪjɑːməɳũ/",
+      "evidence": "normalized+wordlist"
+    },
+    "4813": {
+      "original": "રંગભૂિમ",
+      "word": "રંગભૂમિ",
+      "romanization": "raṃgabhūmi",
+      "ipa": "/ɾə̃gəbʰuːmɪ/",
+      "evidence": "normalized+wordlist"
+    },
+    "4835": {
+      "original": "રાજનીિત",
+      "word": "રાજનીતિ",
+      "romanization": "rājanīti",
+      "ipa": "/ɾɑːd͡ʒən̪iːt̪ɪ/",
+      "evidence": "normalized+wordlist",
+      "example": "ભારતમાં રાજનીતિ એ એક જટિલ વિષય છે.",
+      "example_romanization": "bhāratamāṃ rājanīti e ek jaṭil viṣay che."
+    },
+    "4836": {
+      "original": "રાજનૈિતક",
+      "word": "રાજનૈતિક",
+      "romanization": "rājanaitik",
+      "ipa": "/ɾɑːd͡ʒən̪əɪt̪ɪk/",
+      "evidence": "normalized+wordlist"
+    },
+    "4841": {
+      "original": "રાજયાિભષેક",
+      "word": "રાજ્યાભિષેક",
+      "romanization": "rājyābhiṣek",
+      "ipa": "/ɾɑːd͡ʒjɑːbʰɪʂeːk/",
+      "evidence": "wordlist-nearest:95",
+      "example": "રાજાના રાજ્યાભિષેકનો ભવ્ય સમારોહ યોજાયો હતો.",
+      "example_romanization": "rājānā rājyābhiṣekano bhavy samāroh yojāyo hato."
+    },
+    "4847": {
+      "original": "રાતિદવસ",
+      "word": "રાતદિવસ",
+      "romanization": "rātadivas",
+      "ipa": "/ɾɑːt̪əd̪ɪʋəs̪/",
+      "evidence": "normalized+wordlist",
+      "example": "તેઓ રાતદિવસ મહેનત કરીને પરીક્ષા માટે તૈયારી કરે છે.",
+      "example_romanization": "teo rātadivas mahenat karīne parīkṣā māṭe taiyārī kare che."
+    },
+    "4867": {
+      "original": "રાવિણયો",
+      "word": "રાવણિયો",
+      "romanization": "rāvaṇiyo",
+      "ipa": "/ɾɑːʋəɳɪjoː/",
+      "evidence": "normalized+wordlist"
+    },
+    "4871": {
+      "original": "રાસાયિણક",
+      "word": "રાસાયણિક",
+      "romanization": "rāsāyaṇik",
+      "ipa": "/ɾɑːs̪ɑːjəɳɪk/",
+      "evidence": "example+google:88"
+    },
+    "4884": {
+      "original": "રીતિરવાજ",
+      "word": "રીતરિવાજ",
+      "romanization": "rītarivāj",
+      "ipa": "/ɾiːt̪əɾɪʋɑːd͡ʒ/",
+      "evidence": "normalized+wordlist",
+      "example": "દરેક સમાજમાં અલગ અલગ રીતરિવાજ હોય છે.",
+      "example_romanization": "darek samājamāṃ alag alag rītarivāj hoy che."
+    },
+    "4889": {
+      "original": "રુિચ",
+      "word": "રુચિ",
+      "romanization": "ruci",
+      "ipa": "/ɾut͡ʃɪ/",
+      "evidence": "normalized+wordlist"
+    },
+    "4890": {
+      "original": "રુિચકર",
+      "word": "રુચિકર",
+      "romanization": "rucikar",
+      "ipa": "/ɾut͡ʃɪkəɾ/",
+      "evidence": "normalized+wordlist"
+    },
+    "4892": {
+      "original": "રુિધર",
+      "word": "રુધિર",
+      "romanization": "rudhir",
+      "ipa": "/ɾud̪ʰɪɾ/",
+      "evidence": "normalized+wordlist"
+    },
+    "4898": {
+      "original": "રૂિઢ",
+      "word": "રૂઢિ",
+      "romanization": "rūḍhi",
+      "ipa": "/ɾuːɖʰɪ/",
+      "evidence": "normalized+wordlist"
+    },
+    "4904": {
+      "original": "રૂિપયો",
+      "word": "રૂપિયો",
+      "romanization": "rūpiyo",
+      "ipa": "/ɾuːpɪjoː/",
+      "evidence": "normalized+wordlist",
+      "example": "ભારતમાં, લોકો ચીજવસ્તુઓ ખરીદવા માટે રૂપિયાનો ઉપયોગ કરે છે.",
+      "example_romanization": "bhāratamāṃ, loko cījavastuo kharīdavā māṭe rūpiyāno upayog kare che."
+    },
+    "4915": {
+      "original": "રેિઢયાળ",
+      "word": "રેઢિયાળ",
+      "romanization": "reḍhiyāl̤",
+      "ipa": "/ɾeːɖʰɪjɑːɭ/",
+      "evidence": "normalized+wordlist",
+      "example": "ગલીમાં ઘણા રેઢિયાળ કૂતરા ભટકતા હતા.",
+      "example_romanization": "galīmāṃ ghaṇā reḍhiyāl̤ kūtarā bhaṭakatā hatā."
+    },
+    "4933": {
+      "original": "રોિગયું",
+      "word": "રોગિયું",
+      "romanization": "rogiyuṃ",
+      "ipa": "/ɾoːgɪjũ/",
+      "evidence": "normalized+wordlist"
+    },
+    "4952": {
+      "original": "લખપિત",
+      "word": "લખપતિ",
+      "romanization": "lakhapati",
+      "ipa": "/ləkʰəpət̪ɪ/",
+      "evidence": "normalized+wordlist"
+    },
+    "4976": {
+      "original": "લજજા",
+      "word": "લજ્જા",
+      "romanization": "lajjā",
+      "ipa": "/ləd͡ʒd͡ʒɑː/",
+      "evidence": "example+google:89"
+    },
+    "4987": {
+      "original": "લત્ત્ાો",
+      "word": "લત્તો",
+      "romanization": "latto",
+      "ipa": "/lət̪t̪oː/",
+      "evidence": "manual-context-review"
+    },
+    "5024": {
+      "original": "લિવંગ",
+      "word": "લવિંગ",
+      "romanization": "laviṃg",
+      "ipa": "/ləʋɪ̃g/",
+      "evidence": "normalized+wordlist",
+      "example": "તે ખાંડ અને લવિંગ ઉમેરીને ચા બનાવે છે.",
+      "example_romanization": "te khāṃḍ ane laviṃg umerīne cā banāve che."
+    },
+    "5025": {
+      "original": "લિવંિગયું",
+      "word": "લવિંગિયું",
+      "romanization": "laviṃgiyuṃ",
+      "ipa": "/ləʋɪ̃gɪjũ/",
+      "evidence": "normalized+wordlist",
+      "example": "તે લવિંગના આકારનું એક નાનકડું લવિંગિયું ફળ છે.",
+      "example_romanization": "te laviṃganā ākāranuṃ ek nānakaḍuṃ laviṃgiyuṃ phal̤ che."
+    },
+    "5032": {
+      "original": "લિહયો",
+      "word": "લહિયો",
+      "romanization": "lahiyo",
+      "ipa": "/ləɦɪjoː/",
+      "evidence": "normalized+wordlist",
+      "example": "મારા દાદાજી એક લહિયો હતા અને તેમણે ઘણી જૂની હસ્તપ્રતોની નકલ કરી હતી.",
+      "example_romanization": "mārā dādājī ek lahiyo hatā ane temaṇe ghaṇī jūnī hastapratonī nakal karī hatī."
+    },
+    "5046": {
+      "original": "લાક્ષિણક",
+      "word": "લાક્ષણિક",
+      "romanization": "lākṣaṇik",
+      "ipa": "/lɑːkʂəɳɪk/",
+      "evidence": "example+google:88"
+    },
+    "5079": {
+      "original": "લાિલમા",
+      "word": "લાલિમા",
+      "romanization": "lālimā",
+      "ipa": "/lɑːlɪmɑː/",
+      "evidence": "normalized+wordlist"
+    },
+    "5115": {
+      "original": "લુછિણયું",
+      "word": "લુછણિયું",
+      "romanization": "luchaṇiyuṃ",
+      "ipa": "/lut͡ʃʰəɳɪjũ/",
+      "evidence": "normalized+wordlist",
+      "example": "રસોડામાં વાસણ લૂછવા માટે મેં એક નવું લુછણિયું ખરીદ્યું.",
+      "example_romanization": "rasoḍāmāṃ vāsaṇ lūchavā māṭe meṃ ek navuṃ luchaṇiyuṃ kharīdyuṃ."
+    },
+    "5121": {
+      "original": "લુગડાંલત્ત્ાાં",
+      "word": "લૂગડાંલત્તાં",
+      "romanization": "lūgaḍāṃlattāṃ",
+      "ipa": "/luːgəɖɑ̃ːlət̪t̪ɑ̃ː/",
+      "evidence": "manual-context-review"
+    },
+    "5149": {
+      "original": "લોકિપ્રય",
+      "word": "લોકપ્રિય",
+      "romanization": "lokapriy",
+      "ipa": "/loːkəpɾɪj/",
+      "evidence": "example+google:88"
+    },
+    "5153": {
+      "original": "લોકિહત",
+      "word": "લોકહિત",
+      "romanization": "lokahit",
+      "ipa": "/loːkəɦɪt̪/",
+      "evidence": "normalized+wordlist"
+    },
+    "5155": {
+      "original": "લોકોિકત",
+      "word": "લોકોક્તિ",
+      "romanization": "lokokti",
+      "ipa": "/loːkoːkt̪ɪ/",
+      "evidence": "manual-context-review",
+      "example": "એક જૂની લોકોક્તિ છે કે, \"જેવું વાવશો તેવું લણશો.\"",
+      "example_romanization": "ek jūnī lokokti che ke, \"jevuṃ vāvaśo tevuṃ laṇaśo.\""
+    },
+    "5156": {
+      "original": "લોકોત્ત્ાર",
+      "word": "લોકોત્તર",
+      "romanization": "lokottar",
+      "ipa": "/loːkoːt̪t̪əɾ/",
+      "evidence": "wordlist-nearest:94"
+    },
+    "5176": {
+      "original": "લોિળયું",
+      "word": "લોળિયું",
+      "romanization": "lol̤iyuṃ",
+      "ipa": "/loːɭɪjũ/",
+      "evidence": "normalized+wordlist"
+    },
+    "5183": {
+      "original": "વકતા",
+      "word": "વક્તા",
+      "romanization": "vaktā",
+      "ipa": "/ʋəkt̪ɑː/",
+      "evidence": "example+google:89"
+    },
+    "5223": {
+      "original": "વડીલોપાિજર્ત",
+      "word": "વડીલોપાર્જિત",
+      "romanization": "vaḍīlopārjit",
+      "ipa": "/ʋəɖiːloːpɑːɾd͡ʒɪt̪/",
+      "evidence": "manual-context-review"
+    },
+    "5249": {
+      "original": "વનસ્પિત",
+      "word": "વનસ્પતિ",
+      "romanization": "vanaspati",
+      "ipa": "/ʋən̪əs̪pət̪ɪ/",
+      "evidence": "normalized+wordlist",
+      "example": "આ વિસ્તારમાં ઘણી સુંદર વનસ્પતિ છે.",
+      "example_romanization": "ā vistāramāṃ ghaṇī suṃdar vanaspati che."
+    },
+    "5255": {
+      "original": "વયોવૃધ્ધ",
+      "word": "વયોવૃદ્ધ",
+      "romanization": "vayovṛddh",
+      "ipa": "/ʋəjoːʋɾɨd̪d̪ʰ/",
+      "evidence": "normalized+wordlist",
+      "example": "તેના વયોવૃદ્ધ માતાપિતા હવે એકલા રહેતા હતા.",
+      "example_romanization": "tenā vayovṛddh mātāpitā have ekalā rahetā hatā."
+    },
+    "5261": {
+      "original": "વરણાિગયું",
+      "word": "વરણાગિયું",
+      "romanization": "varaṇāgiyuṃ",
+      "ipa": "/ʋəɾəɳɑːgɪjũ/",
+      "evidence": "normalized+wordlist"
+    },
+    "5273": {
+      "original": "વિરયાળી",
+      "word": "વરિયાળી",
+      "romanization": "variyāl̤ī",
+      "ipa": "/ʋəɾɪjɑːɭiː/",
+      "evidence": "normalized+wordlist",
+      "example": "વરિયાળીનો ઉપયોગ ગુજરાતી વાનગીઓમાં સુગંધ માટે થાય છે.",
+      "example_romanization": "variyāl̤īno upayog gujarātī vānagīomāṃ sugaṃdh māṭe thāy che."
+    },
+    "5274": {
+      "original": "વિરષ્ઠ",
+      "word": "વરિષ્ઠ",
+      "romanization": "variṣṭh",
+      "ipa": "/ʋəɾɪʂʈʰ/",
+      "evidence": "normalized+wordlist",
+      "example": "તે કંપનીના વરિષ્ઠ અધિકારી છે.",
+      "example_romanization": "te kaṃpanīnā variṣṭh adhikārī che."
+    },
+    "5279": {
+      "original": "વગર્િવગ્રહ",
+      "word": "વર્ગવિગ્રહ",
+      "romanization": "vargavigrah",
+      "ipa": "/ʋəɾgəʋɪgɾəɦ/",
+      "evidence": "manual-context-review"
+    },
+    "5285": {
+      "original": "વણર્ન",
+      "word": "વર્ણન",
+      "romanization": "varṇan",
+      "ipa": "/ʋəɾɳən̪/",
+      "evidence": "example+google:80"
+    },
+    "5290": {
+      "original": "વતર્ન",
+      "word": "વર્તન",
+      "romanization": "vartan",
+      "ipa": "/ʋəɾt̪ən̪/",
+      "evidence": "example+google:80"
+    },
+    "5291": {
+      "original": "વતર્માન",
+      "word": "વર્તમાન",
+      "romanization": "vartamān",
+      "ipa": "/ʋəɾt̪əmɑːn̪/",
+      "evidence": "example+google:86"
+    },
+    "5295": {
+      "original": "વષાર્ઋતુ",
+      "word": "વષાર્ઋતુ",
+      "romanization": "vaṣārṛtu",
+      "ipa": "/ʋəʂɑːɾɾɨt̪u/",
+      "evidence": "pronunciation-validation"
+    },
+    "5299": {
+      "original": "વલોપાિતયું",
+      "word": "વલોપાતિયું",
+      "romanization": "valopātiyuṃ",
+      "ipa": "/ʋəloːpɑːt̪ɪjũ/",
+      "evidence": "normalized+wordlist"
+    },
+    "5300": {
+      "original": "વસિત",
+      "word": "વસતિ",
+      "romanization": "vasati",
+      "ipa": "/ʋəs̪ət̪ɪ/",
+      "evidence": "normalized+wordlist",
+      "example": "ભારતની વસતિ ઘણી વિશાળ છે.",
+      "example_romanization": "bhāratanī vasati ghaṇī viśāl̤ che."
+    },
+    "5309": {
+      "original": "વિસયત",
+      "word": "વસિયત",
+      "romanization": "vasiyat",
+      "ipa": "/ʋəs̪ɪjət̪/",
+      "evidence": "normalized+wordlist",
+      "example": "તેમણે પોતાની વસિયત પ્રમાણે સંપત્તિનું વિતરણ કર્યું.",
+      "example_romanization": "temaṇe potānī vasiyat pramāṇe saṃpattinuṃ vitaraṇ karyuṃ."
+    },
+    "5310": {
+      "original": "વિસયતનામું",
+      "word": "વસિયતનામું",
+      "romanization": "vasiyatanāmuṃ",
+      "ipa": "/ʋəs̪ɪjət̪ən̪ɑːmũ/",
+      "evidence": "normalized+wordlist",
+      "example": "તેમણે પોતાની મિલકત વિશે વસિયતનામું લખ્યું હતું.",
+      "example_romanization": "temaṇe potānī milakat viśe vasiyatanāmuṃ lakhyuṃ hatuṃ."
+    },
+    "5315": {
+      "original": "વસ્તીપત્ર્ાક",
+      "word": "વસ્તીપત્રક",
+      "romanization": "vastīpatrak",
+      "ipa": "/ʋəs̪t̪iːpət̪ɾək/",
+      "evidence": "wordlist-nearest:95"
+    },
+    "5317": {
+      "original": "વસ્ત્ર્ા",
+      "word": "વસ્ત્ર",
+      "romanization": "vastra",
+      "ipa": "/ʋəs̪t̪ɾə/",
+      "evidence": "wordlist-nearest:92"
+    },
+    "5331": {
+      "original": "વહેિળયું",
+      "word": "વહેળિયું",
+      "romanization": "vahel̤iyuṃ",
+      "ipa": "/ʋəɦeːɭɪjũ/",
+      "evidence": "normalized+wordlist",
+      "example": "નાનકડું વહેળિયું ખેતરોની વચ્ચેથી વહેતું હતું.",
+      "example_romanization": "nānakaḍuṃ vahel̤iyuṃ khetaronī vaccethī vahetuṃ hatuṃ."
+    },
+    "5356": {
+      "original": "વાકય",
+      "word": "વાક્ય",
+      "romanization": "vāky",
+      "ipa": "/ʋɑːkj/",
+      "evidence": "example+google:89"
+    },
+    "5371": {
+      "original": "વાિજંત્ર્ા",
+      "word": "વાજિંત્ર",
+      "romanization": "vājiṃtr",
+      "ipa": "/ʋɑːd͡ʒɪ̃t̪ɾ/",
+      "evidence": "wordlist-nearest:94"
+    },
+    "5383": {
+      "original": "વાિણજય",
+      "word": "વાણિજ્ય",
+      "romanization": "vāṇijy",
+      "ipa": "/ʋɑːɳɪd͡ʒj/",
+      "evidence": "wordlist-nearest:92"
+    },
+    "5384": {
+      "original": "વાિણયણ",
+      "word": "વાણિયણ",
+      "romanization": "vāṇiyaṇ",
+      "ipa": "/ʋɑːɳɪjəɳ/",
+      "evidence": "normalized+wordlist"
+    },
+    "5385": {
+      "original": "વાિણયો",
+      "word": "વાણિયો",
+      "romanization": "vāṇiyo",
+      "ipa": "/ʋɑːɳɪjoː/",
+      "evidence": "normalized+wordlist",
+      "example": "એ વાણિયો પોતાની દુકાનમાં કપડાં વેચે છે.",
+      "example_romanization": "e vāṇiyo potānī dukānamāṃ kapaḍāṃ vece che."
+    },
+    "5393": {
+      "original": "વાદિળયું",
+      "word": "વાદળિયું",
+      "romanization": "vādal̤iyuṃ",
+      "ipa": "/ʋɑːd̪əɭɪjũ/",
+      "evidence": "normalized+wordlist",
+      "example": "આજે આકાશ વાદળિયું છે અને વરસાદ પડવાની શક્યતા છે.",
+      "example_romanization": "āje ākāś vādal̤iyuṃ che ane varasād paḍavānī śakyatā che."
+    },
+    "5417": {
+      "original": "વાિષર્ક",
+      "word": "વાર્ષિક",
+      "romanization": "vārṣik",
+      "ipa": "/ʋɑːɾʂɪk/",
+      "evidence": "manual-context-review"
+    },
+    "5432": {
+      "original": "વાસવુૂં",
+      "word": "વસવું",
+      "romanization": "vasavuṃ",
+      "ipa": "/ʋəs̪əʋũ/",
+      "evidence": "manual-context-review"
+    },
+    "5435": {
+      "original": "વાસ્તિવક",
+      "word": "વાસ્તવિક",
+      "romanization": "vāstavik",
+      "ipa": "/ʋɑːs̪t̪əʋɪk/",
+      "evidence": "normalized+wordlist",
+      "example": "આ વાસ્તવિક જીવનની ઘટના છે, કાલ્પનિક નથી.",
+      "example_romanization": "ā vāstavik jīvananī ghaṭanā che, kālpanik nathī."
+    },
+    "5440": {
+      "original": "વાિહયાત",
+      "word": "વાહિયાત",
+      "romanization": "vāhiyāt",
+      "ipa": "/ʋɑːɦɪjɑːt̪/",
+      "evidence": "example+google:86"
+    },
+    "5510": {
+      "original": "વિદ્યા",
+      "word": "વિદ્યા",
+      "romanization": "vidyā",
+      "ipa": "/ʋɪd̪jɑː/",
+      "evidence": "example-encoding-review",
+      "example": "વિદ્યા એ સૌથી મોટું ધન છે.",
+      "example_romanization": "vidyā e sauthī moṭuṃ dhan che."
+    },
+    "5512": {
+      "original": "વિદ્યાર્થી",
+      "word": "વિદ્યાર્થી",
+      "romanization": "vidyārthī",
+      "ipa": "/ʋɪd̪jɑːɾt̪ʰiː/",
+      "evidence": "example-encoding-review",
+      "example": "વિદ્યાર્થી પરીક્ષા માટે મહેનત કરી રહ્યો છે.",
+      "example_romanization": "vidyārthī parīkṣā māṭe mahenat karī rahyo che."
+    },
+    "5519": {
+      "original": "વિધવાવિવાહ",
+      "word": "વિધવાવિવાહ",
+      "romanization": "vidhavāvivāh",
+      "ipa": "/ʋɪd̪ʰəʋɑːʋɪʋɑːɦ/",
+      "evidence": "example-encoding-review",
+      "example": "ભારતમાં વિધવાવિવાહ હવે કાયદેસર છે અને સામાજિક રીતે સ્વીકૃત છે.",
+      "example_romanization": "bhāratamāṃ vidhavāvivāh have kāyadesar che ane sāmājik rīte svīkṛt che."
+    },
+    "5524": {
+      "original": "વિધિ",
+      "word": "વિધિ",
+      "romanization": "vidhi",
+      "ipa": "/ʋɪd̪ʰɪ/",
+      "evidence": "example-encoding-review",
+      "example": "વિધિ એ જ સર્વોચ્ચ સત્તા છે જે આપણા જીવનનો માર્ગ નક્કી કરે છે.",
+      "example_romanization": "vidhi e ja sarvocc sattā che je āpaṇā jīvanano mārg nakkī kare che."
+    },
+    "5548": {
+      "original": "વિભૂતિ",
+      "word": "વિભૂતિ",
+      "romanization": "vibhūti",
+      "ipa": "/ʋɪbʰuːt̪ɪ/",
+      "evidence": "example-encoding-review",
+      "example": "મહાત્મા ગાંધી એ ભારતની એક મહાન વિભૂતિ હતા.",
+      "example_romanization": "mahātmā gāṃdhī e bhāratanī ek mahān vibhūti hatā."
+    },
+    "5634": {
+      "original": "વૃધ્ધ",
+      "word": "વૃદ્ધ",
+      "romanization": "vṛddh",
+      "ipa": "/ʋɾɨd̪d̪ʰ/",
+      "evidence": "normalized+wordlist",
+      "example": "તેના વૃદ્ધ માતાપિતા હવે તેમની સાથે રહે છે.",
+      "example_romanization": "tenā vṛddh mātāpitā have temanī sāthe rahe che."
+    },
+    "5635": {
+      "original": "વૃિધ્ધ",
+      "word": "વૃદ્ધિ",
+      "romanization": "vṛddhi",
+      "ipa": "/ʋɾɨd̪d̪ʰɪ/",
+      "evidence": "manual-context-review"
+    },
+    "5665": {
+      "original": "વેિવશાળ",
+      "word": "વેવિશાળ",
+      "romanization": "veviśāl̤",
+      "ipa": "/ʋeːʋɪʃɑːɭ/",
+      "evidence": "normalized+wordlist"
+    },
+    "5668": {
+      "original": "વૈજ્ઞ્ાાિનક",
+      "word": "વૈજ્ઞાનિક",
+      "romanization": "vaijñānik",
+      "ipa": "/ʋəɪd͡ʒɲɑːn̪ɪk/",
+      "evidence": "example+google:80"
+    },
+    "5669": {
+      "original": "વૈજ્ઞ્ાાિનક",
+      "word": "વૈજ્ઞાનિક",
+      "romanization": "vaijñānik",
+      "ipa": "/ʋəɪd͡ʒɲɑːn̪ɪk/",
+      "evidence": "example+google:80"
+    },
+    "5678": {
+      "original": "વ્યિભચાર",
+      "word": "વ્યભિચાર",
+      "romanization": "vyabhicār",
+      "ipa": "/ʋjəbʰɪt͡ʃɑːɾ/",
+      "evidence": "normalized+wordlist"
+    },
+    "5679": {
+      "original": "વ્યિભચારી",
+      "word": "વ્યભિચારી",
+      "romanization": "vyabhicārī",
+      "ipa": "/ʋjəbʰɪt͡ʃɑːɾiː/",
+      "evidence": "normalized+wordlist",
+      "example": "એ વ્યભિચારી માણસ પોતાની પત્નીને છોડીને બીજી સ્ત્રી સાથે રહેવા લાગ્યો.",
+      "example_romanization": "e vyabhicārī māṇas potānī patnīne choḍīne bījī strī sāthe rahevā lāgyo."
+    },
+    "5681": {
+      "original": "વ્યથર્",
+      "word": "વ્યર્થ",
+      "romanization": "vyarth",
+      "ipa": "/ʋjəɾt̪ʰ/",
+      "evidence": "example+google:83"
+    },
+    "5695": {
+      "original": "વ્યાિધ",
+      "word": "વ્યાધિ",
+      "romanization": "vyādhi",
+      "ipa": "/ʋjɑːd̪ʰɪ/",
+      "evidence": "normalized+wordlist"
+    },
+    "5700": {
+      "original": "વ્યુત્પિત્ત્ા",
+      "word": "વ્યુત્પત્તિ",
+      "romanization": "vyutpatti",
+      "ipa": "/ʋjut̪pət̪t̪ɪ/",
+      "evidence": "wordlist-nearest:96",
+      "example": "ગુજરાતી ભાષાની વ્યુત્પત્તિ સમજવી ખૂબ રસપ્રદ છે.",
+      "example_romanization": "gujarātī bhāṣānī vyutpatti samajavī khūb rasaprad che."
+    },
+    "5712": {
+      "original": "શકય",
+      "word": "શક્ય",
+      "romanization": "śaky",
+      "ipa": "/ʃəkj/",
+      "evidence": "example+google:86"
+    },
+    "5713": {
+      "original": "શકયતા",
+      "word": "શક્યતા",
+      "romanization": "śakyatā",
+      "ipa": "/ʃəkjət̪ɑː/",
+      "evidence": "example+google:91"
+    },
+    "5717": {
+      "original": "શત્ર્ાુ",
+      "word": "શત્રુ",
+      "romanization": "śatru",
+      "ipa": "/ʃət̪ɾu/",
+      "evidence": "wordlist-nearest:91"
+    },
+    "5725": {
+      "original": "શરણાગિત",
+      "word": "શરણાગતિ",
+      "romanization": "śaraṇāgati",
+      "ipa": "/ʃəɾəɳɑːgət̪ɪ/",
+      "evidence": "normalized+wordlist",
+      "example": "તેણે પોતાના શત્રુ સામે શરણાગતિ સ્વીકારી અને યુદ્ધ સમાપ્ત કર્યું.",
+      "example_romanization": "teṇe potānā śatru sāme śaraṇāgati svīkārī ane yuddh samāpt karyuṃ."
+    },
+    "5743": {
+      "original": "શસ્ત્ર્ા",
+      "word": "શસ્ત્ર",
+      "romanization": "śastra",
+      "ipa": "/ʃəs̪t̪ɾə/",
+      "evidence": "wordlist-nearest:92"
+    },
+    "5744": {
+      "original": "શસ્ત્ર્ાિક્રયા",
+      "word": "શસ્ત્રક્રિયા",
+      "romanization": "śastrakriyā",
+      "ipa": "/ʃəs̪t̪ɾəkɾɪjɑː/",
+      "evidence": "wordlist-nearest:96"
+    },
+    "5760": {
+      "original": "શાિબ્દક",
+      "word": "શાબ્દિક",
+      "romanization": "śābdik",
+      "ipa": "/ʃɑːbd̪ɪk/",
+      "evidence": "normalized+wordlist"
+    },
+    "5763": {
+      "original": "શારીિરક",
+      "word": "શારીરિક",
+      "romanization": "śārīrik",
+      "ipa": "/ʃɑːɾiːɾɪk/",
+      "evidence": "example+google:86"
+    },
+    "5767": {
+      "original": "શાસ્ત્ર્ા",
+      "word": "શાસ્ત્ર",
+      "romanization": "śāstra",
+      "ipa": "/ʃɑːs̪t̪ɾə/",
+      "evidence": "manual-context-review"
+    },
+    "5768": {
+      "original": "શાસ્ત્ર્ાાથર્",
+      "word": "શાસ્ત્રાર્થ",
+      "romanization": "śāstrārth",
+      "ipa": "/ʃɑːs̪t̪ɾɑːɾt̪ʰ/",
+      "evidence": "manual-context-review"
+    },
+    "5795": {
+      "original": "શિલ્પશાસ્ત્ર",
+      "word": "શિલ્પશાસ્ત્ર",
+      "romanization": "śilpaśāstra",
+      "ipa": "/ʃɪlpəʃɑːs̪t̪ɾə/",
+      "evidence": "example-encoding-review",
+      "example": "ભારતીય શિલ્પશાસ્ત્રની ઇમારતો જગ પ્રસિદ્ધ છે અને તેની નક્કાશીદાર કોતરણી માટે જાણીતી છે.",
+      "example_romanization": "bhāratīy śilpaśāstranī imārato jag prasiddh che ane tenī nakkāśīdār kotaraṇī māṭe jāṇītī che."
+    },
+    "5818": {
+      "original": "શુધ્ધ",
+      "word": "શુદ્ધ",
+      "romanization": "śuddh",
+      "ipa": "/ʃud̪d̪ʰ/",
+      "evidence": "normalized+wordlist",
+      "example": "તેના ઘરમાં બધું જ શુદ્ધ અને સ્વચ્છ હતું.",
+      "example_romanization": "tenā gharamāṃ badhuṃ ja śuddh ane svacch hatuṃ."
+    },
+    "5819": {
+      "original": "શુિધ્ધ",
+      "word": "શુદ્ધિ",
+      "romanization": "śuddhi",
+      "ipa": "/ʃud̪d̪ʰɪ/",
+      "evidence": "manual-context-review"
+    },
+    "5835": {
+      "original": "શૈિલ",
+      "word": "શૈલી",
+      "romanization": "śailī",
+      "ipa": "/ʃəɪliː/",
+      "evidence": "manual-context-review"
+    },
+    "5844": {
+      "original": "શ્ર્ાધ્ધા",
+      "word": "શ્રદ્ધા",
+      "romanization": "śraddhā",
+      "ipa": "/ʃɾəd̪d̪ʰɑː/",
+      "evidence": "manual-context-review"
+    },
+    "5845": {
+      "original": "શ્ર્ાધ્ધાળું",
+      "word": "શ્રદ્ધાળુ",
+      "romanization": "śraddhāl̤u",
+      "ipa": "/ʃɾəd̪d̪ʰɑːɭu/",
+      "evidence": "manual-context-review"
+    },
+    "5846": {
+      "original": "શ્ર્ાવણ",
+      "word": "શ્રવણ",
+      "romanization": "śravaṇ",
+      "ipa": "/ʃɾəʋəɳ/",
+      "evidence": "manual-context-review",
+      "example": "તેણે ધ્યાનપૂર્વક શ્રવણ કર્યું અને વક્તાના સંદેશને સમજ્યો.",
+      "example_romanization": "teṇe dhyānapūrvak śravaṇ karyuṃ ane vaktānā saṃdeśane samajyo."
+    },
+    "5847": {
+      "original": "શ્ર્ાાવણ",
+      "word": "શ્રાવણ",
+      "romanization": "śrāvaṇ",
+      "ipa": "/ʃɾɑːʋəɳ/",
+      "evidence": "wordlist-nearest:92"
+    },
+    "5848": {
+      "original": "શ્ર્ાી",
+      "word": "શ્રી",
+      "romanization": "śrī",
+      "ipa": "/ʃɾiː/",
+      "evidence": "manual-context-review"
+    },
+    "5849": {
+      "original": "શ્ર્ાેિષ્ઠ",
+      "word": "શ્રેષ્ઠી",
+      "romanization": "śreṣṭhī",
+      "ipa": "/ʃɾeːʂʈʰiː/",
+      "evidence": "manual-context-review"
+    },
+    "5850": {
+      "original": "શ્ર્ાોતા",
+      "word": "શ્રોતા",
+      "romanization": "śrotā",
+      "ipa": "/ʃɾoːt̪ɑː/",
+      "evidence": "wordlist-nearest:92"
+    },
+    "5859": {
+      "original": "ષિષ્ટ",
+      "word": "ષષ્ટિ",
+      "romanization": "ṣaṣṭi",
+      "ipa": "/ʂəʂʈɪ/",
+      "evidence": "normalized+wordlist",
+      "example": "ગુજરાતમાં ષષ્ટિ વર્ષની ઉંમરે નિવૃત્તિ થાય છે.",
+      "example_romanization": "gujarātamāṃ ṣaṣṭi varṣanī uṃmare nivṛtti thāy che."
+    },
+    "5879": {
+      "original": "સગોત્ર્ા",
+      "word": "સગોત્ર",
+      "romanization": "sagotr",
+      "ipa": "/s̪əgoːt̪ɾ/",
+      "evidence": "wordlist-nearest:92",
+      "example": "તેઓ બંને સગોત્ર છે કારણ કે તેમના પૂર્વજો એક જ ગોત્રમાંથી આવે છે.",
+      "example_romanization": "teo baṃne sagotr che kāraṇ ke temanā pūrvajo ek ja gotramāṃthī āve che."
+    },
+    "5882": {
+      "original": "સિચત્ર્ા",
+      "word": "સચિત્ર",
+      "romanization": "sacitr",
+      "ipa": "/s̪ət͡ʃɪt̪ɾ/",
+      "evidence": "manual-context-review",
+      "example": "આ પુસ્તક સચિત્રિ છે અને તેમાં ઘણી રંગીન તસવીરો છે.",
+      "example_romanization": "ā pustak sacitri che ane temāṃ ghaṇī raṃgīn tasavīro che."
+    },
+    "5893": {
+      "original": "સજજન",
+      "word": "સજ્જન",
+      "romanization": "sajjan",
+      "ipa": "/s̪əd͡ʒd͡ʒən̪/",
+      "evidence": "example+google:89"
+    },
+    "5895": {
+      "original": "સટોિડયો",
+      "word": "સટોડિયો",
+      "romanization": "saṭoḍiyo",
+      "ipa": "/s̪əʈoːɖɪjoː/",
+      "evidence": "normalized+wordlist"
+    },
+    "5912": {
+      "original": "સત્ત્ાર",
+      "word": "સત્તર",
+      "romanization": "sattar",
+      "ipa": "/s̪ət̪t̪əɾ/",
+      "evidence": "manual-context-review"
+    },
+    "5913": {
+      "original": "સત્ત્ાા",
+      "word": "સત્તા",
+      "romanization": "sattā",
+      "ipa": "/s̪ət̪t̪ɑː/",
+      "evidence": "manual-context-review"
+    },
+    "5914": {
+      "original": "સત્ત્ાાવાર",
+      "word": "સત્તાવાર",
+      "romanization": "sattāvār",
+      "ipa": "/s̪ət̪t̪ɑːʋɑːɾ/",
+      "evidence": "example+google:89"
+    },
+    "5915": {
+      "original": "સત્ત્ાાણું",
+      "word": "સત્તાણું",
+      "romanization": "sattāṇuṃ",
+      "ipa": "/s̪ət̪t̪ɑːɳũ/",
+      "evidence": "wordlist-nearest:94"
+    },
+    "5916": {
+      "original": "સત્ત્ાાવન",
+      "word": "સત્તાવન",
+      "romanization": "sattāvan",
+      "ipa": "/s̪ət̪t̪ɑːʋən̪/",
+      "evidence": "wordlist-nearest:93"
+    },
+    "5917": {
+      "original": "સત્ત્ાાવીસ",
+      "word": "સત્તાવીસ",
+      "romanization": "sattāvīs",
+      "ipa": "/s̪ət̪t̪ɑːʋiːs̪/",
+      "evidence": "example+google:89"
+    },
+    "5933": {
+      "original": "સદ્ગિત",
+      "word": "સદ્ગતિ",
+      "romanization": "sadgati",
+      "ipa": "/s̪əd̪gət̪ɪ/",
+      "evidence": "normalized+wordlist"
+    },
+    "5936": {
+      "original": "સદ્બુિધ્ધ",
+      "word": "સદ્બુદ્ધિ",
+      "romanization": "sadbuddhi",
+      "ipa": "/s̪əd̪bud̪d̪ʰɪ/",
+      "evidence": "normalized+wordlist"
+    },
+    "5940": {
+      "original": "સદ્વૃિત્ત્ા",
+      "word": "સદ્વૃત્તિ",
+      "romanization": "sadvṛtti",
+      "ipa": "/s̪əd̪ʋɾɨt̪t̪ɪ/",
+      "evidence": "wordlist-nearest:95"
+    },
+    "5948": {
+      "original": "સિન્મત્ર્ા",
+      "word": "સન્મિત્ર",
+      "romanization": "sanmitr",
+      "ipa": "/s̪ən̪mɪt̪ɾ/",
+      "evidence": "wordlist-nearest:94",
+      "example": "મારો સન્મિત્રિ હંમેશા મારી મદદ કરવા તૈયાર રહે છે.",
+      "example_romanization": "māro sanmitri haṃmeśā mārī madad karavā taiyār rahe che."
+    },
+    "5999": {
+      "original": "સમપર્ણ",
+      "word": "સમર્પણ",
+      "romanization": "samarpaṇ",
+      "ipa": "/s̪əməɾpəɳ/",
+      "evidence": "example+google:83"
+    },
+    "6007": {
+      "original": "સમાચારપત્ર્ા",
+      "word": "સમાચારપત્ર",
+      "romanization": "samācārapatr",
+      "ipa": "/s̪əmɑːt͡ʃɑːɾəpət̪ɾ/",
+      "evidence": "wordlist-nearest:95"
+    },
+    "6010": {
+      "original": "સમાજશાસ્ત્ર્ા",
+      "word": "સમાજશાસ્ત્ર",
+      "romanization": "samājaśāstra",
+      "ipa": "/s̪əmɑːd͡ʒəʃɑːs̪t̪ɾə/",
+      "evidence": "example+google:92"
+    },
+    "6011": {
+      "original": "સમાજશાસ્ત્ર્ાી",
+      "word": "સમાજશાસ્ત્રી",
+      "romanization": "samājaśāstrī",
+      "ipa": "/s̪əmɑːd͡ʒəʃɑːs̪t̪ɾiː/",
+      "evidence": "example+google:92"
+    },
+    "6013": {
+      "original": "સમાિધ",
+      "word": "સમાધિ",
+      "romanization": "samādhi",
+      "ipa": "/s̪əmɑːd̪ʰɪ/",
+      "evidence": "normalized+wordlist",
+      "example": "યોગીઓ સમાધિ દ્વારા આત્મસાક્ષાત્કાર પ્રાપ્ત કરવાનો પ્રયત્ન કરે છે.",
+      "example_romanization": "yogīo samādhi dvārā ātmasākṣātkār prāpt karavāno prayatn kare che."
+    },
+    "6023": {
+      "original": "સિમિત",
+      "word": "સમિતિ",
+      "romanization": "samiti",
+      "ipa": "/s̪əmɪt̪ɪ/",
+      "evidence": "normalized+wordlist",
+      "example": "આ મહત્વપૂર્ણ મુદ્દા પર ચર્ચા કરવા માટે સમિતિ બનાવવામાં આવી છે.",
+      "example_romanization": "ā mahatvapūrṇ muddā par carcā karavā māṭe samiti banāvavāmāṃ āvī che."
+    },
+    "6029": {
+      "original": "સમૂિચત",
+      "word": "સમુચિત",
+      "romanization": "samucit",
+      "ipa": "/s̪əmut͡ʃɪt̪/",
+      "evidence": "manual-context-review"
+    },
+    "6033": {
+      "original": "સમૃધ્ધ",
+      "word": "સમૃદ્ધ",
+      "romanization": "samṛddh",
+      "ipa": "/s̪əmɾɨd̪d̪ʰ/",
+      "evidence": "example+google:83"
+    },
+    "6034": {
+      "original": "સમૃિધ્ધ",
+      "word": "સમૃદ્ધિ",
+      "romanization": "samṛddhi",
+      "ipa": "/s̪əmɾɨd̪d̪ʰɪ/",
+      "evidence": "normalized+wordlist"
+    },
+    "6057": {
+      "original": "સરિશયું",
+      "word": "સરશિયું",
+      "romanization": "saraśiyuṃ",
+      "ipa": "/s̪əɾəʃɪjũ/",
+      "evidence": "normalized+wordlist",
+      "example": "ભોજનમાં સરશિયું વાપરવાથી સ્વાદ વધી જાય છે.",
+      "example_romanization": "bhojanamāṃ saraśiyuṃ vāparavāthī svād vadhī jāy che."
+    },
+    "6067": {
+      "original": "સરોિજની",
+      "word": "સરોજિની",
+      "romanization": "sarojinī",
+      "ipa": "/s̪əɾoːd͡ʒɪn̪iː/",
+      "evidence": "normalized+wordlist"
+    },
+    "6075": {
+      "original": "સવર્ગ્રાહી",
+      "word": "સર્વગ્રાહી",
+      "romanization": "sarvagrāhī",
+      "ipa": "/s̪əɾʋəgɾɑːɦiː/",
+      "evidence": "example+google:90"
+    },
+    "6076": {
+      "original": "સવર્જ્ઞ્ા",
+      "word": "સર્વજ્ઞ",
+      "romanization": "sarvajñ",
+      "ipa": "/s̪əɾʋəd͡ʒɲ/",
+      "evidence": "manual-context-review"
+    },
+    "6077": {
+      "original": "સવર્ત્ર્ા",
+      "word": "સર્વત્ર",
+      "romanization": "sarvatr",
+      "ipa": "/s̪əɾʋət̪ɾ/",
+      "evidence": "manual-context-review",
+      "example": "ગુજરાતમાં સર્વત્ર ગરમી છે.",
+      "example_romanization": "gujarātamāṃ sarvatr garamī che."
+    },
+    "6080": {
+      "original": "સવર્ભક્ષી",
+      "word": "સર્વભક્ષી",
+      "romanization": "sarvabhakṣī",
+      "ipa": "/s̪əɾʋəbʰəkʂiː/",
+      "evidence": "example+google:89"
+    },
+    "6101": {
+      "original": "સિવનય",
+      "word": "સવિનય",
+      "romanization": "savinay",
+      "ipa": "/s̪əʋɪn̪əj/",
+      "evidence": "normalized+wordlist",
+      "example": "તેણીનો સવિનય વ્યવહાર બધાને ગમ્યો.",
+      "example_romanization": "teṇīno savinay vyavahār badhāne gamyo."
+    },
+    "6102": {
+      "original": "સિવશેષ",
+      "word": "સવિશેષ",
+      "romanization": "saviśeṣ",
+      "ipa": "/s̪əʋɪʃeːʂ/",
+      "evidence": "normalized+wordlist",
+      "example": "તેની સવિશેષ શૈલીને કારણે તે સરળતાથી ઓળખી શકાય છે.",
+      "example_romanization": "tenī saviśeṣ śailīne kāraṇe te saral̤atāthī ol̤akhī śakāy che."
+    },
+    "6103": {
+      "original": "સિવસ્તર",
+      "word": "સવિસ્તર",
+      "romanization": "savistar",
+      "ipa": "/s̪əʋɪs̪t̪əɾ/",
+      "evidence": "normalized+wordlist"
+    },
+    "6120": {
+      "original": "સહિશક્ષણ",
+      "word": "સહશિક્ષણ",
+      "romanization": "sahaśikṣaṇ",
+      "ipa": "/s̪əɦəʃɪkʂəɳ/",
+      "evidence": "normalized+wordlist",
+      "example": "ભારતમાં ઘણી શાળાઓ સહશિક્ષણ પદ્ધતિ અપનાવે છે જેથી છોકરા અને છોકરીઓ સાથે ભણી શકે.",
+      "example_romanization": "bhāratamāṃ ghaṇī śāl̤āo sahaśikṣaṇ paddhati apanāve che jethī chokarā ane chokarīo sāthe bhaṇī śake."
+    },
+    "6123": {
+      "original": "સહાનુભૂિત",
+      "word": "સહાનુભૂતિ",
+      "romanization": "sahānubhūti",
+      "ipa": "/s̪əɦɑːn̪ubʰuːt̪ɪ/",
+      "evidence": "example+google:89"
+    },
+    "6125": {
+      "original": "સિહયર",
+      "word": "સહિયર",
+      "romanization": "sahiyar",
+      "ipa": "/s̪əɦɪjəɾ/",
+      "evidence": "normalized+wordlist",
+      "example": "મારી સહિયર અને હું ગઈકાલે સિનેમા જોવા ગયા હતા.",
+      "example_romanization": "mārī sahiyar ane huṃ gaīkāle sinemā jovā gayā hatā."
+    },
+    "6126": {
+      "original": "સિહયારું",
+      "word": "સહિયારું",
+      "romanization": "sahiyāruṃ",
+      "ipa": "/s̪əɦɪjɑːɾũ/",
+      "evidence": "normalized+wordlist",
+      "example": "આ જમીન અમારા બધાની સહિયારું માલિકીની છે.",
+      "example_romanization": "ā jamīn amārā badhānī sahiyāruṃ mālikīnī che."
+    },
+    "6127": {
+      "original": "સિહષ્ણુતા",
+      "word": "સહિષ્ણુતા",
+      "romanization": "sahiṣṇutā",
+      "ipa": "/s̪əɦɪʂɳut̪ɑː/",
+      "evidence": "normalized+wordlist",
+      "example": "તેમની સહિષ્ણુતા અને ઉદારતાને કારણે તેઓ બધા સાથે સારા સંબંધો ધરાવે છે.",
+      "example_romanization": "temanī sahiṣṇutā ane udāratāne kāraṇe teo badhā sāthe sārā saṃbaṃdho dharāve che."
+    },
+    "6138": {
+      "original": "સિળયો",
+      "word": "સળિયો",
+      "romanization": "sal̤iyo",
+      "ipa": "/s̪əɭɪjoː/",
+      "evidence": "normalized+wordlist",
+      "example": "લોખંડનો સળિયો ગરમ કરીને વાળવામાં આવ્યો હતો.",
+      "example_romanization": "lokhaṃḍano sal̤iyo garam karīne vāl̤avāmāṃ āvyo hato."
+    },
+    "6147": {
+      "original": "સંકુિચત",
+      "word": "સંકુચિત",
+      "romanization": "saṃkucit",
+      "ipa": "/s̪ə̃kut͡ʃɪt̪/",
+      "evidence": "example+google:86"
+    },
+    "6154": {
+      "original": "સંિક્ષપ્ત",
+      "word": "સંક્ષિપ્ત",
+      "romanization": "saṃkṣipt",
+      "ipa": "/s̪ə̃kʂɪpt̪/",
+      "evidence": "example+google:89"
+    },
+    "6171": {
+      "original": "સંઘષર્",
+      "word": "સંઘર્ષ",
+      "romanization": "saṃgharṣ",
+      "ipa": "/s̪ə̃gʰəɾʂ/",
+      "evidence": "example+google:83"
+    },
+    "6173": {
+      "original": "સંચાિલકા",
+      "word": "સંચાલિકા",
+      "romanization": "saṃcālikā",
+      "ipa": "/s̪ə̃t͡ʃɑːlɪkɑː/",
+      "evidence": "manual-context-review",
+      "example": "કંપનીની નવી સંચાલિકાએ કર્મચારીઓને પ્રોત્સાહિત કરવાનું શરૂ કર્યું.",
+      "example_romanization": "kaṃpanīnī navī saṃcālikāe karmacārīone protsāhit karavānuṃ śarū karyuṃ."
+    },
+    "6177": {
+      "original": "સંજ્ઞ્ાા",
+      "word": "સંજ્ઞા",
+      "romanization": "saṃjñā",
+      "ipa": "/s̪ə̃d͡ʒɲɑː/",
+      "evidence": "wordlist-nearest:92"
+    },
+    "6178": {
+      "original": "સંજ્ઞ્ાાવાચક",
+      "word": "સંજ્ઞાવાચક",
+      "romanization": "saṃjñāvācak",
+      "ipa": "/s̪ə̃d͡ʒɲɑːʋɑːt͡ʃək/",
+      "evidence": "wordlist-nearest:95"
+    },
+    "6193": {
+      "original": "સંદભર્",
+      "word": "સંદર્ભ",
+      "romanization": "saṃdarbh",
+      "ipa": "/s̪ə̃d̪əɾbʰ/",
+      "evidence": "example+google:83"
+    },
+    "6194": {
+      "original": "સંિદગ્ધ",
+      "word": "સંદિગ્ધ",
+      "romanization": "saṃdigdh",
+      "ipa": "/s̪ə̃d̪ɪgd̪ʰ/",
+      "evidence": "normalized+wordlist"
+    },
+    "6198": {
+      "original": "સંિધ",
+      "word": "સંધિ",
+      "romanization": "saṃdhi",
+      "ipa": "/s̪ə̃d̪ʰɪ/",
+      "evidence": "normalized+wordlist"
+    },
+    "6201": {
+      "original": "સંિનપાત",
+      "word": "સંનિપાત",
+      "romanization": "saṃnipāt",
+      "ipa": "/s̪ə̃n̪ɪpɑːt̪/",
+      "evidence": "normalized+wordlist",
+      "example": "તેના ઉચ્ચ તાવને કારણે તેને સંનિપાત થયો હતો અને તે અસંબદ્ધ વાતો કરવા લાગ્યો.",
+      "example_romanization": "tenā ucc tāvane kāraṇe tene saṃnipāt thayo hato ane te asaṃbaddh vāto karavā lāgyo."
+    },
+    "6202": {
+      "original": "સંિનષ્ઠ",
+      "word": "સંનિષ્ઠ",
+      "romanization": "saṃniṣṭh",
+      "ipa": "/s̪ə̃n̪ɪʂʈʰ/",
+      "evidence": "normalized+wordlist",
+      "example": "તે સંનિષ્ઠ કર્મચારી છે અને હંમેશા સમયસર કામ પૂર્ણ કરે છે.",
+      "example_romanization": "te saṃniṣṭh karmacārī che ane haṃmeśā samayasar kām pūrṇ kare che."
+    },
+    "6203": {
+      "original": "સંિનષ્ઠા",
+      "word": "સંનિષ્ઠા",
+      "romanization": "saṃniṣṭhā",
+      "ipa": "/s̪ə̃n̪ɪʂʈʰɑː/",
+      "evidence": "normalized+wordlist"
+    },
+    "6207": {
+      "original": "સંપિત્ત્ા",
+      "word": "સંપત્તિ",
+      "romanization": "saṃpatti",
+      "ipa": "/s̪ə̃pət̪t̪ɪ/",
+      "evidence": "wordlist-nearest:93"
+    },
+    "6208": {
+      "original": "સંપકર્",
+      "word": "સંપર્ક",
+      "romanization": "saṃpark",
+      "ipa": "/s̪ə̃pəɾk/",
+      "evidence": "example+google:83"
+    },
+    "6212": {
+      "original": "સંપૂણર્",
+      "word": "સંપૂર્ણ",
+      "romanization": "saṃpūrṇ",
+      "ipa": "/s̪ə̃puːɾɳ/",
+      "evidence": "example+google:86"
+    },
+    "6238": {
+      "original": "સંવાિદતા",
+      "word": "સંવાદિતા",
+      "romanization": "saṃvāditā",
+      "ipa": "/s̪ə̃ʋɑːd̪ɪt̪ɑː/",
+      "evidence": "example+google:88"
+    },
+    "6244": {
+      "original": "સંશોિધત",
+      "word": "સંશોધિત",
+      "romanization": "saṃśodhit",
+      "ipa": "/s̪ə̃ʃoːd̪ʰɪt̪/",
+      "evidence": "normalized+wordlist"
+    },
+    "6251": {
+      "original": "સંસ્કૃિત",
+      "word": "સંસ્કૃતિ",
+      "romanization": "saṃskṛti",
+      "ipa": "/s̪ə̃s̪kɾɨt̪ɪ/",
+      "evidence": "normalized+wordlist",
+      "example": "ભારતની સંસ્કૃતિ વિશ્વમાં પ્રસિદ્ધ છે.",
+      "example_romanization": "bhāratanī saṃskṛti viśvamāṃ prasiddh che."
+    },
+    "6268": {
+      "original": "સાડત્ર્ાીસ",
+      "word": "સાડત્રીસ",
+      "romanization": "sāḍatrīs",
+      "ipa": "/s̪ɑːɖət̪ɾiːs̪/",
+      "evidence": "example+google:89"
+    },
+    "6280": {
+      "original": "સાિથયો",
+      "word": "સાથિયો",
+      "romanization": "sāthiyo",
+      "ipa": "/s̪ɑːt̪ʰɪjoː/",
+      "evidence": "manual-context-review",
+      "example": "સાથિયો એ શુભ પ્રતીક છે જે ઘણી સંસ્કૃતિઓમાં જોવા મળે છે.",
+      "example_romanization": "sāthiyo e śubh pratīk che je ghaṇī saṃskṛtiomāṃ jovā mal̤e che."
+    },
+    "6302": {
+      "original": "સાપોિલયું",
+      "word": "સાપોલિયું",
+      "romanization": "sāpoliyuṃ",
+      "ipa": "/s̪ɑːpoːlɪjũ/",
+      "evidence": "normalized+wordlist",
+      "example": "નાનકડું સાપોલિયું ઝાડીમાંથી સરકી ગયું.",
+      "example_romanization": "nānakaḍuṃ sāpoliyuṃ jhāḍīmāṃthī sarakī gayuṃ."
+    },
+    "6303": {
+      "original": "સાપ્તાિહક",
+      "word": "સાપ્તાહિક",
+      "romanization": "sāptāhik",
+      "ipa": "/s̪ɑːpt̪ɑːɦɪk/",
+      "evidence": "example+google:89"
+    },
+    "6309": {
+      "original": "સાિબતી",
+      "word": "સાબિતી",
+      "romanization": "sābitī",
+      "ipa": "/s̪ɑːbɪt̪iː/",
+      "evidence": "example+google:83"
+    },
+    "6316": {
+      "original": "સામિયક",
+      "word": "સામયિક",
+      "romanization": "sāmayik",
+      "ipa": "/s̪ɑːməjɪk/",
+      "evidence": "normalized+wordlist",
+      "example": "તેણે ગુજરાતી સામયિક વાંચવાનું શરૂ કર્યું જેથી તેની માતૃભાષા સુધરે.",
+      "example_romanization": "teṇe gujarātī sāmayik vāṃcavānuṃ śarū karyuṃ jethī tenī mātṛbhāṣā sudhare."
+    },
+    "6322": {
+      "original": "સામુદાિયક",
+      "word": "સામુદાયિક",
+      "romanization": "sāmudāyik",
+      "ipa": "/s̪ɑːmud̪ɑːjɪk/",
+      "evidence": "normalized+wordlist"
+    },
+    "6323": {
+      "original": "સામૂિહક",
+      "word": "સામૂહિક",
+      "romanization": "sāmūhik",
+      "ipa": "/s̪ɑːmuːɦɪk/",
+      "evidence": "example+google:86"
+    },
+    "6338": {
+      "original": "સાવર્િત્ર્ાક",
+      "word": "સાર્વત્રિક",
+      "romanization": "sārvatrik",
+      "ipa": "/s̪ɑːɾʋət̪ɾɪk/",
+      "evidence": "manual-context-review",
+      "example": "આ વાયરસ સાર્વત્રિક છે અને દુનિયાભરમાં ફેલાયેલો છે.",
+      "example_romanization": "ā vāyaras sārvatrik che ane duniyābharamāṃ phelāyelo che."
+    },
+    "6352": {
+      "original": "સાસિરયું",
+      "word": "સાસરિયું",
+      "romanization": "sāsariyuṃ",
+      "ipa": "/s̪ɑːs̪əɾɪjũ/",
+      "evidence": "normalized+wordlist",
+      "example": "મારા સાસરિયું ગામડેથી આવ્યા છે અને અમારી સાથે રહેશે.",
+      "example_romanization": "mārā sāsariyuṃ gāmaḍethī āvyā che ane amārī sāthe raheśe."
+    },
+    "6355": {
+      "original": "સાહિજક",
+      "word": "સાહજિક",
+      "romanization": "sāhajik",
+      "ipa": "/s̪ɑːɦəd͡ʒɪk/",
+      "evidence": "normalized+wordlist",
+      "example": "તેનો સાહજિક પ્રતિભાવ હતો કે તેણે તરત જ મદદ કરવાનું શરૂ કર્યું.",
+      "example_romanization": "teno sāhajik pratibhāv hato ke teṇe tarat ja madad karavānuṃ śarū karyuṃ."
+    },
+    "6357": {
+      "original": "સાહિસક",
+      "word": "સાહસિક",
+      "romanization": "sāhasik",
+      "ipa": "/s̪ɑːɦəs̪ɪk/",
+      "evidence": "example+google:83"
+    },
+    "6358": {
+      "original": "સાિહત્ય",
+      "word": "સાહિત્ય",
+      "romanization": "sāhity",
+      "ipa": "/s̪ɑːɦɪt̪j/",
+      "evidence": "example+google:86"
+    },
+    "6359": {
+      "original": "સાિહિત્યક",
+      "word": "સાહિત્યિક",
+      "romanization": "sāhityik",
+      "ipa": "/s̪ɑːɦɪt̪jɪk/",
+      "evidence": "example+google:89"
+    },
+    "6378": {
+      "original": "સાંપ્રદાિયક",
+      "word": "સાંપ્રદાયિક",
+      "romanization": "sāṃpradāyik",
+      "ipa": "/s̪ɑ̃ːpɾəd̪ɑːjɪk/",
+      "evidence": "example+google:91"
+    },
+    "6381": {
+      "original": "સાંસાિરક",
+      "word": "સાંસારિક",
+      "romanization": "sāṃsārik",
+      "ipa": "/s̪ɑ̃ːs̪ɑːɾɪk/",
+      "evidence": "example+google:88"
+    },
+    "6382": {
+      "original": "સાંસ્કાિરક",
+      "word": "સાંસ્કૃતિક",
+      "romanization": "sāṃskṛtik",
+      "ipa": "/s̪ɑ̃ːs̪kɾɨt̪ɪk/",
+      "evidence": "example+google:80"
+    },
+    "6383": {
+      "original": "સાંસ્કૃિતક",
+      "word": "સાંસ્કૃતિક",
+      "romanization": "sāṃskṛtik",
+      "ipa": "/s̪ɑ̃ːs̪kɾɨt̪ɪk/",
+      "evidence": "example+google:90"
+    },
+    "6388": {
+      "original": "સિત્તેર",
+      "word": "સિત્તેર",
+      "romanization": "sitter",
+      "ipa": "/s̪ɪt̪t̪eːɾ/",
+      "evidence": "example-encoding-review",
+      "example": "તેની ઉંમર લગભગ સિત્તેર વર્ષ હશે.",
+      "example_romanization": "tenī uṃmar lagabhag sitter varṣ haśe."
+    },
+    "6405": {
+      "original": "સિધી",
+      "word": "સિધી",
+      "romanization": "sidhī",
+      "ipa": "/s̪ɪd̪ʰiː/",
+      "evidence": "example-encoding-review",
+      "example": "સિંધી ભાષા પાકિસ્તાનના સિંધ પ્રાંતમાં અને ભારતના કેટલાક ભાગોમાં બોલાય છે.",
+      "example_romanization": "siṃdhī bhāṣā pākistānanā siṃdh prāṃtamāṃ ane bhāratanā keṭalāk bhāgomāṃ bolāy che."
+    },
+    "6417": {
+      "original": "સીિમત",
+      "word": "સીમિત",
+      "romanization": "sīmit",
+      "ipa": "/s̪iːmɪt̪/",
+      "evidence": "manual-context-review"
+    },
+    "6441": {
+      "original": "સુપાત્ર્ા",
+      "word": "સુપાત્ર",
+      "romanization": "supātr",
+      "ipa": "/s̪upɑːt̪ɾ/",
+      "evidence": "manual-context-review"
+    },
+    "6442": {
+      "original": "સુપ્રિસધ્ધ",
+      "word": "સુપ્રસિદ્ધ",
+      "romanization": "suprasiddh",
+      "ipa": "/s̪upɾəs̪ɪd̪d̪ʰ/",
+      "evidence": "normalized+wordlist"
+    },
+    "6445": {
+      "original": "સુરિક્ષત",
+      "word": "સુરક્ષિત",
+      "romanization": "surakṣit",
+      "ipa": "/s̪uɾəkʂɪt̪/",
+      "evidence": "example+google:88"
+    },
+    "6447": {
+      "original": "સુરુિચ",
+      "word": "સુરુચિ",
+      "romanization": "suruci",
+      "ipa": "/s̪uɾut͡ʃɪ/",
+      "evidence": "normalized+wordlist"
+    },
+    "6456": {
+      "original": "સુિવખ્યાત",
+      "word": "સુવિખ્યાત",
+      "romanization": "suvikhyāt",
+      "ipa": "/s̪uʋɪkʰjɑːt̪/",
+      "evidence": "normalized+wordlist"
+    },
+    "6457": {
+      "original": "સુિવિદત",
+      "word": "સુવિદિત",
+      "romanization": "suvidit",
+      "ipa": "/s̪uʋɪd̪ɪt̪/",
+      "evidence": "normalized+wordlist"
+    },
+    "6458": {
+      "original": "સુિવધા",
+      "word": "સુવિધા",
+      "romanization": "suvidhā",
+      "ipa": "/s̪uʋɪd̪ʰɑː/",
+      "evidence": "example+google:83"
+    },
+    "6459": {
+      "original": "સુિશિક્ષત",
+      "word": "સુશિક્ષિત",
+      "romanization": "suśikṣit",
+      "ipa": "/s̪uʃɪkʂɪt̪/",
+      "evidence": "normalized+wordlist"
+    },
+    "6462": {
+      "original": "સુશોિભત",
+      "word": "સુશોભિત",
+      "romanization": "suśobhit",
+      "ipa": "/s̪uʃoːbʰɪt̪/",
+      "evidence": "example+google:86"
+    },
+    "6477": {
+      "original": "સૂિચ",
+      "word": "સૂચિ",
+      "romanization": "sūci",
+      "ipa": "/s̪uːt͡ʃɪ/",
+      "evidence": "manual-context-review"
+    },
+    "6478": {
+      "original": "સૂિચત",
+      "word": "સૂચિત",
+      "romanization": "sūcit",
+      "ipa": "/s̪uːt͡ʃɪt̪/",
+      "evidence": "normalized+wordlist"
+    },
+    "6486": {
+      "original": "સૂયર્",
+      "word": "સૂર્ય",
+      "romanization": "sūry",
+      "ipa": "/s̪uːɾj/",
+      "evidence": "example+google:80"
+    },
+    "6487": {
+      "original": "સૂયર્ગ્રહણ",
+      "word": "સૂર્યગ્રહણ",
+      "romanization": "sūryagrahaṇ",
+      "ipa": "/s̪uːɾjəgɾəɦəɳ/",
+      "evidence": "example+google:90"
+    },
+    "6488": {
+      "original": "સૂયર્મુખી",
+      "word": "સૂર્યમુખી",
+      "romanization": "sūryamukhī",
+      "ipa": "/s̪uːɾjəmukʰiː/",
+      "evidence": "example+google:89"
+    },
+    "6496": {
+      "original": "સૃિષ્ટ",
+      "word": "સૃષ્ટિ",
+      "romanization": "sṛṣṭi",
+      "ipa": "/s̪ɾɨʂʈɪ/",
+      "evidence": "manual-context-review"
+    },
+    "6503": {
+      "original": "સૈધ્ધાિન્તક",
+      "word": "સૈદ્ધાંતિક",
+      "romanization": "saiddhāṃtik",
+      "ipa": "/s̪əɪd̪d̪ʰɑ̃ːt̪ɪk/",
+      "evidence": "manual-context-review"
+    },
+    "6504": {
+      "original": "સૈિનક",
+      "word": "સૈનિક",
+      "romanization": "sainik",
+      "ipa": "/s̪əɪn̪ɪk/",
+      "evidence": "normalized+wordlist"
+    },
+    "6538": {
+      "original": "સ્તુિત",
+      "word": "સ્તુતિ",
+      "romanization": "stuti",
+      "ipa": "/s̪t̪ut̪ɪ/",
+      "evidence": "normalized+wordlist"
+    },
+    "6540": {
+      "original": "સ્તોત્ર્ા",
+      "word": "સ્તોત્ર",
+      "romanization": "stotr",
+      "ipa": "/s̪t̪oːt̪ɾ/",
+      "evidence": "wordlist-nearest:93"
+    },
+    "6541": {
+      "original": "સ્ત્ર્ાી",
+      "word": "સ્ત્રી",
+      "romanization": "strī",
+      "ipa": "/s̪t̪ɾiː/",
+      "evidence": "example+google:86"
+    },
+    "6542": {
+      "original": "સ્ત્ર્ાૈણ",
+      "word": "સ્ત્રૈણ",
+      "romanization": "straiṇ",
+      "ipa": "/s̪t̪ɾəɪɳ/",
+      "evidence": "manual-context-review"
+    },
+    "6543": {
+      "original": "સ્થપિત",
+      "word": "સ્થપતિ",
+      "romanization": "sthapati",
+      "ipa": "/s̪t̪ʰəpət̪ɪ/",
+      "evidence": "normalized+wordlist",
+      "example": "મહેલના નિર્માણ માટે એક કુશળ સ્થપતિની જરૂર હતી.",
+      "example_romanization": "mahelanā nirmāṇ māṭe ek kuśal̤ sthapatinī jarūr hatī."
+    },
+    "6545": {
+      "original": "સ્થાિનક",
+      "word": "સ્થાનિક",
+      "romanization": "sthānik",
+      "ipa": "/s̪t̪ʰɑːn̪ɪk/",
+      "evidence": "example+google:86"
+    },
+    "6557": {
+      "original": "સ્પશર્",
+      "word": "સ્પર્શ",
+      "romanization": "sparś",
+      "ipa": "/s̪pəɾʃ/",
+      "evidence": "example+google:83"
+    },
+    "6565": {
+      "original": "સ્મૃિત",
+      "word": "સ્મૃતિ",
+      "romanization": "smṛti",
+      "ipa": "/s̪mɾɨt̪ɪ/",
+      "evidence": "example+google:83"
+    },
+    "6566": {
+      "original": "સ્મૃિત",
+      "word": "સ્મૃતિ",
+      "romanization": "smṛti",
+      "ipa": "/s̪mɾɨt̪ɪ/",
+      "evidence": "normalized+wordlist"
+    },
+    "6571": {
+      "original": "સ્વતંત્ર્ા",
+      "word": "સ્વતંત્ર",
+      "romanization": "svataṃtr",
+      "ipa": "/s̪ʋət̪ə̃t̪ɾ/",
+      "evidence": "example+google:89"
+    },
+    "6572": {
+      "original": "સ્વતંત્ર્ાતા",
+      "word": "સ્વતંત્રતા",
+      "romanization": "svataṃtratā",
+      "ipa": "/s̪ʋət̪ə̃t̪ɾət̪ɑː/",
+      "evidence": "example+google:91"
+    },
+    "6574": {
+      "original": "સ્વદેશાિભમાન",
+      "word": "સ્વદેશાભિમાન",
+      "romanization": "svadeśābhimān",
+      "ipa": "/s̪ʋəd̪eːʃɑːbʰɪmɑːn̪/",
+      "evidence": "normalized+wordlist"
+    },
+    "6575": {
+      "original": "સ્વદેશાિભમાની",
+      "word": "સ્વદેશાભિમાની",
+      "romanization": "svadeśābhimānī",
+      "ipa": "/s̪ʋəd̪eːʃɑːbʰɪmɑːn̪iː/",
+      "evidence": "normalized+wordlist",
+      "example": "તે ખૂબ જ સ્વદેશાભિમાની વ્યક્તિ છે અને હંમેશા પોતાના દેશ માટે શ્રેષ્ઠ ઇચ્છે છે.",
+      "example_romanization": "te khūb ja svadeśābhimānī vyakti che ane haṃmeśā potānā deś māṭe śreṣṭh icche che."
+    },
+    "6588": {
+      "original": "સ્વાથર્",
+      "word": "સ્વાર્થ",
+      "romanization": "svārth",
+      "ipa": "/s̪ʋɑːɾt̪ʰ/",
+      "evidence": "example+google:86"
+    },
+    "6591": {
+      "original": "સ્વીકાયર્",
+      "word": "સ્વીકાર્ય",
+      "romanization": "svīkāry",
+      "ipa": "/s̪ʋiːkɑːɾj/",
+      "evidence": "example+google:89"
+    },
+    "6613": {
+      "original": "હિથયાર",
+      "word": "હથિયાર",
+      "romanization": "hathiyār",
+      "ipa": "/ɦət̪ʰɪjɑːɾ/",
+      "evidence": "normalized+wordlist",
+      "example": "તેણે હથિયાર ઉગામ્યું અને દુશ્મન પર હુમલો કર્યો.",
+      "example_romanization": "teṇe hathiyār ugāmyuṃ ane duśman par humalo karyo."
+    },
+    "6625": {
+      "original": "હરિગજ",
+      "word": "હરગિજ",
+      "romanization": "haragij",
+      "ipa": "/ɦəɾəgɪd͡ʒ/",
+      "evidence": "normalized+wordlist",
+      "example": "તે હરગિજ આ કામ કરશે નહીં.",
+      "example_romanization": "te haragij ā kām karaśe nahīṃ."
+    },
+    "6633": {
+      "original": "હિર",
+      "word": "હરિ",
+      "romanization": "hari",
+      "ipa": "/ɦəɾɪ/",
+      "evidence": "normalized+wordlist",
+      "example": "ભક્તો હરિની આરાધના કરે છે અને તેમના આશીર્વાદ માટે પ્રાર્થના કરે છે.",
+      "example_romanization": "bhakto harinī ārādhanā kare che ane temanā āśīrvād māṭe prārthanā kare che."
+    },
+    "6634": {
+      "original": "હિરયાળી",
+      "word": "હરિયાળી",
+      "romanization": "hariyāl̤ī",
+      "ipa": "/ɦəɾɪjɑːɭiː/",
+      "evidence": "normalized+wordlist",
+      "example": "વરસાદ પછી બગીચામાં ખૂબ સુંદર હરિયાળી જોવા મળે છે.",
+      "example_romanization": "varasād pachī bagīcāmāṃ khūb suṃdar hariyāl̤ī jovā mal̤e che."
+    },
+    "6635": {
+      "original": "હિરહર",
+      "word": "હરિહર",
+      "romanization": "harihar",
+      "ipa": "/ɦəɾɪɦəɾ/",
+      "evidence": "normalized+wordlist",
+      "example": "હરિહર એ હિન્દુ ધર્મમાં પરમ સત્તા છે જે બધા દૈવી શક્તિઓનો સમાવેશ કરે છે.",
+      "example_romanization": "harihar e hindu dharmamāṃ param sattā che je badhā daivī śaktiono samāveś kare che."
+    },
+    "6690": {
+      "original": "હાિન",
+      "word": "હાનિ",
+      "romanization": "hāni",
+      "ipa": "/ɦɑːn̪ɪ/",
+      "evidence": "manual-context-review",
+      "example": "આ વાવાઝોડાંએ ખેતરોને ઘણી હાનિ પહોંચાડી છે.",
+      "example_romanization": "ā vāvājhoḍāṃe khetarone ghaṇī hāni pahoṃcāḍī che."
+    },
+    "6691": {
+      "original": "હાિનકતાર્",
+      "word": "હાનિકારક",
+      "romanization": "hānikārak",
+      "ipa": "/ɦɑːn̪ɪkɑːɾək/",
+      "evidence": "manual-context-review",
+      "example": "તેની ટિપ્પણીઓ ખૂબ જ હાનિકારક હતી અને તેણે ઘણા લોકોની લાગણી દુભવી.",
+      "example_romanization": "tenī ṭippaṇīo khūb ja hānikārak hatī ane teṇe ghaṇā lokonī lāgaṇī dubhavī."
+    },
+    "6708": {
+      "original": "હાંિસયો",
+      "word": "હાંસિયો",
+      "romanization": "hāṃsiyo",
+      "ipa": "/ɦɑ̃ːs̪ɪjoː/",
+      "evidence": "normalized+wordlist"
+    },
+    "6735": {
+      "original": "હૂંિડયામણ",
+      "word": "હૂંડિયામણ",
+      "romanization": "hūṃḍiyāmaṇ",
+      "ipa": "/ɦũːɖɪjɑːməɳ/",
+      "evidence": "normalized+wordlist"
+    },
+    "6740": {
+      "original": "હૃદયપિરવતર્ન",
+      "word": "હૃદયપરિવર્તન",
+      "romanization": "hṛdayaparivartan",
+      "ipa": "/ɦɾɨd̪əjəpəɾɪʋəɾt̪ən̪/",
+      "evidence": "manual-context-review"
+    },
+    "6744": {
+      "original": "હેરાનગિત",
+      "word": "હેરાનગતિ",
+      "romanization": "herānagati",
+      "ipa": "/ɦeːɾɑːn̪əgət̪ɪ/",
+      "evidence": "normalized+wordlist"
+    },
+    "6746": {
+      "original": "હેવાિનયત",
+      "word": "હેવાનિયત",
+      "romanization": "hevāniyat",
+      "ipa": "/ɦeːʋɑːn̪ɪjət̪/",
+      "evidence": "normalized+wordlist"
+    },
+    "6748": {
+      "original": "હેિસયત",
+      "word": "હેસિયત",
+      "romanization": "hesiyat",
+      "ipa": "/ɦeːs̪ɪjət̪/",
+      "evidence": "normalized+wordlist"
+    },
+    "6759": {
+      "original": "હોિશયાર",
+      "word": "હોશિયાર",
+      "romanization": "hośiyār",
+      "ipa": "/ɦoːʃɪjɑːɾ/",
+      "evidence": "normalized+wordlist"
+    },
+    "6760": {
+      "original": "હોિશયારી",
+      "word": "હોશિયારી",
+      "romanization": "hośiyārī",
+      "ipa": "/ɦoːʃɪjɑːɾiː/",
+      "evidence": "normalized+wordlist"
+    },
+    "6764": {
+      "original": "ક્ષિત",
+      "word": "ક્ષતિ",
+      "romanization": "kṣati",
+      "ipa": "/kʂət̪ɪ/",
+      "evidence": "normalized+wordlist",
+      "example": "આ યુદ્ધમાં ઘણી ક્ષતિ થઈ છે.",
+      "example_romanization": "ā yuddhamāṃ ghaṇī kṣati thaī che."
+    },
+    "6765": {
+      "original": "ક્ષિત્ર્ાય",
+      "word": "ક્ષત્રિય",
+      "romanization": "kṣatriy",
+      "ipa": "/kʂət̪ɾɪj/",
+      "evidence": "manual-context-review",
+      "example": "ક્ષત્રિયિ સમાજમાં શૌર્ય અને સન્માનની ભાવના ઊંચી છે.",
+      "example_romanization": "kṣatriyi samājamāṃ śaury ane sanmānanī bhāvanā ūṃcī che."
+    },
+    "6767": {
+      "original": "ક્ષમાપાત્ર્ા",
+      "word": "ક્ષમાપાત્ર",
+      "romanization": "kṣamāpātr",
+      "ipa": "/kʂəmɑːpɑːt̪ɾ/",
+      "evidence": "example+google:91"
+    },
+    "6771": {
+      "original": "ક્ષેત્ર્ા",
+      "word": "ક્ષેત્ર",
+      "romanization": "kṣetr",
+      "ipa": "/kʂeːt̪ɾ/",
+      "evidence": "wordlist-nearest:93"
+    },
+    "6772": {
+      "original": "ક્ષેત્ર્ાફળ",
+      "word": "ક્ષેત્રફળ",
+      "romanization": "kṣetraphal̤",
+      "ipa": "/kʂeːt̪ɾəpʰəɭ/",
+      "evidence": "wordlist-nearest:95"
+    },
+    "6774": {
+      "original": "જ્ઞ્ાાિત",
+      "word": "જ્ઞાતિ",
+      "romanization": "jñāti",
+      "ipa": "/d͡ʒɲɑːt̪ɪ/",
+      "evidence": "wordlist-nearest:92"
+    },
+    "6775": {
+      "original": "જ્ઞ્ાાન",
+      "word": "જ્ઞાન",
+      "romanization": "jñān",
+      "ipa": "/d͡ʒɲɑːn̪/",
+      "evidence": "example+google:83"
+    }
+  }
+}
