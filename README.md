@@ -142,12 +142,13 @@ The repository includes a script to enhance the Gujarati word data using AI:
 
 - Anthropic API key (Claude)
 - Tavily API key (for web searches)
+- `anthropic`, `tavily-python`, and `tqdm` Python packages
 
 ### Usage
 
 1. Install the required dependencies:
    ```
-   pip install -r requirements.txt
+   pip install -r requirements.txt anthropic tavily-python tqdm
    ```
 
 2. Run the enhancement script:
