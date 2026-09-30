@@ -1,0 +1,421 @@
+{
+  "date": "2026-09-30",
+  "engine": "Google Cloud Text-to-Speech gu-IN-Wavenet-A",
+  "scope": "All word and example clips found stale after source corrections, including embedded transliterations, foreign-script fragments, mojibake, and the missing example for entry 6548",
+  "count": 59,
+  "entries": [
+    {
+      "id": "1426",
+      "kind": "word",
+      "text": "ચિબાવલું",
+      "path": "audio/words/1426.mp3",
+      "sha256": "55afcb44df88f2c1c4819b0b17c0347d6cb03b7e24668d12ed38ea5a9fe17073"
+    },
+    {
+      "id": "1912",
+      "kind": "word",
+      "text": "ટીચાવવું",
+      "path": "audio/words/1912.mp3",
+      "sha256": "cd832f3ebc5b1167cb3a581a3d420d3defefb958d3ba214e78baf44af410e66c"
+    },
+    {
+      "id": "2900",
+      "kind": "word",
+      "text": "નિભાડો",
+      "path": "audio/words/2900.mp3",
+      "sha256": "77772040cec205fa28d3af81b48dd8b64e2b1fc3f3e77cfc4741be3b684b5090"
+    },
+    {
+      "id": "2970",
+      "kind": "word",
+      "text": "નિસબત",
+      "path": "audio/words/2970.mp3",
+      "sha256": "715861f9c1449491c05b22dbe17d6007827c0791a1899b18c7408814a97c666c"
+    },
+    {
+      "id": "3574",
+      "kind": "word",
+      "text": "પ્રતિસ્પર્ધી",
+      "path": "audio/words/3574.mp3",
+      "sha256": "231e7eee692aab2f65603627fb669cb7231d79d4f1fc2861f4d307d8003762be"
+    },
+    {
+      "id": "3961",
+      "kind": "word",
+      "text": "પ્રતિબિંબ",
+      "path": "audio/words/3961.mp3",
+      "sha256": "73a569b8d6195f7464986584a970ed9610c1a69448dbd2394ec20d2a13cf6926"
+    },
+    {
+      "id": "4879",
+      "kind": "word",
+      "text": "રીસાવું",
+      "path": "audio/words/4879.mp3",
+      "sha256": "4f85eccd35b68c45b56dc24ec13c0327baf5b05e64ccf2c45a5054f1a91e4cb9"
+    },
+    {
+      "id": "5089",
+      "kind": "word",
+      "text": "લિખિત",
+      "path": "audio/words/5089.mp3",
+      "sha256": "0844862115e03972a1e8b2d3de40f5db7091352ee0be350989bde26d3ecdd1f0"
+    },
+    {
+      "id": "5092",
+      "kind": "word",
+      "text": "લીલામ",
+      "path": "audio/words/5092.mp3",
+      "sha256": "1613bae9bece38364b9df4ef03aaf036fe607e8f254865a4a818dc2988ca2f15"
+    },
+    {
+      "id": "5093",
+      "kind": "word",
+      "text": "લીસોટો",
+      "path": "audio/words/5093.mp3",
+      "sha256": "79cb3608a38b8ed2b84349c9968a64fb7d2cd7b9f3a47755d934e0b5d38ff19c"
+    },
+    {
+      "id": "5095",
+      "kind": "word",
+      "text": "લીંબુ",
+      "path": "audio/words/5095.mp3",
+      "sha256": "e963c11617f8952fbcc62fbf1a5475ec32a561df0b1ab85cdfcaad309dd918ba"
+    },
+    {
+      "id": "5096",
+      "kind": "word",
+      "text": "લીંબુડી",
+      "path": "audio/words/5096.mp3",
+      "sha256": "c1b1b2e1fa768198ba472a8508d82c62adf6011f35070ca652d306e1a9a822a9"
+    },
+    {
+      "id": "5097",
+      "kind": "word",
+      "text": "લીંબોળી",
+      "path": "audio/words/5097.mp3",
+      "sha256": "5a1e042f1065bfc54336cc1d0bad139b5edf3e966b1613cd8f48797f44031fb8"
+    },
+    {
+      "id": "5782",
+      "kind": "word",
+      "text": "શ્રીખંડ",
+      "path": "audio/words/5782.mp3",
+      "sha256": "6cad6407c353e09f985306b59c14023cf256d4e360b069e8dfae5f9bd8e01919"
+    },
+    {
+      "id": "90",
+      "kind": "example",
+      "text": "તેણે પિઝાનો અડધો ભાગ ખાધો.",
+      "path": "audio/examples/90.mp3",
+      "sha256": "f45933b21b6b6f568d04d13c86a4270056d55e26910c6ff717c1dfc24420767b"
+    },
+    {
+      "id": "148",
+      "kind": "example",
+      "text": "તેણે ગુજરાતીમાંથી અંગ્રેજીમાં અનુવાદ કર્યો.",
+      "path": "audio/examples/148.mp3",
+      "sha256": "f525faffa2ab9622ea00334ebcb260297f0d6e0cfd9c84f75b56427babf2fa3c"
+    },
+    {
+      "id": "251",
+      "kind": "example",
+      "text": "તે ઘરની અંદર ગયો.",
+      "path": "audio/examples/251.mp3",
+      "sha256": "2e50b37ae59db52943a7ee406edf1d75df555f6513cc2eacdf3f7d9fd8ca8a9f"
+    },
+    {
+      "id": "641",
+      "kind": "example",
+      "text": "એક કટકો કાગળ આપો.",
+      "path": "audio/examples/641.mp3",
+      "sha256": "b2e03c9b9b446b1b33c32bd1ec4c9f7e0f8e94cca88b26ac60cb1858059b8123"
+    },
+    {
+      "id": "715",
+      "kind": "example",
+      "text": "તમે કશું ખાવા માગો છો?",
+      "path": "audio/examples/715.mp3",
+      "sha256": "09fedb6edc1fda01db04c94b06312ec5b188b53fa5251c143b22c2a4d03c4de0"
+    },
+    {
+      "id": "756",
+      "kind": "example",
+      "text": "એ કાણું ભરવા માટે થોડી માટી લાવો.",
+      "path": "audio/examples/756.mp3",
+      "sha256": "531a11c63c678ec9889727330ed1a825b247857ed60add43e16535a34ff4e72e"
+    },
+    {
+      "id": "845",
+      "kind": "example",
+      "text": "મને એક કેળું આપો.",
+      "path": "audio/examples/845.mp3",
+      "sha256": "bf0668e52192a133c3ee9b4524ec3b9f89f9230d857fb4202669876a23d68bbc"
+    },
+    {
+      "id": "858",
+      "kind": "example",
+      "text": "આ પુસ્તક કોનું છે?",
+      "path": "audio/examples/858.mp3",
+      "sha256": "b501ef190aef2ff7da0a9777474645dab5a98fcb88ebd3396332c565ecd62dc4"
+    },
+    {
+      "id": "1358",
+      "kind": "example",
+      "text": "આપણે આ મુદ્દા પર વધુ ચર્ચા કરવાની જરૂર છે.",
+      "path": "audio/examples/1358.mp3",
+      "sha256": "413954d1526a9f198771d5b0c123ae6abf1b85e8576bc1aaf2a3721fb535ffbe"
+    },
+    {
+      "id": "1400",
+      "kind": "example",
+      "text": "બાળકે ગમ ચાવવાનું શરૂ કર્યું.",
+      "path": "audio/examples/1400.mp3",
+      "sha256": "bac4e083b8e6a76490126a8fb9142415efe761770b5ebe850d76fbb7c7d461aa"
+    },
+    {
+      "id": "1401",
+      "kind": "example",
+      "text": "તમારી પાસે ઘરની ચાવી છે?",
+      "path": "audio/examples/1401.mp3",
+      "sha256": "1892e08313f1baa449b3d9b6860dd2beb133568e3c8866a17533bff53c09acc3"
+    },
+    {
+      "id": "1453",
+      "kind": "example",
+      "text": "તેણે ચીંધીને કહ્યું, \"આ રસ્તો પકડો.\"",
+      "path": "audio/examples/1453.mp3",
+      "sha256": "9a4e904235f9c23ea483593c0e59ed99e03bdd9db409673681d393ff111cbca9"
+    },
+    {
+      "id": "1594",
+      "kind": "example",
+      "text": "આ રસ્તાનો છેડો ક્યાં આવે છે?",
+      "path": "audio/examples/1594.mp3",
+      "sha256": "beaf68ad3354c81c839af948a6df1afc2575c15be44655880b5b273b30581061"
+    },
+    {
+      "id": "1650",
+      "kind": "example",
+      "text": "તને જરા ઠંડી લાગે છે?",
+      "path": "audio/examples/1650.mp3",
+      "sha256": "2e48eaab8b84d4db33bae3d1fce84a38ac89d45a95cd2aac33e0c3ba1c198059"
+    },
+    {
+      "id": "1658",
+      "kind": "example",
+      "text": "તેને બજારમાં જવું પડશે.",
+      "path": "audio/examples/1658.mp3",
+      "sha256": "5ae896dbca48da1d84df5cbc1226110ace19e62af18f0563f4fa79ab6986cc78"
+    },
+    {
+      "id": "1667",
+      "kind": "example",
+      "text": "ઘરમાં જાજરું ક્યાં છે?",
+      "path": "audio/examples/1667.mp3",
+      "sha256": "baa4b33a860186d1ec55b919a1a9775af09dd8c9f9bf1a012655fd8e119c3733"
+    },
+    {
+      "id": "1672",
+      "kind": "example",
+      "text": "તમે ગુજરાતી ભાષા જાણો છો?",
+      "path": "audio/examples/1672.mp3",
+      "sha256": "0b0046555da0170e818f41a1a41de29dbe95b8be8e76ef9f0a999c5147653531"
+    },
+    {
+      "id": "1720",
+      "kind": "example",
+      "text": "એ જીવતું પ્રાણી છે.",
+      "path": "audio/examples/1720.mp3",
+      "sha256": "579c27f27d72c924447569cd414e2f6ab1ac19f9a190854d707875400ff65de4"
+    },
+    {
+      "id": "1827",
+      "kind": "example",
+      "text": "ખેડૂતે ખળીમાં ઝાટકીને અનાજ સાફ કર્યું.",
+      "path": "audio/examples/1827.mp3",
+      "sha256": "7d08ca24474bed41e8ab8b9f4d07d1c24e51c347480dcf1f93acbcbcb8bccc0b"
+    },
+    {
+      "id": "1869",
+      "kind": "example",
+      "text": "તેણે મને આ કામ કરવાનું ટકોર્યું હતું.",
+      "path": "audio/examples/1869.mp3",
+      "sha256": "144781d5107702dfd40a87a2c15928b5bfd45fdf144addb610cdacd91113d7ce"
+    },
+    {
+      "id": "2749",
+      "kind": "example",
+      "text": "તે ઘરે નથી.",
+      "path": "audio/examples/2749.mp3",
+      "sha256": "df2cfc757a00b2d08d9ddacaa8bd38770460f67c231f18bff50d1a75a5640acf"
+    },
+    {
+      "id": "3827",
+      "kind": "example",
+      "text": "તેણે મને ઘરનો રસ્તો બતાવ્યો.",
+      "path": "audio/examples/3827.mp3",
+      "sha256": "9ba5d59f194831f2cac598622a4f154f1b4b9fdaf531686ade731e853353bac3"
+    },
+    {
+      "id": "3943",
+      "kind": "example",
+      "text": "તેણે પોતાના ઘોડાને ઝાડ સાથે બાંધ્યો.",
+      "path": "audio/examples/3943.mp3",
+      "sha256": "bcf6d1f0c390a38fb58796eb98b8d1a245ecec1e91aab7fbc4d123fde6f907e3"
+    },
+    {
+      "id": "4153",
+      "kind": "example",
+      "text": "તેણે બજારમાંથી તાજી ભાજી ખરીદી.",
+      "path": "audio/examples/4153.mp3",
+      "sha256": "86f2878e9e8940c402ae9867a121544f0a60fcb23bac740584b24ae4b894a90b"
+    },
+    {
+      "id": "4349",
+      "kind": "example",
+      "text": "તમારી મદદ બદલ આભાર.",
+      "path": "audio/examples/4349.mp3",
+      "sha256": "dcf9a7f6eba9327fc5974236869fc2c8507e48c157ff803117070194ec03417f"
+    },
+    {
+      "id": "4366",
+      "kind": "example",
+      "text": "તમે મને ગુજરાતી શીખવશો?",
+      "path": "audio/examples/4366.mp3",
+      "sha256": "8e14d94adbfa6dc985ad6bbfad4abd93085724faad5c580577505a6e4258d279"
+    },
+    {
+      "id": "4469",
+      "kind": "example",
+      "text": "તેણે પોતાના વેતનમાં વધારો માગ્યો.",
+      "path": "audio/examples/4469.mp3",
+      "sha256": "8edaf3fc82ac2cc29d8d6fbd2ecdea71bf42ad316b8b534ce1f518046d444b7b"
+    },
+    {
+      "id": "4571",
+      "kind": "example",
+      "text": "આ સંખ્યામાં ત્રણ મીંડાં છે.",
+      "path": "audio/examples/4571.mp3",
+      "sha256": "8527683f93f829b00509b4f5bb6f851855523e03c10e5789870f73e1fed3c707"
+    },
+    {
+      "id": "4584",
+      "kind": "example",
+      "text": "બેંકની એફડીની મુદત પૂરી થઈ ગઈ છે.",
+      "path": "audio/examples/4584.mp3",
+      "sha256": "814822788a0c92e164510dce460ddc9d735619d0a5cb6fd46d4c558c2be8a135"
+    },
+    {
+      "id": "4656",
+      "kind": "example",
+      "text": "આત્માને મોક્ષ મેળવવા માટે સાચું જ્ઞાન અને કર્મ આવશ્યક છે.",
+      "path": "audio/examples/4656.mp3",
+      "sha256": "1ecc7580fc939a974faac2761e7382845768bf2d28ce003c4a3ef97e44a49df8"
+    },
+    {
+      "id": "4661",
+      "kind": "example",
+      "text": "મિત્રોએ તહેવારમાં મોજમજા કરી.",
+      "path": "audio/examples/4661.mp3",
+      "sha256": "201ef8e339e51ec3a97bffe056c1e4e3a5eafbb3ae547c6d00912982e9aad469"
+    },
+    {
+      "id": "4663",
+      "kind": "example",
+      "text": "સમુદ્રમાં મોટાં મોજાં ઊછળતાં હતાં.",
+      "path": "audio/examples/4663.mp3",
+      "sha256": "c7bccc1ee7285ed6fe7b621b716a78cba6511bd37e0fba374c97414f365219e3"
+    },
+    {
+      "id": "4664",
+      "kind": "example",
+      "text": "ઠંડીમાં હાથ ગરમ રાખવા તેણે મોજું પહેર્યું.",
+      "path": "audio/examples/4664.mp3",
+      "sha256": "68c97e67f40f131c60dfa59c1bb7dcb080d537f4b0c29b0b6ebca92050b6afbc"
+    },
+    {
+      "id": "4888",
+      "kind": "example",
+      "text": "તને આ ભોજન રુચ્યું?",
+      "path": "audio/examples/4888.mp3",
+      "sha256": "6c72849992902d1d3d8f9130adba7e69fa0e700d25e2bd501e21e3c9dbc7bb5f"
+    },
+    {
+      "id": "4997",
+      "kind": "example",
+      "text": "તે ઝાડ પાછળ લપાઈ ગયો.",
+      "path": "audio/examples/4997.mp3",
+      "sha256": "f8a553454764f6c0662d3720f015e3830698e7b74558cf0b4da0fba68f01073a"
+    },
+    {
+      "id": "5095",
+      "kind": "example",
+      "text": "એક લીંબુનો રસ પીવાથી શરીરમાં વિટામિન સી મળે છે.",
+      "path": "audio/examples/5095.mp3",
+      "sha256": "dc5bec488cd201586b289365dbac6ad17412aa5bb5e5c8265319fe765bf03b9c"
+    },
+    {
+      "id": "5211",
+      "kind": "example",
+      "text": "તેણે હિંદુ ધર્મ છોડીને ઇસ્લામ ધર્મ અપનાવ્યો અને વટલાવું પડ્યું.",
+      "path": "audio/examples/5211.mp3",
+      "sha256": "251ad25d8ba47ae8704a3d77469401ad3726b03f0ac9391c0c251ec2d579917b"
+    },
+    {
+      "id": "5341",
+      "kind": "example",
+      "text": "તે ઘરે વળવા માટે નીકળ્યો.",
+      "path": "audio/examples/5341.mp3",
+      "sha256": "a0af0e568214df1ad5ab7ea719fede78428213b813fe1dede55009656bf77fcf"
+    },
+    {
+      "id": "5782",
+      "kind": "example",
+      "text": "દિવાળી પર, અમે ઘરે શ્રીખંડ બનાવ્યું અને તેનો આનંદ માણ્યો.",
+      "path": "audio/examples/5782.mp3",
+      "sha256": "779ea1eb91fad733d24f7e611bea8b728926b4ac9a1886431e38de58d75ac8f7"
+    },
+    {
+      "id": "5861",
+      "kind": "example",
+      "text": "\"જમવું\" એ સકર્મક ક્રિયાપદ છે કારણ કે તેને કર્મની જરૂર પડે છે.",
+      "path": "audio/examples/5861.mp3",
+      "sha256": "059be73f11df3e752981cf2c1fa690e6e2761df5fe82e7c8a03a633ffb1a7064"
+    },
+    {
+      "id": "6048",
+      "kind": "example",
+      "text": "તેમની સરદારીના ગુણોને કારણે, તેઓ ટૂંક સમયમાં કંપનીના સીઈઓ બન્યા.",
+      "path": "audio/examples/6048.mp3",
+      "sha256": "46ec501d49a855f1cb3d6a6cf86a0a6fcb6ee2f4c6c06dd09046de73dcecb385"
+    },
+    {
+      "id": "6396",
+      "kind": "example",
+      "text": "મારી દાદીમાં સુંદર સિલાઈ કરવાનો શોખ છે.",
+      "path": "audio/examples/6396.mp3",
+      "sha256": "65805495395e07ba2d454e0e99262a037269bd4cf11d2ace2c5cd77422f4c9e9"
+    },
+    {
+      "id": "6403",
+      "kind": "example",
+      "text": "ખાડીના પાણીમાંથી સિંધવ બનાવવામાં આવે છે.",
+      "path": "audio/examples/6403.mp3",
+      "sha256": "e1dbe2454ceff926550c153b3d7d6da0fef48549e418dd5d05c48960494fdc92"
+    },
+    {
+      "id": "6548",
+      "kind": "example",
+      "text": "આ પુલ ખૂબ જ મજબૂત અને સ્થાયી છે.",
+      "path": "audio/examples/6548.mp3",
+      "sha256": "71910a8443b646eab590d3ec5a4bf3e6594636b03aee15f94072345e7db008e4"
+    },
+    {
+      "id": "6697",
+      "kind": "example",
+      "text": "તેની હાલચાલ વિશે મને જણાવો.",
+      "path": "audio/examples/6697.mp3",
+      "sha256": "a27a81112b59aba6a15240e8e285ecfb3975d13b9cc6691bf16aa2eab522a94d"
+    }
+  ]
+}

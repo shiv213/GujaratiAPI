@@ -1,0 +1,1064 @@
+{
+  "audit_date": "2026-09-30",
+  "sources": [
+    {
+      "name": "Google Translate",
+      "use": "Headless spelling, translation, and pronunciation checks"
+    },
+    {
+      "name": "Gujarati Lexicon and Gujarati WordNet",
+      "use": "Canonical headword spelling checks"
+    },
+    {
+      "name": "Unicode Gujarati orthography audit",
+      "use": "Invalid dependent-vowel ordering detection"
+    }
+  ],
+  "corrections": {
+    "19": {
+      "original": "અખંંિડત",
+      "word": "અખંડિત",
+      "ipa": "/ə.kʰəɳ.ɖit/",
+      "romanization": "akhaṇḍit",
+      "evidence": "unicode-order audit; Exa/Google review",
+      "word_audio_sha256": "1a1051cf952ce1ed576a1cefa0068682b21130cf2531e9fd6ac299ad79d9cb5b"
+    },
+    "233": {
+      "original": "અિહસા",
+      "word": "અહિંસા",
+      "ipa": "/ə.ɦɪ̃.saː/",
+      "romanization": "ahiṃsā",
+      "evidence": "unicode-order audit; Exa/Google review",
+      "word_audio_sha256": "de4512dda7bf963477cef07d55f07dbe3b2b4261c4c866ffd96033423ab0b143"
+    },
+    "366": {
+      "original": "આિશવાર્દ",
+      "word": "આશીર્વાદ",
+      "ipa": "/aː.ʃiːɾ.ʋaːd̪/",
+      "romanization": "āśīrvād",
+      "evidence": "unicode-order audit; Exa/Google review",
+      "word_audio_sha256": "6a29df1f10de1a587c586feb1727e60633e95169b8c406b3ef45c9e1e86397b7"
+    },
+    "401": {
+      "original": "આંસું ુ",
+      "word": "આંસુ",
+      "ipa": "/ˈãː.su/",
+      "romanization": "ā̃su",
+      "evidence": "unicode-order audit; Exa/Google review",
+      "word_audio_sha256": "5bc7d970c3dc872b5576a847829b9978f44beb82c127e497482ec2ea3e1b036c"
+    },
+    "607": {
+      "original": "ઓિચન્તું",
+      "word": "ઓચિંતું",
+      "ipa": "/o.t͡ʃin.t̪ũ/",
+      "romanization": "ocintuṃ",
+      "evidence": "unicode-order audit; Exa/Google review",
+      "word_audio_sha256": "1e2e4c351f484f4e0bf8274f69888b32f956f3d1e8adca3a55762c73fda591ca"
+    },
+    "625": {
+      "original": "ઔચિત્ય",
+      "word": "ઔચિત્ય",
+      "ipa": "/əut͡ʃɪt̪j/",
+      "romanization": "aucity",
+      "evidence": "unicode-order audit; Exa/Google review",
+      "example": "આ પ્રસંગ માટે તમારો પોશાક ઔચિત્ય ધરાવે છે.",
+      "example_romanization": "aa prsng mate tmaro poshak aauchity dhrave chhe.",
+      "example_audio_sha256": "8279f5a38f37435f70882622b0422472853ca8ccbe06e97ce484733c944983c3"
+    },
+    "627": {
+      "original": "ઔપચારિક",
+      "word": "ઔપચારિક",
+      "ipa": "/əupət͡ʃɑːɾɪk/",
+      "romanization": "aupacārik",
+      "evidence": "unicode-order audit; Exa/Google review",
+      "example": "આ ઔપચારિક સમારંભમાં બધા મહેમાનોએ સુંદર પોશાક પહેર્યો હતો.",
+      "example_romanization": "aa aaupcharik smarnbhman bdha mhemanoe sundr poshak pheryo hto.",
+      "example_audio_sha256": "a1db9f413b7f6cf879c2a1124c08a7eac8e3dc29ccb513edb84dfcfe27b8f752"
+    },
+    "801": {
+      "original": "કિલ્લો",
+      "word": "કિલ્લો",
+      "ipa": "[kɪl.loː]",
+      "romanization": "killo",
+      "evidence": "unicode-order audit; Exa/Google review",
+      "example": "જૂનાગઢનો કિલ્લો ગુજરાતના સૌથી પ્રસિદ્ધ ઐતિહાસિક સ્થળોમાંનું એક છે.",
+      "example_romanization": "junagdhno ikllo gujratna sauthi prsiddh aitihasik sthlomannun ek chhe.",
+      "example_audio_sha256": "0c2179966011392b1c63ab743652ef029708a9f36b846af5020dd03daf427c91"
+    },
+    "803": {
+      "original": "કિશોરી",
+      "word": "કિશોરી",
+      "ipa": "[kɪ.ʃoː.ɾiː]",
+      "romanization": "Kishori",
+      "evidence": "unicode-order audit; Exa/Google review",
+      "example": "તે કિશોરી ખૂબ જ હોંશિયાર અને પ્રતિભાશાળી છે.",
+      "example_romanization": "te ikshori khub j honshiyar ane prtibhashali chhe.",
+      "example_audio_sha256": "c9e095177c75eb2cb004876f5988dec0db9b0929c865f9d8d4e79d39104d201a"
+    },
+    "966": {
+      "original": "ખિસકોલી",
+      "word": "ખિસકોલી",
+      "ipa": "[ˈkʰis.ko.li]",
+      "romanization": "khiskolī",
+      "evidence": "unicode-order audit; Exa/Google review",
+      "example": "બગીચામાં એક ખિસકોલી ઝાડ પર કૂદકા મારતી હતી.",
+      "example_romanization": "bgichaman ek ikhskoli jhad pr kudka marti hti.",
+      "example_audio_sha256": "627735e561b25b5c7e39be61efa09439fa16bfb9b367ca0a409df86ca28555db"
+    },
+    "1419": {
+      "original": "ચિઠ્ઠી",
+      "word": "ચિઠ્ઠી",
+      "ipa": "[ˈt͡ʃiʈʰ.ʈʰi]",
+      "romanization": "chiththi",
+      "evidence": "unicode-order audit; Exa/Google review",
+      "example": "મેં તેને એક ચિઠ્ઠી લખીને મારા આગમન વિશે જાણ કરી.",
+      "example_romanization": "men tene ek ichththi lkhine mara aagmn ivshe jan kri.",
+      "example_audio_sha256": "f6cdf5de9a7b8d10a109736d7001ec94b0864164f2ba03434d397612b2edb385"
+    },
+    "1426": {
+      "original": "ચબાવલું",
+      "word": "ચિબાવલું",
+      "ipa": "[t͡ʃɪ.baː.ʋlũ]",
+      "romanization": "chibāvaluṃ",
+      "evidence": "Unicode-order audit; Rekhta Gujarati; Google Translate review",
+      "example": "એ છોકરો ઘણો ચિબાવલું વર્તન કરે છે.",
+      "example_romanization": "e chhokro ghaṇo chibāvaluṃ vartana kare chhe.",
+      "example_audio_sha256": "9de19652133026fc0de986d1e723fe49f25b71bdabe24ca314c21b65cad76043"
+    },
+    "1427": {
+      "original": "ચિન",
+      "word": "ચિન",
+      "ipa": "[t͡ʃɪn]",
+      "romanization": "chin",
+      "evidence": "unicode-order audit; Exa/Google review",
+      "example": "તેની ચિબુક પર એક નાની ખાડ હતી.",
+      "example_romanization": "teni ichbuk pr ek nani khad hti.",
+      "example_audio_sha256": "dd47035f195b0ad5563c8009bc7d45955bdf1d32c684eab655fbd4c1949b3f2a"
+    },
+    "2041": {
+      "original": "ડંુગરાળ",
+      "word": "ડુંગરાળ",
+      "ipa": "/ɖũ.ɡə.ɾaːɭ/",
+      "romanization": "ḍuṅgarāḷ",
+      "evidence": "unicode-order audit; Exa/Google review",
+      "word_audio_sha256": "e728bc31ce1497ffe1be64bc420d76a6e7b1a21ba0e2450ac7eff23adf645aa9"
+    },
+    "2146": {
+      "original": "તમામ",
+      "word": "તમામ",
+      "ipa": "/t̪əˈmɑm/",
+      "romanization": "tmam",
+      "evidence": "unicode-order audit; Exa/Google review",
+      "example": "આ તમામ ફળો ખૂબ જ તાજા છે.",
+      "example_romanization": "aa tmam flo khub j ताजa chhe.",
+      "example_audio_sha256": "388ba3fe87b33d28e83707b0e5de0f40f524e01f9c1254a4e06ae745628d45da"
+    },
+    "2469": {
+      "original": "દિયર",
+      "word": "દિયર",
+      "ipa": "[ˈd̪i.jəɾ]",
+      "romanization": "diyar",
+      "evidence": "unicode-order audit; Exa/Google review",
+      "example": "મારા દિયર મને હંમેશા ભેટ આપે છે.",
+      "example_romanization": "mara idyr mne hnmesha bhet aape chhe.",
+      "example_audio_sha256": "1cef23eca4f1f0bf449cae3e3fa08d15e20e01320dfb3643160fb5ced4cdbec3"
+    },
+    "2470": {
+      "original": "દિલ",
+      "word": "દિલ",
+      "ipa": "[ˈd̪il]",
+      "romanization": "dil",
+      "evidence": "unicode-order audit; Exa/Google review",
+      "example": "તેના દિલમાં ઘણો પ્રેમ છે.",
+      "example_romanization": "tena idlman ghno prem chhe.",
+      "example_audio_sha256": "7dc2a79ef233103fcff6a91770caa9b03f4a6bbbd75d4c10749c9e1a76ca3605"
+    },
+    "2664": {
+      "original": "ધિક્કાર",
+      "word": "ધિક્કાર",
+      "ipa": "[d̪ʱɪkːɑːɾ]",
+      "romanization": "dhikkār",
+      "evidence": "unicode-order audit; Exa/Google review",
+      "example": "એના વર્તનને કારણે મને એના પ્રત્યે ધિક્કાર ઉત્પન્ન થયો.",
+      "example_romanization": "ena vrtnne karne mne ena prtye idhkkar utpnn thyo.",
+      "example_audio_sha256": "ade1fa3a7e30a73ee4637e569a401af5b5c282fd684b7dd38337c7ae474805c1"
+    },
+    "2888": {
+      "original": "નિજાનંદ",
+      "word": "નિજાનંદ",
+      "ipa": "[ni.dʒaː.nənd]",
+      "romanization": "nijānand",
+      "evidence": "unicode-order audit; Exa/Google review",
+      "example": "આત્મજ્ઞાનથી પ્રાપ્ત થતો નિજાનંદ એ પરમ આનંદ છે.",
+      "example_romanization": "aatmjઞanthi prapt thto injannd e prm aannd chhe.",
+      "example_audio_sha256": "b44b7b5934ea09736875e792a54cf2a924c79717d26a6f4dd1d42d05e54001d7"
+    },
+    "2900": {
+      "original": "નીંભાડો",
+      "word": "નિભાડો",
+      "ipa": "[nɪ.bʱaː.ɖo]",
+      "romanization": "nibhāḍo",
+      "evidence": "Unicode-order audit; Gujarati Vishwakosh; Google Translate review",
+      "example": "કુંભારે માટીના વાસણો પકવવા માટે નિભાડામાં મૂક્યાં.",
+      "example_romanization": "kuṃbhāre māṭīnā vāsano pakavavā māṭe nibhāḍāmāṃ mūkyāṃ.",
+      "example_audio_sha256": "3e57c6b15c7e6ec51928064052ab4d262cf417448a5db56b11bcceb487e17ac9"
+    },
+    "2902": {
+      "original": "નિયમન",
+      "word": "નિયમન",
+      "ipa": "[ni.yə.mən]",
+      "romanization": "niyaman",
+      "evidence": "unicode-order audit; Exa/Google review",
+      "example": "સરકાર દ્વારા ઉદ્યોગોનું નિયમન કરવામાં આવે છે.",
+      "example_romanization": "srkar dvara udyogonun inymn krvaman aave chhe.",
+      "example_audio_sha256": "59a5c7a3b9b425ddec63c8815fd5a9048e6a0c1dde078278939f11c74096d379"
+    },
+    "2913": {
+      "original": "નિરાધાર",
+      "word": "નિરાધાર",
+      "ipa": "[niːɾaːd̪ʱaːɾ]",
+      "romanization": "nirādhar",
+      "evidence": "unicode-order audit; Exa/Google review",
+      "example": "એ બાળક નિરાધાર હતું અને તેને મદદની જરૂર હતી.",
+      "example_romanization": "e balk inradhar htun ane tene mddni jrur hti.",
+      "example_audio_sha256": "f9674c40977fb65c85c4514f5d72ec0383910e273306c5a4107541a9ccd35b17"
+    },
+    "2931": {
+      "original": "નિર્ધાર",
+      "word": "નિર્ધાર",
+      "ipa": "[nir.d̪ʱɑːɾ]",
+      "romanization": "niradhār",
+      "evidence": "unicode-order audit; Exa/Google review",
+      "example": "તેના ચહેરા પર નિધાર્ર સ્પષ્ટ દેખાતો હતો.",
+      "example_romanization": "tena chhera pr indharr spsht dekhato hto.",
+      "example_audio_sha256": "46636ac96bff3a13deed5fbb461d390e5f757e50bc6566c0ef49645c0fadbdc3"
+    },
+    "2936": {
+      "original": "નિર્માણ",
+      "word": "નિર્માણ",
+      "ipa": "[nirmāṇ]",
+      "romanization": "nirmāṇ",
+      "evidence": "unicode-order audit; Exa/Google review",
+      "example": "આ ઇમારત એક અદ્ભુત નિમાર્ણ છે જે પ્રશંસનીય છે.",
+      "example_romanization": "aa imart ek adbhut inmarn chhe je prshnsniy chhe.",
+      "example_audio_sha256": "72fe754e5e6c07fce4d586aa97d9436374fcf0d6bca46801ebdb8e52d7ad8378"
+    },
+    "2938": {
+      "original": "નિમૂળ",
+      "word": "નિમૂળ",
+      "ipa": "[nir.muːɭ]",
+      "romanization": "nimūḷ",
+      "evidence": "unicode-order audit; Exa/Google review",
+      "example": "એ ઝાડ નિમૂર્ળ હોવાથી તોફાનમાં ઉખડી ગયું.",
+      "example_romanization": "e jhad inmurl hovathi tofanman ukhdi gyun.",
+      "example_audio_sha256": "e4d06e8c5bc8c92053063e024da9f7613d72c6e438db8b4a6ad18bffe302ef52"
+    },
+    "2942": {
+      "original": "નિર્વિઘ્ન",
+      "word": "નિર્વિઘ્ન",
+      "ipa": "[nir.ʋɪɡn̪]",
+      "romanization": "nirvighna",
+      "evidence": "unicode-order audit; Exa/Google review",
+      "example": "આ પ્રોજેક્ટ નિવિર્ઘ્ન પૂર્ણ થયો.",
+      "example_romanization": "aa projekt inivrghn purn thyo.",
+      "example_audio_sha256": "9de580a4b0e48f18c0e4fb9e0f101b4eabacf7e2e7690d3c0dcdffd1483a5071"
+    },
+    "2948": {
+      "original": "નિવેડો",
+      "word": "નિવેડો",
+      "ipa": "[ni.ʋe.ɖo]",
+      "romanization": "nivēḍo",
+      "evidence": "unicode-order audit; Exa/Google review",
+      "example": "કોર્ટનો નિવેડો આવતા પક્ષકારોને રાહત થઈ.",
+      "example_romanization": "kortno invedo aavta pkshkarone raht thi.",
+      "example_audio_sha256": "f0d3580929cf0c9b8cd5eae3ca0034f582f022881058c22bce1839506cd91928"
+    },
+    "2968": {
+      "original": "નિસાસો",
+      "word": "નિસાસો",
+      "ipa": "[ni.sɑː.soː]",
+      "romanization": "nisāso",
+      "evidence": "unicode-order audit; Exa/Google review",
+      "example": "તેણીએ લાંબો નિસાસો નાખ્યો અને પછી કામ પર પાછી ફરી.",
+      "example_romanization": "tenie lanbo insaso nakhyo ane pchhi kam pr pachhi fri.",
+      "example_audio_sha256": "96983445a94cd0207121d144974e4377cde43b05bc57c53aea40c8b5a9081877"
+    },
+    "2970": {
+      "original": "نسبت",
+      "word": "નિસબત",
+      "ipa": "[nɪs.bət̪]",
+      "romanization": "nisbat",
+      "evidence": "Gujarati WordNet; Google Translate review",
+      "example": "તેમની વચ્ચેની નિસબત ખૂબ જ મજબૂત છે.",
+      "example_romanization": "temanī vacceṇī nisabata khūba ja majabūta chhe.",
+      "example_audio_sha256": "701e2f8c43205c9b1f5897b654ed522012923dc6e8fc394efcb34817d313d2d1"
+    },
+    "2974": {
+      "original": "નિંદા",
+      "word": "નિંદા",
+      "ipa": "[ˈn̪in̪.d̪ɑː]",
+      "romanization": "nindā",
+      "evidence": "unicode-order audit; Exa/Google review",
+      "example": "એની પાછળ નિંદા કરવી એ સારો સ્વભાવ નથી.",
+      "example_romanization": "eni pachhl innda krvi e saro svbhav nthi.",
+      "example_audio_sha256": "6af814be784312d61ba93c001dbb70520eda6d01a585ce32b55540c8b6908335"
+    },
+    "2975": {
+      "original": "નિ:શબ્દ",
+      "word": "નિ:શબ્દ",
+      "ipa": "[niːʃəbd]",
+      "romanization": "ni:shabd",
+      "evidence": "unicode-order audit; Exa/Google review",
+      "example": "તેના પ્રવેશ પછી, આખો ઓરડો નિ:શબ્દ થઈ ગયો.",
+      "example_romanization": "tena prvesh pchhi, aakho ordo in:shbd thi gyo.",
+      "example_audio_sha256": "bb1a4d7cdcf0ae176109f5d7c583c3a446e03eac83fb8293cc707bc7efe2c9e7"
+    },
+    "2977": {
+      "original": "નિ:શુલ્ક",
+      "word": "નિ:શુલ્ક",
+      "ipa": "[niː.ʃʊlk]",
+      "romanization": "niḥśulk",
+      "evidence": "unicode-order audit; Exa/Google review",
+      "example": "આ સેવા તદ્દન નિ:શુલ્ક પૂરી પાડવામાં આવે છે.",
+      "example_romanization": "aa seva tddn in:shulk puri padvaman aave chhe.",
+      "example_audio_sha256": "1964f9426a02742577c3a3c20de967b9889d2b08c30fd449249aa3860931f82c"
+    },
+    "2978": {
+      "original": "નિ:સંતાન",
+      "word": "નિ:સંતાન",
+      "ipa": "[niː.sən̪.t̪ɑːn]",
+      "romanization": "niḥsantān",
+      "evidence": "unicode-order audit; Exa/Google review",
+      "example": "તેઓ ઘણા વર્ષોથી લગ્ન કર્યા હોવા છતાં નિ:સંતાન છે.",
+      "example_romanization": "teo ghna vrshothi lgn krya hova chhtan in:sntan chhe.",
+      "example_audio_sha256": "1b843422a6887096d3c24974f3e5e29ebbc158f03e61b2e2a07c49da89560861"
+    },
+    "2980": {
+      "original": "નિઃસ્વાર્થ",
+      "word": "નિઃસ્વાર્થ",
+      "ipa": "[niḥˈsvɑːrtʰ]",
+      "romanization": "niḥsvārth",
+      "evidence": "unicode-order audit; Exa/Google review",
+      "example": "તેણીનો નિ:સ્વાથર્ સેવાભાવ ખરેખર પ્રશંસનીય છે.",
+      "example_romanization": "tenino in:svathr sevabhav khrekhr prshnsniy chhe.",
+      "example_audio_sha256": "4007c26f0e425970211a25ecb18260dd139b2a428148d1ae36a78251dffb6001"
+    },
+    "3266": {
+      "original": "પંિકત",
+      "word": "પંક્તિ",
+      "ipa": "/pəŋk.t̪i/",
+      "romanization": "paṅkti",
+      "evidence": "unicode-order audit; Exa/Google review",
+      "word_audio_sha256": "bce0576f42b1950a0bcd67ea3939b4c86d3d519e473e1edc618eafb99e668260"
+    },
+    "3358": {
+      "original": "પારિજાત",
+      "word": "પારિજાત",
+      "ipa": "/pɑːɾɪd͡ʒɑːt̪/",
+      "romanization": "pārijāt",
+      "evidence": "unicode-order audit; Exa/Google review",
+      "example": "હિંદુ પુરાણોમાં પારિજાત એ સ્વર્ગનું એક દિવ્ય ફૂલઝાડ છે.",
+      "example_romanization": "hindu puranoman parijat e svrgnun ek divy fulझad chhe.",
+      "example_audio_sha256": "e5049ac31c8242bc6642d07b897d9b90d94978277181062fe90f6070166815e5"
+    },
+    "3388": {
+      "original": "પિતા",
+      "word": "પિતા",
+      "ipa": "[ˈpi.t̪ɑ]",
+      "romanization": "pitā",
+      "evidence": "unicode-order audit; Exa/Google review",
+      "example": "મારા પિતા ખૂબ મહેનતુ અને પ્રેમાળ છે.",
+      "example_romanization": "mara ipta khub mhentu ane premal chhe.",
+      "example_audio_sha256": "9d8e51fb9180a33a410686cd456944d5d7fe58aab75c254cbfae34fb6be909a3"
+    },
+    "3393": {
+      "original": "પિપૂડી",
+      "word": "પિપૂડી",
+      "ipa": "[pi.puː.ɖiː]",
+      "romanization": "pipūḍī",
+      "evidence": "unicode-order audit; Exa/Google review",
+      "example": "તે પોતાની પિપૂડી વગાડીને પક્ષીઓને બોલાવતો હતો.",
+      "example_romanization": "te potani ippudi vgadine pkshione bolavto hto.",
+      "example_audio_sha256": "83924750b1b8196b0b05b91cae42c02a7306de7a011beb398f88381682d9597c"
+    },
+    "3396": {
+      "original": "પિપ્લું",
+      "word": "પિપ્લું",
+      "ipa": "[pɪlluː]",
+      "romanization": "piplu",
+      "evidence": "unicode-order audit; Exa/Google review",
+      "example": "દોરાનું પિલ્લું ખરીદવા માટે મેં દુકાને ગયો.",
+      "example_romanization": "doranun ipllun khridva mate men dukane gyo.",
+      "example_audio_sha256": "4a8a2101ec0ee426ca3791ce5ab460b7098ac499f8a40d36d2f6cbd564baeb75"
+    },
+    "3951": {
+      "original": "બિનજરૂરી",
+      "word": "બિનજરૂરી",
+      "ipa": "[bɪn.d͡ʒə.ɾuː.ɾiː]",
+      "romanization": "binjaruri",
+      "evidence": "unicode-order audit; Exa/Google review",
+      "example": "આ કામ માટે આટલી બધી બિનજરૂરી ચીજવસ્તુઓની જરૂર નથી.",
+      "example_romanization": "aa kam mate aatli bdhi ibnjruri chijvstuoni jrur nthi.",
+      "example_audio_sha256": "de41f4a68fb934a609122d67f1fead5ed9b98d42af6a0a8a076ea5f6538e512c"
+    },
+    "3956": {
+      "original": "બિલ્લો",
+      "word": "બિલ્લો",
+      "ipa": "[ˈbɪlːo]",
+      "romanization": "billo",
+      "evidence": "unicode-order audit; Exa/Google review",
+      "example": "તેણે પોતાની બહાદુરી માટે બિલ્લો મેળવ્યો.",
+      "example_romanization": "tene potani bhaduri mate ibllo melvyo.",
+      "example_audio_sha256": "ab68a3095c061f750a446d3ce0d5b376ec4b80f3b9d24bedd6929b1d752e93cc"
+    },
+    "4553": {
+      "original": "મિજાગરું",
+      "word": "મિજાગરું",
+      "ipa": "[ˈmi.d͡ʒɑ.ɡə.ɾũ]",
+      "romanization": "mijāgaruṁ",
+      "evidence": "unicode-order audit; Exa/Google review",
+      "example": "દરવાજાનું મિજાગરું ખરાબ થઈ ગયું છે અને બદલવાની જરૂર છે.",
+      "example_romanization": "drvajanun imjagrun khrab thi gyun chhe ane bdlvani jrur chhe.",
+      "example_audio_sha256": "0635b404508d21e016798794a4a2acccd1363d120c17e44ccec40ff5c59c202f"
+    },
+    "4555": {
+      "original": "મિજાજી",
+      "word": "મિજાજી",
+      "ipa": "[miˈdʒɑːdʒi]",
+      "romanization": "mijaaji",
+      "evidence": "unicode-order audit; Exa/Google review",
+      "example": "તેનો મિજાજી સ્વભાવ હંમેશા સમસ્યાઓ ઊભી કરે છે.",
+      "example_romanization": "teno imjaji svbhav hnmesha smsyao ubhi kre chhe.",
+      "example_audio_sha256": "385ef6a10b7b2fb308485b4c0cc820c34fbe552cddb71a4cc1e5bba26f26b7ec"
+    },
+    "4561": {
+      "original": "મિલન",
+      "word": "મિલન",
+      "ipa": "[mi.lən]",
+      "romanization": "milan",
+      "evidence": "unicode-order audit; Exa/Google review",
+      "example": "તેમનું મિલન ઘણા વર્ષો પછી થયું હતું.",
+      "example_romanization": "temnun imln ghna vrsho pchhi thyun htun.",
+      "example_audio_sha256": "c3700b818d50aa4459bd24a34aac459dbacbc8afcaa2aa3580b68e77ae4476f3"
+    },
+    "4562": {
+      "original": "મિલાવટ",
+      "word": "મિલાવટ",
+      "ipa": "[mi.laː.ʋəʈ]",
+      "romanization": "milāvaṭ",
+      "evidence": "unicode-order audit; Exa/Google review",
+      "example": "ખોરાકની મિલાવટ એ ગ્રાહકોની સુરક્ષા માટે ગંભીર જોખમ છે.",
+      "example_romanization": "khorakni imlavt e grahkoni surksha mate gnbhir jokhm chhe.",
+      "example_audio_sha256": "3055ace16455f06d4747184cd9f0c55275293f7315b4595d482896b88c5db462"
+    },
+    "4905": {
+      "original": "રૂપંુ",
+      "word": "રૂપું",
+      "ipa": "/ɾuː.pũ/",
+      "romanization": "rūpuṃ",
+      "evidence": "unicode-order audit; Exa/Google review",
+      "word_audio_sha256": "d2710590622d6e2f2a7591db6fd38ab5d3ceebf5e0b243790192e6da3284da96"
+    },
+    "5467": {
+      "original": "વિકરાળ",
+      "word": "વિકરાળ",
+      "ipa": "[ʋɪkɾɑːɭ]",
+      "romanization": "vikraal",
+      "evidence": "unicode-order audit; Exa/Google review",
+      "example": "એ ભયાનક અકસ્માતનો દ્રશ્ય ખૂબ જ વિકરાળ હતો.",
+      "example_romanization": "e bhyank aksmatno drshy khub j ivkral hto.",
+      "example_audio_sha256": "7c9a044367873a82d5de49f51392ffe9d40dc4ea0ddab67bf4be30120a3a8ba2"
+    },
+    "5478": {
+      "original": "વિખેરવું",
+      "word": "વિખેરવું",
+      "ipa": "[ʋi.kʰeɾ.ʋũ]",
+      "romanization": "vikheravu",
+      "evidence": "unicode-order audit; Exa/Google review",
+      "example": "પવનની ઝપટોએ પાંદડાંઓને જમીન પર વિખેરી નાખ્યાં.",
+      "example_romanization": "pvnni jhptoe panddanone jmin pr ivkheri nakhyan.",
+      "example_audio_sha256": "888d886fe0240a9cc20ca3634f4767d8587c58d74dee2c2418d53032cfaba16d"
+    },
+    "5483": {
+      "original": "વિઘાતક",
+      "word": "વિઘાતક",
+      "ipa": "[ʋi.ɡʱaː.t̪ək]",
+      "romanization": "vighātak",
+      "evidence": "unicode-order audit; Exa/Google review",
+      "example": "તેમનો નકારાત્મક વલણ ટીમ માટે વિઘાતક સાબિત થયો.",
+      "example_romanization": "temno nkaratmk vln tim mate ivghatk sabit thyo.",
+      "example_audio_sha256": "136e724f97814662634b2f44beedd7b42e7fd6774f756bf67f35ba2542e287c7"
+    },
+    "5488": {
+      "original": "વિચારક",
+      "word": "વિચારક",
+      "ipa": "[ʋiˈt͡ʃɑɾək]",
+      "romanization": "vicharak",
+      "evidence": "unicode-order audit; Exa/Google review",
+      "example": "એક મહાન વિચારક હંમેશા નવા વિચારો અને દ્રષ્ટિકોણ શોધવાનો પ્રયત્ન કરે છે.",
+      "example_romanization": "ek mhan ivchark hnmesha nva ivcharo ane drshtikon shodhvano prytn kre chhe.",
+      "example_audio_sha256": "1b349e5261076a0840abea364451e71a1903ae1d82a6f52b66e11f185e30c81e"
+    },
+    "5494": {
+      "original": "વિજાતીય",
+      "word": "વિજાતીય",
+      "ipa": "[ʋɪ.dʒɑː.t̪iː.jə]",
+      "romanization": "vijātīya",
+      "evidence": "unicode-order audit; Exa/Google review",
+      "example": "તેઓ વિજાતીય લગ્ન કરવા માંગતા હતા, પરંતુ તેમના પરિવારે તેનો વિરોધ કર્યો.",
+      "example_romanization": "teo ivjatiy lgn krva mangta hta, prntu temna privare teno virodh kryo.",
+      "example_audio_sha256": "bd51c86857d8f49c555830fd4916dcae7d2777d623bb2d14138c3b3522b5295b"
+    },
+    "5502": {
+      "original": "વિતાડવું",
+      "word": "વિતાડવું",
+      "ipa": "[ʋi.t̪ɑːɖ.ʋũ]",
+      "romanization": "vitāḍavuṃ",
+      "evidence": "unicode-order audit; Exa/Google review",
+      "example": "એ છોકરો રોજ મને વિતાડે છે અને મારી શાંતિ ભંગ કરે છે.",
+      "example_romanization": "e chhokro roj mne ivtade chhe ane mari shanit bhng kre chhe.",
+      "example_audio_sha256": "c070d1fbb4ea893a532755224da7e8b7a65175678d8b4861bfe82f8e128365dc"
+    },
+    "5504": {
+      "original": "વિદિત",
+      "word": "વિદિત",
+      "ipa": "[ʋɪ.d̪ɪt̪]",
+      "romanization": "vidit",
+      "evidence": "unicode-order audit; Exa/Google review",
+      "example": "તે એક વિદિત લેખક છે જેમણે ઘણી લોકપ્રિય નવલકથાઓ લખી છે.",
+      "example_romanization": "te ek ividt lekhk chhe jemne ghni lokpriy nvlkthao lkhi chhe.",
+      "example_audio_sha256": "8ed30bc87c86340e1d36b16fb6223392f30d618484adede534b5d005304b7ba6"
+    },
+    "5505": {
+      "original": "વિદુષી",
+      "word": "વિદુષી",
+      "ipa": "[ʋi.du.ʃi]",
+      "romanization": "vidushi",
+      "evidence": "unicode-order audit; Exa/Google review",
+      "example": "એ વિદુષી સ્ત્રી સંસ્કૃત ભાષામાં ઘણી પ્રવીણ છે.",
+      "example_romanization": "e ivdushi stri snskrut bhashaman ghni prvin chhe.",
+      "example_audio_sha256": "275f8a37b6dd429b92e13a0fb69ed07adfe5f49df6950ab9e4f7cc19d42acff8"
+    },
+    "5506": {
+      "original": "વિદૂષક",
+      "word": "વિદૂષક",
+      "ipa": "[ʋi.d̪uː.ʂək]",
+      "romanization": "vidūṣak",
+      "evidence": "unicode-order audit; Exa/Google review",
+      "example": "નાટકમાં વિદૂષક પ્રેક્ષકોને હસાવવા માટે હાજર હોય છે.",
+      "example_romanization": "natkman ivdushk prekshkone hsavva mate hajr hoy chhe.",
+      "example_audio_sha256": "37b5399c8543d4d0a2dcfabe12b1ade7e6d9033f735c053926f678c878386b7a"
+    },
+    "5507": {
+      "original": "વિદેશ",
+      "word": "વિદેશ",
+      "ipa": "[ˈʋi.d̪eːʃ]",
+      "romanization": "videsh",
+      "evidence": "unicode-order audit; Exa/Google review",
+      "example": "તેઓ વિદેશ પ્રવાસ માટે ગયા હતા.",
+      "example_romanization": "teo ivdesh prvas mate gya hta.",
+      "example_audio_sha256": "8dec66c8765cafa451888421d945c58976aa9760c37597888ddee84f856b8132"
+    },
+    "5508": {
+      "original": "વિદેશી",
+      "word": "વિદેશી",
+      "ipa": "[ʋi.d̪e.ʃi]",
+      "romanization": "videshi",
+      "evidence": "unicode-order audit; Exa/Google review",
+      "example": "તેઓ વિદેશી ભાષા શીખવા માંગે છે.",
+      "example_romanization": "teo ivdeshi bhasha shikhva mange chhe.",
+      "example_audio_sha256": "0caa09c6f77904212fd798d05cdddef78aee875a995c94ebe63172df3cfcee8a"
+    },
+    "5511": {
+      "original": "વિદ્યાપીઠ",
+      "word": "વિદ્યાપીઠ",
+      "ipa": "[ʋid.jaː.piːʈʰ]",
+      "romanization": "vidyāpīṭh",
+      "evidence": "unicode-order audit; Exa/Google review",
+      "example": "મારી બહેન એક પ્રતિષ્ઠિત વિદ્યાપીઠમાં ભણે છે.",
+      "example_romanization": "mari bhen ek prtishthit ivdyapithman bhne chhe.",
+      "example_audio_sha256": "35709a94e61474942c9158e4b8baca22b9ce347ee258a61051f41d4c605162ac"
+    },
+    "5513": {
+      "original": "વિદ્યાર્થિની",
+      "word": "વિદ્યાર્થિની",
+      "ipa": "[ʋɪd̪.jaːr.t̪ʰi.niː]",
+      "romanization": "vidyārthinī",
+      "evidence": "unicode-order audit; Exa/Google review",
+      "example": "મારી બહેન એક વિદ્યાથીર્ની છે અને તે ખૂબ મહેનત કરે છે.",
+      "example_romanization": "mari bhen ek ivdyathirni chhe ane te khub mhent kre chhe.",
+      "example_audio_sha256": "684fdbc938121816b14841b196282304b0639df60e3189e8890ce7c7dddba7ba"
+    },
+    "5515": {
+      "original": "વિદ્રોહ",
+      "word": "વિદ્રોહ",
+      "ipa": "[ʋid.ɾoɦ]",
+      "romanization": "vidroh",
+      "evidence": "unicode-order audit; Exa/Google review",
+      "example": "ભારતનો સ્વાતંત્ર્ય સંગ્રામ એ અંગ્રેજો સામેનો વિદ્રોહ હતો.",
+      "example_romanization": "bhartno svatntry sngram e angrejo sameno ivdroh hto.",
+      "example_audio_sha256": "e1ed8ddc6438c32d14c6ee73ce427f2b7fd5faea0ebcbe6fd9494584c39386fc"
+    },
+    "5516": {
+      "original": "વિદ્રતા",
+      "word": "વિદ્રતા",
+      "ipa": "[ʋid̪.r̪ə.t̪a]",
+      "romanization": "vidrata",
+      "evidence": "unicode-order audit; Exa/Google review",
+      "example": "તેની વિદ્વતાને કારણે તે ખૂબ જ પ્રતિષ્ઠિત છે.",
+      "example_romanization": "teni ivdvtane karne te khub j prtishthit chhe.",
+      "example_audio_sha256": "9d9a347f8f4f3ec02aa4896627f4e37378af1e680185b344b195e97c9112191d"
+    },
+    "5522": {
+      "original": "વિધાન",
+      "word": "વિધાન",
+      "ipa": "[ʋɪ.d̪ʱɑːn]",
+      "romanization": "vidhān",
+      "evidence": "unicode-order audit; Exa/Google review",
+      "example": "તેમણે એક મહત્વપૂર્ણ વિધાન કર્યું હતું કે ભ્રષ્ટાચાર દેશ માટે ખતરનાક છે.",
+      "example_romanization": "temne ek mhtvpurn ivdhan kryun htun ke bhrshtachar desh mate khtrnak chhe.",
+      "example_audio_sha256": "7f713474bdc31491536e968480bfe47b8e32306ae40d8b87bf038b8fc6396e01"
+    },
+    "5525": {
+      "original": "વિધિ",
+      "word": "વિધિ",
+      "ipa": "[ʋɪ.d̪ʱi]",
+      "romanization": "vidhi",
+      "evidence": "unicode-order audit; Exa/Google review",
+      "example": "લગ્નની વિધિ દરમ્યાન વરરાજા અને વધૂ એકબીજાને હાર પહેરાવે છે.",
+      "example_romanization": "lgnni ividh drmyan vrraja ane vdhu ekbijane har pherave chhe.",
+      "example_audio_sha256": "5b4a6dd875b0a695b0129cf568ba9a874fd672384787ff4bf700d7575ca512fc"
+    },
+    "5531": {
+      "original": "વિનાશ",
+      "word": "વિનાશ",
+      "ipa": "[ʋinɑːʃ]",
+      "romanization": "vināś",
+      "evidence": "unicode-order audit; Exa/Google review",
+      "example": "યુદ્ધના કારણે ઘણા શહેરોનો વિનાશ થયો હતો.",
+      "example_romanization": "yuddhna karne ghna shherono ivnash thyo hto.",
+      "example_audio_sha256": "3e947dd6c6f898982fc4510d078da530a6172b492b5ed88c09d3b206050e30aa"
+    },
+    "5533": {
+      "original": "વિનિમય",
+      "word": "વિનિમય",
+      "ipa": "[ʋɪnɪmæj]",
+      "romanization": "vinimay",
+      "evidence": "unicode-order audit; Exa/Google review",
+      "example": "તેમણે ચોપડીઓનો વિનિમય કર્યો.",
+      "example_romanization": "temne chopdiono ivinmy kryo.",
+      "example_audio_sha256": "c694ebaf6991e2edbf39aeed259fba111d8a89c9a363c4b2354a7f0320c43373"
+    },
+    "5534": {
+      "original": "વિનોદ",
+      "word": "વિનોદ",
+      "ipa": "[ʋinoːd]",
+      "romanization": "vinod",
+      "evidence": "unicode-order audit; Exa/Google review",
+      "example": "તેમનો વિનોદ સૌને ગમ્યો અને બધાએ ખૂબ હસ્યા.",
+      "example_romanization": "temno ivnod saune gmyo ane bdhae khub hsya.",
+      "example_audio_sha256": "73b393b1c52e16c73cd54e55c2be5db71a882d582d4485767c3c58172698c401"
+    },
+    "5538": {
+      "original": "વિપુલ",
+      "word": "વિપુલ",
+      "ipa": "[ʋɪ.pʊl]",
+      "romanization": "vipul",
+      "evidence": "unicode-order audit; Exa/Google review",
+      "example": "એ ખેડૂત પાસે વિપુલ પ્રમાણમાં શાકભાજી ઉગાડવા માટે જમીન છે.",
+      "example_romanization": "e khedut pase ivpul prmanman shakbhaji ugadva mate jmin chhe.",
+      "example_audio_sha256": "92eb41d4225dc7152ffa6f1913cc2cb77d308584f7ddf563c1c532f752857873"
+    },
+    "5544": {
+      "original": "વિભાજક",
+      "word": "વિભાજક",
+      "ipa": "[ʋi.bʱaː.dʒək]",
+      "romanization": "vibhajak",
+      "evidence": "unicode-order audit; Exa/Google review",
+      "example": "આ ભાગલા પાડતી દીવાલ એક વિભાજક છે.",
+      "example_romanization": "aa bhagla padti dival ek ivbhajk chhe.",
+      "example_audio_sha256": "932d2a01a341f057557f1212ad50fda82fb29fd4cf75008e3eae323486769308"
+    },
+    "5550": {
+      "original": "વિમાન",
+      "word": "વિમાન",
+      "ipa": "[ˈʋi.mɑːn]",
+      "romanization": "vimān",
+      "evidence": "unicode-order audit; Exa/Google review",
+      "example": "મારે આજે વિમાન પ્રવાસ કરવાનો છે.",
+      "example_romanization": "mare aaje ivman prvas krvano chhe.",
+      "example_audio_sha256": "e9c0f3adf8917773c0b662ebd67fc2b8a59f54a5603704a9ea0c675a949a951a"
+    },
+    "5551": {
+      "original": "વિમાનમથક",
+      "word": "વિમાનમથક",
+      "ipa": "[ʋimɑnmət̪ʰək]",
+      "romanization": "vimānamathak",
+      "evidence": "unicode-order audit; Exa/Google review",
+      "example": "મારે આજે વિમાનમથકે જવાનું છે કારણ કે હું યાત્રા માટે જઈ રહ્યો છું.",
+      "example_romanization": "mare aaje ivmanmthke jvanun chhe karn ke hun yatra mate ji rhyo chhun.",
+      "example_audio_sha256": "a3d89a5e765016c5d54c1503e3292a028bbf36d2bef009469aabb96b091e9ea4"
+    },
+    "5552": {
+      "original": "વિમુખ",
+      "word": "વિમુખ",
+      "ipa": "[ʋɪ.mʊkʰ]",
+      "romanization": "vimukh",
+      "evidence": "unicode-order audit; Exa/Google review",
+      "example": "તેનો પ્રસ્તાવ પ્રત્યે બોર્ડ વિમુખ હતું.",
+      "example_romanization": "teno prstav prtye bord ivmukh htun.",
+      "example_audio_sha256": "bacd9771e4dd0275d9cd0c0c450dfe82c9698961473b7c4444c3699379e15582"
+    },
+    "5553": {
+      "original": "વિઆવવું",
+      "word": "વિઆવવું",
+      "ipa": "[ʋi.aː.ʋũ]",
+      "romanization": "viavũ",
+      "evidence": "unicode-order audit; Exa/Google review",
+      "example": "ગાયને બચ્ચું વિયાવું પડ્યું.",
+      "example_romanization": "gayne bchchun ivyavun pdyun.",
+      "example_audio_sha256": "6262be5735543d36ac1d84c4e3f62500002e0c87aaae195e27fc107b7a6b654d"
+    },
+    "5556": {
+      "original": "વિરાગી",
+      "word": "વિરાગી",
+      "ipa": "[ʋiˈɾaːɡi]",
+      "romanization": "viragi",
+      "evidence": "unicode-order audit; Exa/Google review",
+      "example": "એક વિરાગી સાધુ તેમના આશ્રમમાં ધ્યાન કરી રહ્યા હતા.",
+      "example_romanization": "ek ivragi sadhu temna aashrmman dhyan kri rhya hta.",
+      "example_audio_sha256": "b569f92895bb964cde9c8d68d68e323dc71af81647e906db83f467b6a0d04630"
+    },
+    "5562": {
+      "original": "વિલય",
+      "word": "વિલય",
+      "ipa": "[ʋɪ.ləj]",
+      "romanization": "vilay",
+      "evidence": "unicode-order audit; Exa/Google review",
+      "example": "કંપનીઓના વિલયથી વ્યવસાય જગતમાં મોટો ફેરફાર આવ્યો.",
+      "example_romanization": "knpniona ivlythi vyvsay jgtman moto ferfar aavyo.",
+      "example_audio_sha256": "808ed804fa5badc6ec60c2694eb91a4c20d555f69e7dbcf1abedcf373fcd4ca5"
+    },
+    "5566": {
+      "original": "વિલાયતી",
+      "word": "વિલાયતી",
+      "ipa": "[ˈʋi.lɑ.jə.t̪i]",
+      "romanization": "vilāyatī",
+      "evidence": "unicode-order audit; Exa/Google review",
+      "example": "તેણે વિલાયતી સામાન ખરીદ્યો હતો જે ઘણો મોંઘો હતો.",
+      "example_romanization": "tene ivlayti saman khridyo hto je ghno mongho hto.",
+      "example_audio_sha256": "b58b6b709709c39db5393ab6294a30dfa7da27049d1d2fec4d27c1cb7e92f585"
+    },
+    "5567": {
+      "original": "વિલાવું",
+      "word": "વિલાવું",
+      "ipa": "[ʋɪ.laː.ʋũ]",
+      "romanization": "vilāvu",
+      "evidence": "unicode-order audit; Exa/Google review",
+      "example": "ગરમીના કારણે છોડ વિલાવા લાગ્યો.",
+      "example_romanization": "grmina karne chhod ivlava lagyo.",
+      "example_audio_sha256": "e686e8727d3bbeacd2060e9b2e12f650c9029f62fe5df3bb9f32b83c3c1b4e0b"
+    },
+    "5587": {
+      "original": "વિશ્લેષણ",
+      "word": "વિશ્લેષણ",
+      "ipa": "[ʋiʃleʃəɳ]",
+      "romanization": "vishleshan",
+      "evidence": "unicode-order audit; Exa/Google review",
+      "example": "તેમણે સમસ્યાનું ગહન વિશ્લેષણ કર્યું અને ઉકેલ શોધી કાઢ્યો.",
+      "example_romanization": "temne smsyanun ghn ivshleshn kryun ane ukel shodhi kadhyo.",
+      "example_audio_sha256": "204a743a509f49bd590fc1f3466296c6d163476ee7c115e483041c4f7bc00512"
+    },
+    "5589": {
+      "original": "વિશ્વાસ",
+      "word": "વિશ્વાસ",
+      "ipa": "[ˈʋiʃ.ʋɑs]",
+      "romanization": "vishvaas",
+      "evidence": "unicode-order audit; Exa/Google review",
+      "example": "તેના પર મને સંપૂર્ણ વિશ્વાસ છે.",
+      "example_romanization": "tena pr mne snpurn ivshvas chhe.",
+      "example_audio_sha256": "d425abab5305f61b15e4262574e5ad1af23a6ecf082bf2a943699629238e2e08"
+    },
+    "5591": {
+      "original": "વિશ્વાસઘાતી",
+      "word": "વિશ્વાસઘાતી",
+      "ipa": "[ʋiʃ.ʋɑːs.ɡʱɑː.t̪i]",
+      "romanization": "vishvasghati",
+      "evidence": "unicode-order audit; Exa/Google review",
+      "example": "એ વ્યક્તિ ખૂબ જ વિશ્વાસઘાતી છે અને કોઈના પર ભરોસો કરી શકાતો નથી.",
+      "example_romanization": "e vykti khub j ivshvasghati chhe ane koina pr bhroso kri shkato nthi.",
+      "example_audio_sha256": "c3abe40f9d0b3f1e61d3d590e390e70d3e1fcb86e51bef795893cde2c123c817"
+    },
+    "5592": {
+      "original": "વિષ",
+      "word": "વિષ",
+      "ipa": "[ʋiʃ]",
+      "romanization": "vish",
+      "evidence": "unicode-order audit; Exa/Google review",
+      "example": "સાપનું વિષ ઘાતક હોય છે.",
+      "example_romanization": "sapnun ivsh ghatk hoy chhe.",
+      "example_audio_sha256": "12580a0101e419c940e3b516bda32fa61b5e0ee105033951368bb7490d9a8133"
+    },
+    "5593": {
+      "original": "વિષધર",
+      "word": "વિષધર",
+      "ipa": "[ʋiʂ.d̪ʱəɾ]",
+      "romanization": "viṣadhar",
+      "evidence": "unicode-order audit; Exa/Google review",
+      "example": "જંગલમાં ફરતા ફરતા અચાનક એક વિષધર સાપ દેખાયો.",
+      "example_romanization": "jnglman frta frta achank ek ivshdhr sap dekhayo.",
+      "example_audio_sha256": "4bcf7cf6587387311b5dd980f750b2d10bf25bdb4dc220ae2e8221417e481887"
+    },
+    "5599": {
+      "original": "વિસર્ગ",
+      "word": "વિસર્ગ",
+      "ipa": "[ʋi.sər.ɡə]",
+      "romanization": "visarg",
+      "evidence": "unicode-order audit; Exa/Google review",
+      "example": "ગુજરાતી ભાષામાં વિસગર્ (:) ચિહ્નનો ઉપયોગ થાય છે.",
+      "example_romanization": "gujrati bhashaman ivsgr (:) chihnno upyog thay chhe.",
+      "example_audio_sha256": "a4ab7dc4edbdc17f399ad18136f3f6a4da5641f6bde2338a7d4afc97679ad649"
+    },
+    "5609": {
+      "original": "વિહરવું",
+      "word": "વિહરવું",
+      "ipa": "[ʋɪ.ɦəɾ.ʋũ]",
+      "romanization": "viharavu",
+      "evidence": "unicode-order audit; Exa/Google review",
+      "example": "તેઓ બગીચામાં વિહરવા ગયા હતા.",
+      "example_romanization": "teo bgichaman ivhrva gya hta.",
+      "example_audio_sha256": "141b0efa5c68b64f8c42a6bc6ebeaeba2b280a121fee0efbd938a4ef63ad0e3c"
+    },
+    "5776": {
+      "original": "શિક્ષક",
+      "word": "શિક્ષક",
+      "ipa": "[ˈʃikʃək]",
+      "romanization": "shikshak",
+      "evidence": "unicode-order audit; Exa/Google review",
+      "example": "તે એક કુશળ શિક્ષક છે અને વિદ્યાથીર્ઓને સારી રીતે સમજાવે છે.",
+      "example_romanization": "te ek kushl ishkshk chhe ane ivdyathirone sari rite smjave chhe.",
+      "example_audio_sha256": "67050b97d7fc8933395103366c665e43c6335af2a8e8044d1cca6c8c0570ed3d"
+    },
+    "5780": {
+      "original": "શિક્ષિત",
+      "word": "શિક્ષિત",
+      "ipa": "[ˈʃik.ʃit]",
+      "romanization": "shikshit",
+      "evidence": "unicode-order audit; Exa/Google review",
+      "example": "તે ખૂબ જ શિકિ્ષત વ્યક્તિ છે અને તેમની પાસેથી ઘણું શીખવા જેવું છે.",
+      "example_romanization": "te khub j ishiksht vykti chhe ane temni pasethi ghnun shikhva jevun chhe.",
+      "example_audio_sha256": "100ffa2ea8f35f28838978910d042c911f30aa3b8839144ab5c4bcad49bfffcd"
+    },
+    "5781": {
+      "original": "શિખર",
+      "word": "શિખર",
+      "ipa": "[ʃi.kʰəɾ]",
+      "romanization": "shikhar",
+      "evidence": "unicode-order audit; Exa/Google review",
+      "example": "એવરેસ્ટ પર્વતનું શિખર દુનિયાનું સૌથી ઊંચું છે.",
+      "example_romanization": "evrest prvtnun ishkhr duniyanun sauthi unchun chhe.",
+      "example_audio_sha256": "8448dccbcf80cf0cea16049cb029dcd6490d361fa30a00cd41938c1b795e8432"
+    },
+    "5785": {
+      "original": "શિક્ષામણ",
+      "word": "શિક્ષામણ",
+      "ipa": "[ʃi.kʰaː.mə.ɳ]",
+      "romanization": "shikshāmaṇ",
+      "evidence": "unicode-order audit; Exa/Google review",
+      "example": "મારા પિતાએ મને હંમેશા સારી શિખામણ આપી છે.",
+      "example_romanization": "mara pitae mne hnmesha sari ishkhamn aapi chhe.",
+      "example_audio_sha256": "4a0f1b4cdd2045f1ae3bdb0928e7a6c4e69ca12b9b0b05824d1f3592ef478157"
+    },
+    "5788": {
+      "original": "શિયાળ",
+      "word": "શિયાળ",
+      "ipa": "[ˈʃi.jɑɭ]",
+      "romanization": "shiyāḷ",
+      "evidence": "unicode-order audit; Exa/Google review",
+      "example": "ઘાસના મેદાનમાં એક શિયાળ ઝડપથી દોડી રહ્યું હતું.",
+      "example_romanization": "ghasna medanman ek ishyal jhdpthi dodi rhyun htun.",
+      "example_audio_sha256": "9b093bb8411ecc42a6e4914c7771a0766b9fdae83b91ad9079ae0122471b1238"
+    },
+    "5791": {
+      "original": "શિર",
+      "word": "શિર",
+      "ipa": "[ʃiɾ]",
+      "romanization": "shir",
+      "evidence": "unicode-order audit; Exa/Google review",
+      "example": "તેનું શિર ઘણું દુઃખતું હતું કારણ કે તેને તાવ આવ્યો હતો.",
+      "example_romanization": "tenun ishr ghnun duhkhtun htun karn ke tene tav aavyo hto.",
+      "example_audio_sha256": "f28a38e9201b5c1ab624ef9d659309253230a9ffaab5b519e3111e65bd9bf5cb"
+    },
+    "5797": {
+      "original": "શિલ્પી",
+      "word": "શિલ્પી",
+      "ipa": "[ˈʃɪlpi]",
+      "romanization": "śilpī",
+      "evidence": "unicode-order audit; Exa/Google review",
+      "example": "તે પ્રતિભાશાળી શિલ્પીએ મારબલની એક સુંદર મૂર્તિ બનાવી.",
+      "example_romanization": "te prtibhashali ishlpie marblni ek sundr murti bnavi.",
+      "example_audio_sha256": "f092bc36248184f4764944f50db7cb488ff8b135bfe7678e0fa6e37d53def65e"
+    },
+    "5800": {
+      "original": "શિશુ",
+      "word": "શિશુ",
+      "ipa": "[ˈʃi.ʃu]",
+      "romanization": "shishu",
+      "evidence": "unicode-order audit; Exa/Google review",
+      "example": "તેનું શિશુ ખૂબ સુંદર છે.",
+      "example_romanization": "tenun ishshu khub sundr chhe.",
+      "example_audio_sha256": "4a756a7c4ba8cf29863ff24cde9edc250f8133a92f11845a3bd94d10116a1cca"
+    },
+    "5805": {
+      "original": "શિસ્ત",
+      "word": "શિસ્ત",
+      "ipa": "[ˈʃɪst̪]",
+      "romanization": "śist",
+      "evidence": "unicode-order audit; Exa/Google review",
+      "example": "સારી શિસ્ત એ સફળતાની ચાવી છે.",
+      "example_romanization": "sari ishst e sfltani chavi chhe.",
+      "example_audio_sha256": "578b5743050874e1417de06936af0f53266317423540c406d6a2d862d9353d3b"
+    },
+    "5807": {
+      "original": "શિંગડું",
+      "word": "શિંગડું",
+      "ipa": "[ˈʃiŋɡəɖũ]",
+      "romanization": "shingadu",
+      "evidence": "unicode-order audit; Exa/Google review",
+      "example": "પેલા બળદને લાંબા શિંગડાં છે.",
+      "example_romanization": "pela bldne lanba ishngdan chhe.",
+      "example_audio_sha256": "95df47aed8eedc6175e807fbf84c22ed531e08987768ae0060165db6b800aae0"
+    },
+    "6199": {
+      "original": "સંિધકાળ",
+      "word": "સંધિકાળ",
+      "ipa": "/sən.d̪ʱi.kaːɭ/",
+      "romanization": "sandhikāḷ",
+      "evidence": "unicode-order audit; Exa/Google review",
+      "example": "ભારતનો ઇતિહાસ સંધિકાળથી ભરપૂર છે જ્યારે એક યુગમાંથી બીજા યુગમાં પરિવર્તન થયું હતું.",
+      "example_romanization": "bhartno itihas snidhkalthi bhrpur chhe jyare ek yugmanthi bija yugman privrtn thyun htun.",
+      "word_audio_sha256": "56fee52b3d2c6cfbf0e6fb4f7a08a2f079011784ec13ca13bb7c53a878cbe413",
+      "example_audio_sha256": "eb43bf157bc9d8c7689bfc0424d36001aa5e1fb5138b273034943447c9ff4f0f"
+    },
+    "6384": {
+      "original": "સિક્કો",
+      "word": "સિક્કો",
+      "ipa": "[sɪk.koː]",
+      "romanization": "sikkō",
+      "evidence": "unicode-order audit; Exa/Google review",
+      "example": "તેણે પત્ર પર સિકકો મારીને મોકલ્યો.",
+      "example_romanization": "tene ptr pr iskko marine moklyo.",
+      "example_audio_sha256": "b148f4f10bc0196faa890445d8e1a8fa30e80c21f7321b2e89f3b643bf12f96a"
+    },
+    "6387": {
+      "original": "સિતારો",
+      "word": "સિતારો",
+      "ipa": "[si.t̪aː.ɾo]",
+      "romanization": "sitāro",
+      "evidence": "unicode-order audit; Exa/Google review",
+      "example": "આકાશમાં ચમકતા સિતારાઓ જોઈને તેને ખૂબ આનંદ થયો.",
+      "example_romanization": "aakashman chmkta istarao joine tene khub aannd thyo.",
+      "example_audio_sha256": "e16684437f43eb222b474d10530cabb8fb55f2f0d6b1992204321a4dc2732f0f"
+    },
+    "6389": {
+      "original": "સિત્યોતેર",
+      "word": "સિત્યોતેર",
+      "ipa": "[ˈsit̪.t̪eːɾ]",
+      "romanization": "sityoter",
+      "evidence": "unicode-order audit; Exa/Google review",
+      "example": "તેની ઉંમર સિત્યોતેર વર્ષ છે.",
+      "example_romanization": "teni unmr istyoter vrsh chhe.",
+      "example_audio_sha256": "e3786fb68caecfb6e12745a595dab687da4d154931f6a61b5e85f32ffc43296b"
+    },
+    "6390": {
+      "original": "સિત્યાસી",
+      "word": "સિત્યાસી",
+      "ipa": "[sit̪.jaː.siː]",
+      "romanization": "sityāsi",
+      "evidence": "unicode-order audit; Exa/Google review",
+      "example": "તેની ઉંમર સિત્યાશી વર્ષ છે.",
+      "example_romanization": "teni unmr istyashi vrsh chhe.",
+      "example_audio_sha256": "571f50b96b06b3c62f55eabe9e50a448bf160eed981a438f1d36081515c69ff3"
+    },
+    "6391": {
+      "original": "સિદ્ધાંત",
+      "word": "સિદ્ધાંત",
+      "ipa": "[sɪd.dʱɑːnt]",
+      "romanization": "siddhānt",
+      "evidence": "unicode-order audit; Exa/Google review",
+      "example": "આ સિધ્ધાન્ત પ્રમાણે, દરેક ક્રિયાની એક સમાન અને વિપરીત પ્રતિક્રિયા હોય છે.",
+      "example_romanization": "aa isdhdhant prmane, drek kriyani ek sman ane viprit prtikriya hoy chhe.",
+      "example_audio_sha256": "1e00d48aa6b6e6f88858e8ff34be0bd598ebe28e95c1acb66c2ed54c16ab1a5d"
+    },
+    "6392": {
+      "original": "સિપાઈ",
+      "word": "સિપાઈ",
+      "ipa": "[si.pɑːi]",
+      "romanization": "sipāī",
+      "evidence": "unicode-order audit; Exa/Google review",
+      "example": "સૈન્યમાં સિપાઈઓ દેશની સેવા કરે છે.",
+      "example_romanization": "sainyman ispaio deshni seva kre chhe.",
+      "example_audio_sha256": "f3659baf4a76b5f43300bbd88a74a12874711b22218a8c64138298af4e04eb00"
+    },
+    "6400": {
+      "original": "સિસોટી",
+      "word": "સિસોટી",
+      "ipa": "[siː.soː.ʈi]",
+      "romanization": "sisoti",
+      "evidence": "unicode-order audit; Exa/Google review",
+      "example": "તેની સિસોટી સાંભળીને હું ઝડપથી બહાર દોડી આવ્યો.",
+      "example_romanization": "teni issoti sanbhline hun jhdpthi bhar dodi aavyo.",
+      "example_audio_sha256": "0fafbfd046761f893ca58005a1f9c6096b9b71f8a0d1a7d2ed3e714c937d130f"
+    },
+    "6401": {
+      "original": "સિંચવું",
+      "word": "સિંચવું",
+      "ipa": "[sɪn.t͡ʃ.ʋũ]",
+      "romanization": "sinchavu",
+      "evidence": "unicode-order audit; Exa/Google review",
+      "example": "મેં મારા બગીચામાં ફૂલોને પાણી સિંચવું પડ્યું.",
+      "example_romanization": "men mara bgichaman fulone pani isnchvun pdyun.",
+      "example_audio_sha256": "ef3c84336a0ec7a3c0113ff2984958214d2a3b3f3dbcd84b2a1c845552d4de5d"
+    },
+    "6406": {
+      "original": "સિંહ",
+      "word": "સિંહ",
+      "ipa": "[sɪ̃ɦ]",
+      "romanization": "sinh",
+      "evidence": "unicode-order audit; Exa/Google review",
+      "example": "જંગલમાં એક વિશાળ સિંહ રહે છે.",
+      "example_romanization": "jnglman ek vishal isnh rhe chhe.",
+      "example_audio_sha256": "4562bc6fee25c1b338d44744c6860a179f051a2c7983208da07d3c775a6a8a7e"
+    },
+    "6407": {
+      "original": "સિંહણ",
+      "word": "સિંહણ",
+      "ipa": "[ˈsɪ̃ɦ.ɳ]",
+      "romanization": "sinhṇ",
+      "evidence": "unicode-order audit; Exa/Google review",
+      "example": "જંગલમાં એક સિંહણ તેના બચ્ચાંઓની સાથે શિકાર કરતી હતી.",
+      "example_romanization": "jnglman ek isnhn tena bchchanoni sathe shikar krti hti.",
+      "example_audio_sha256": "f4cd2bc144e852f84637c39b6caa965ac5658170566fc893df56a1952c5ba4c2"
+    },
+    "6408": {
+      "original": "સિંહાસન",
+      "word": "સિંહાસન",
+      "ipa": "[sɪ̃ɦɑːsən]",
+      "romanization": "sinhāsan",
+      "evidence": "unicode-order audit; Exa/Google review",
+      "example": "રાજાનું સિંહાસન સોનાથી જડિત હતું.",
+      "example_romanization": "rajanun isnhasn sonathi jdit htun.",
+      "example_audio_sha256": "4af4b8082a7f3a0061064cd6e343371d540639cd11863d7d8615e01d5866438a"
+    },
+    "6715": {
+      "original": "હિમ",
+      "word": "હિમ",
+      "ipa": "[ˈɦim]",
+      "romanization": "him",
+      "evidence": "unicode-order audit; Exa/Google review",
+      "example": "ઠંડી ના કારણે ખેતર માં હિમ જામી ગયો.",
+      "example_romanization": "thndi na karne khetr man ihm jami gyo.",
+      "example_audio_sha256": "e061fcaa62a337639d2ded144b4a056c979ca450cb3deeb440b9ea6293ee034c"
+    }
+  }
+}
