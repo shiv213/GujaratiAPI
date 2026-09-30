@@ -1,10 +1,30 @@
 {
   "date": "2026-09-30",
   "engine": "Google Translate Gujarati TTS via gTTS",
-  "scope": "Words whose first pronounced vowel uses the short-i sign િ",
-  "audit": "Replaced stored clips whose decoded PCM correlation with current synthesis was below 0.95",
-  "count": 416,
+  "scope": "Legacy word clips with pronunciation drift: the short-i sign િ group plus literal vowel-starting words",
+  "audit": "Replaced stored clips whose decoded PCM correlation with current Google Translate synthesis was below 0.95; all literal vowel-starting words and all short-i initial syllables were checked",
+  "count": 420,
   "entries": [
+    {
+      "id": "446",
+      "word": "ઉચ્છવાસ",
+      "sha256": "d9a1c8651a56216da3eea70771ae01e2d307cea8cb31ae7ccebd905beebd3637"
+    },
+    {
+      "id": "544",
+      "word": "ઊંચું",
+      "sha256": "5ec4d2fc7284c4de3b4867401d21205ca9a98c13f1df89c70c56597f9033e5f7"
+    },
+    {
+      "id": "571",
+      "word": "એકલપેટું",
+      "sha256": "d85e276a7053c50423bd9e28f21d1eae110d822f50472fbe89924aaf6ac06df5"
+    },
+    {
+      "id": "578",
+      "word": "એકંદર",
+      "sha256": "3edefe9e73fa42b45beaad06d0123de5a4e095d9cb1a5e3f3bf9574aa4640768"
+    },
     {
       "id": "801",
       "word": "કિલ્લો",

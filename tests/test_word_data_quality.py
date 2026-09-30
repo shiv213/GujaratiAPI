@@ -62,7 +62,7 @@ class WordDataQualityTest(unittest.TestCase):
     def test_reviewed_word_audio_matches_manifest(self):
         entries = self.audio_manifest["entries"]
         self.assertEqual(len(entries), self.audio_manifest["count"])
-        self.assertEqual(len(entries), 416)
+        self.assertEqual(len(entries), 420)
         for correction in entries:
             word_id = correction["id"]
             word = self.words[word_id]
