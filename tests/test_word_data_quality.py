@@ -37,6 +37,19 @@ class WordDataQualityTest(unittest.TestCase):
         self.assertEqual(word[2], "hṛdayaparivartan")
         self.assertIn("હૃદયપરિવર્તન", word[5])
 
+    def test_siskaro_example_is_correct(self):
+        verb = self.words["6398"]
+        self.assertEqual(verb[7], "When a snake gets angry, it starts to hiss.")
+
+        word = self.words["6399"]
+        self.assertEqual(word[0], "સિસકારો")
+        self.assertEqual(word[2], "siskaro")
+        self.assertEqual(word[5], "સાપનો સિસકારો સાંભળીને તે ડરી ગયો.")
+        self.assertEqual(word[6], "sapno siskaro sanbhline te dri gyo.")
+        self.assertEqual(
+            word[7], "He got scared upon hearing the snake's hiss."
+        )
+
     def test_words_and_examples_have_valid_character_order(self):
         for word_id, entry in self.words.items():
             self.assertIsNone(INVALID_GUJARATI.search(entry[0]), word_id)
