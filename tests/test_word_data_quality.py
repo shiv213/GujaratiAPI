@@ -1,3 +1,4 @@
+import hashlib
 import json
 import re
 import unittest
@@ -6,6 +7,7 @@ from pathlib import Path
 
 DATA_PATH = Path("data/gujarati_words_google_enhanced.json")
 MANIFEST_PATH = Path("data/word_corrections_2026-09-15.json")
+AUDIO_MANIFEST_PATH = Path("data/word_audio_corrections_2026-09-30.json")
 INVALID_GUJARATI = re.compile(
     r"્[ાિીુૂૃૄૅેૈૉોૌ]"
     r"|[ાિીુૂૃૄૅેૈૉોૌ]{2}"
@@ -20,6 +22,9 @@ class WordDataQualityTest(unittest.TestCase):
     def setUpClass(cls):
         cls.words = json.loads(DATA_PATH.read_text(encoding="utf-8"))
         cls.manifest = json.loads(MANIFEST_PATH.read_text(encoding="utf-8"))
+        cls.audio_manifest = json.loads(
+            AUDIO_MANIFEST_PATH.read_text(encoding="utf-8")
+        )
 
     def test_reviewed_corrections_match_active_data(self):
         for word_id, correction in self.manifest["corrections"].items():
@@ -49,6 +54,24 @@ class WordDataQualityTest(unittest.TestCase):
         self.assertEqual(
             word[7], "He got scared upon hearing the snake's hiss."
         )
+        self.assertEqual(
+            hashlib.sha256(Path(word[9]).read_bytes()).hexdigest(),
+            "64ce51c6f2534348457c8f3df0500a7e08371c0f3b39a724ba8ac320bd23836f",
+        )
+
+    def test_reviewed_word_audio_matches_manifest(self):
+        entries = self.audio_manifest["entries"]
+        self.assertEqual(len(entries), self.audio_manifest["count"])
+        self.assertEqual(len(entries), 416)
+        for correction in entries:
+            word_id = correction["id"]
+            word = self.words[word_id]
+            self.assertEqual(word[0], correction["word"], word_id)
+            self.assertEqual(
+                hashlib.sha256(Path(word[9]).read_bytes()).hexdigest(),
+                correction["sha256"],
+                word_id,
+            )
 
     def test_words_and_examples_have_valid_character_order(self):
         for word_id, entry in self.words.items():
