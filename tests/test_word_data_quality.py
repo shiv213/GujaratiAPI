@@ -88,6 +88,25 @@ class WordDataQualityTest(unittest.TestCase):
             "64ce51c6f2534348457c8f3df0500a7e08371c0f3b39a724ba8ac320bd23836f",
         )
 
+    def test_vibhajak_example_is_correct(self):
+        word = self.words["5544"]
+        self.assertEqual(
+            word[5],
+            "વિભાજક દીવાલ મોટા ઓરડાને બે ભાગમાં વહેંચે છે.",
+        )
+        self.assertEqual(
+            word[6],
+            "vibhājaka dīvāla moṭā oraḍāne be bhāgamāṃ vaheṃce chhe.",
+        )
+        self.assertEqual(
+            word[7],
+            "A partition wall divides the large room into two parts.",
+        )
+        self.assertEqual(
+            hashlib.sha256(Path(word[8]).read_bytes()).hexdigest(),
+            "462fb013ec253d975ef21fd83adef0c4a2841c5b082fb8ec4b39c47bf4f64747",
+        )
+
     def test_reviewed_word_audio_matches_manifest(self):
         entries = self.audio_manifest["entries"]
         self.assertEqual(len(entries), self.audio_manifest["count"])

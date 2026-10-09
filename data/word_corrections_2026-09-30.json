@@ -675,9 +675,9 @@
       "ipa": "[ʋi.bʱaː.dʒək]",
       "romanization": "vibhajak",
       "evidence": "unicode-order audit; Exa/Google review",
-      "example": "આ ભાગલા પાડતી દીવાલ એક વિભાજક છે.",
-      "example_romanization": "aa bhagla padti dival ek ivbhajk chhe.",
-      "example_audio_sha256": "932d2a01a341f057557f1212ad50fda82fb29fd4cf75008e3eae323486769308"
+      "example": "વિભાજક દીવાલ મોટા ઓરડાને બે ભાગમાં વહેંચે છે.",
+      "example_romanization": "vibhājaka dīvāla moṭā oraḍāne be bhāgamāṃ vaheṃce chhe.",
+      "example_audio_sha256": "462fb013ec253d975ef21fd83adef0c4a2841c5b082fb8ec4b39c47bf4f64747"
     },
     "5550": {
       "original": "વિમાન",
